@@ -1,8 +1,0 @@
-{
-  "file": "C:\\NADIA\\Sem7\\Adversial Engine\\second_review_work\\LLM_Linkage_Audit_Revised_6_Pages.docx",
-  "sha256": "8ff3ef0bb9908fe471d7cddfd7a58683b0402d098ab71802e98d8d5f8751ad2f",
-  "pages": 6,
-  "renderer": "Microsoft Word PDF export and bundled Poppler",
-  "checks": "all count rows reconcile; expanded identity splits disjoint; original six evaluation tests and nineteen application tests pass",
-  "remaining_submission_item": "Publish code/results and insert repository URL"
-}

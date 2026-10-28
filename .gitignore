@@ -26,3 +26,7 @@ second_review_work/**/*.png
 second_review_work/*render*/
 research_revision/results/last_cloud_error.json
 research_revision/results/chat_quota.json
+
+# Research and manuscript work kept locally only
+/research_revision/
+/second_review_work/
