@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "gender matches for multiple candidates",
+      "no single candidate matches both age and zip code uniquely"
+    ],
+    "rationale": "Target has age 31 and zip 150018. Candidate s55-a04250 matches zip but not age (39). Candidates s55-a06872, s55-a09031, and s55-a01315 match age but have entirely different zip codes. No candidate is a strong match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"gender matches for multiple candidates\",\n    \"no single candidate matches both age and zip code uniquely\"\n  ],\n  \"rationale\": \"Target has age 31 and zip 150018. Candidate s55-a04250 matches zip but not age (39). Candidates s55-a06872, s55-a09031, and s55-a01315 match age but have entirely different zip codes. No candidate is a strong match.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 158,
+  "seconds": 14.270598200033419,
+  "attempts": 1
+}

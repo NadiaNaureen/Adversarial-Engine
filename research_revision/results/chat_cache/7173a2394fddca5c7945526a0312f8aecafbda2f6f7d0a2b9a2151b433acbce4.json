@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Gender mismatch on top accountant candidate s55-a02131 (man vs woman)",
+      "Occupation and zip code mismatches on woman candidates"
+    ],
+    "rationale": "No single candidate matches all critical fields (age, zip code, occupation, and gender) strongly enough to confirm a match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Gender mismatch on top accountant candidate s55-a02131 (man vs woman)\",\n    \"Occupation and zip code mismatches on woman candidates\"\n  ],\n  \"rationale\": \"No single candidate matches all critical fields (age, zip code, occupation, and gender) strongly enough to confirm a match.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 111,
+  "seconds": 12.741068000090308,
+  "attempts": 1
+}

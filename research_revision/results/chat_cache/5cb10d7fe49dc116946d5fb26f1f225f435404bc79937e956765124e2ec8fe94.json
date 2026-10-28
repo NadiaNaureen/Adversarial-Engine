@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a07688",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches across candidates",
+      "Gender matches across candidates",
+      "Medical flag matches across candidates",
+      "Occupation 'Driver' for s11-a07688 is synonymous with target 'Vehicle operator'"
+    ],
+    "rationale": "Multiple candidates share identical age, gender, and medical flag. Candidate s11-a07688 has a matching occupation (Driver vs Vehicle operator), but insufficient distinct geographic or secondary identifiers to confirm a definitive single match over other plausible candidates."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a07688\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across candidates\",\n    \"Gender matches across candidates\",\n    \"Medical flag matches across candidates\",\n    \"Occupation 'Driver' for s11-a07688 is synonymous with target 'Vehicle operator'\"\n  ],\n  \"rationale\": \"Multiple candidates share identical age, gender, and medical flag. Candidate s11-a07688 has a matching occupation (Driver vs Vehicle operator), but insufficient distinct geographic or secondary identifiers to confirm a definitive single match over other plausible candidates.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 159,
+  "seconds": 2.575205000001006,
+  "attempts": 1
+}

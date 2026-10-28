@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "gender matches across multiple candidates",
+      "occupations such as Driver partially overlap with Vehicle operator but locations and ages vary without definitive links"
+    ],
+    "rationale": "No single candidate demonstrates strong multi-attribute alignment across age, zip code prefix, and occupation to confirm a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"gender matches across multiple candidates\",\n    \"occupations such as Driver partially overlap with Vehicle operator but locations and ages vary without definitive links\"\n  ],\n  \"rationale\": \"No single candidate demonstrates strong multi-attribute alignment across age, zip code prefix, and occupation to confirm a definitive match.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 104,
+  "seconds": 12.500459100003354,
+  "attempts": 1
+}

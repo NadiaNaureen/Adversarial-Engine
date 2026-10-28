@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "age matches target across all candidates",
+      "gender matches target across all candidates",
+      "medical_flag matches target for candidates s11-a01581, s11-a03806, s11-a08102",
+      "zip_codes differ across all candidates from the target"
+    ],
+    "rationale": "Multiple candidates share identical demographics and medical flags with the target, but none match the target's zip code, and insufficient unique identifying information is available to establish a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"age matches target across all candidates\",\n    \"gender matches target across all candidates\",\n    \"medical_flag matches target for candidates s11-a01581, s11-a03806, s11-a08102\",\n    \"zip_codes differ across all candidates from the target\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographics and medical flags with the target, but none match the target's zip code, and insufficient unique identifying information is available to establish a definitive match.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 161,
+  "seconds": 14.346735099912621,
+  "attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.1,
+    "evidence": [
+      "gender match across candidates but lack of unique identifying attributes",
+      "zip codes and ages do not align closely enough with target"
+    ],
+    "rationale": "None of the candidates present a strong enough multi-attribute match to the target profile, resulting in insufficient evidence for a positive linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.1,\n  \"evidence\": [\n    \"gender match across candidates but lack of unique identifying attributes\",\n    \"zip codes and ages do not align closely enough with target\"\n  ],\n  \"rationale\": \"None of the candidates present a strong enough multi-attribute match to the target profile, resulting in insufficient evidence for a positive linkage.\"\n}",
+  "input_tokens": 389,
+  "output_tokens": 104,
+  "seconds": 12.534132900065742,
+  "attempts": 1
+}

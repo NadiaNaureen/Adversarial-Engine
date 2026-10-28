@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a07392",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Gender matches across target and candidate (woman)",
+      "Occupation matches (Teacher)",
+      "Age is close (36 vs 39)",
+      "Zip code prefix shares partial geographic proximity (170009 vs 170016)"
+    ],
+    "rationale": "Candidate s33-a07392 shares matching occupation, gender, close age, and proximate zip code, but discrepancies in exact age and zip code prevent a definitive match, making it ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a07392\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Gender matches across target and candidate (woman)\",\n    \"Occupation matches (Teacher)\",\n    \"Age is close (36 vs 39)\",\n    \"Zip code prefix shares partial geographic proximity (170009 vs 170016)\"\n  ],\n  \"rationale\": \"Candidate s33-a07392 shares matching occupation, gender, close age, and proximate zip code, but discrepancies in exact age and zip code prevent a definitive match, making it ambiguous.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 159,
+  "seconds": 13.050306299934164,
+  "attempts": 1
+}

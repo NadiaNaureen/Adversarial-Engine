@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Zip code matches candidate s33-a07803, but age differs significantly (34 vs 50).",
+      "Age and gender match candidates s33-a00163, s33-a02525, and s33-a07770, but their zip codes do not match the target."
+    ],
+    "rationale": "No single candidate shares both the exact age and zip code with the target, and multiple candidates tie on partial attributes."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Zip code matches candidate s33-a07803, but age differs significantly (34 vs 50).\",\n    \"Age and gender match candidates s33-a00163, s33-a02525, and s33-a07770, but their zip codes do not match the target.\"\n  ],\n  \"rationale\": \"No single candidate shares both the exact age and zip code with the target, and multiple candidates tie on partial attributes.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 155,
+  "seconds": 7.250883499975316,
+  "attempts": 1
+}

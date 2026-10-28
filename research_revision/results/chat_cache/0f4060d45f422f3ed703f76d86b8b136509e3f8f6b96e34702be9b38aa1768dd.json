@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Gender matches across multiple candidates",
+      "Medical flag matches for some candidates but ages and zip codes vary significantly",
+      "No single candidate presents a strong alignment across age, zip code, and other key attributes"
+    ],
+    "rationale": "None of the candidates exhibit sufficient overall alignment with the target profile to establish a reliable synthetic identity linkage, warranting an insufficient evidence decision."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Gender matches across multiple candidates\",\n    \"Medical flag matches for some candidates but ages and zip codes vary significantly\",\n    \"No single candidate presents a strong alignment across age, zip code, and other key attributes\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient overall alignment with the target profile to establish a reliable synthetic identity linkage, warranting an insufficient evidence decision.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 123,
+  "seconds": 15.001176699995995,
+  "attempts": 1
+}

@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "gender match across candidates",
+      "occupation match for multiple candidates",
+      "no single candidate aligns strongly across age, zip code, and other attributes"
+    ],
+    "rationale": "None of the candidates present a strong, unambiguous linkage across all target attributes, leading to insufficient evidence for a positive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"occupation match for multiple candidates\",\n    \"no single candidate aligns strongly across age, zip code, and other attributes\"\n  ],\n  \"rationale\": \"None of the candidates present a strong, unambiguous linkage across all target attributes, leading to insufficient evidence for a positive match.\"\n}",
+  "input_tokens": 390,
+  "output_tokens": 108,
+  "seconds": 12.859483700012788,
+  "attempts": 1
+}

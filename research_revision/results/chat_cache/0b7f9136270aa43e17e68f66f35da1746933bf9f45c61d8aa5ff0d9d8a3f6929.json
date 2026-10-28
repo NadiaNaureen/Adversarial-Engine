@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age is somewhat close across candidates but none are definitive",
+      "Zip code prefixes are roughly aligned",
+      "Occupations match broadly as data analysts",
+      "No single candidate aligns on all key attributes including gender and medical flag"
+    ],
+    "rationale": "Multiple candidates share partial attribute overlaps, but none provide strong enough evidence to uniquely link the target to a single candidate."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age is somewhat close across candidates but none are definitive\",\n    \"Zip code prefixes are roughly aligned\",\n    \"Occupations match broadly as data analysts\",\n    \"No single candidate aligns on all key attributes including gender and medical flag\"\n  ],\n  \"rationale\": \"Multiple candidates share partial attribute overlaps, but none provide strong enough evidence to uniquely link the target to a single candidate.\"\n}",
+  "input_tokens": 389,
+  "output_tokens": 124,
+  "seconds": 6.68276439991314,
+  "attempts": 1
+}

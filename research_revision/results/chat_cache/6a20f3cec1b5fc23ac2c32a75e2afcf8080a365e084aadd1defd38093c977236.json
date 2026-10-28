@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "Zip code mismatch across candidates",
+      "Age mismatch for otherwise matching zip code candidate",
+      "Medical flag discrepancies"
+    ],
+    "rationale": "None of the candidates match all target attributes simultaneously with high confidence; each candidate exhibits significant discrepancies in age, zip code, or medical flag."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"Zip code mismatch across candidates\",\n    \"Age mismatch for otherwise matching zip code candidate\",\n    \"Medical flag discrepancies\"\n  ],\n  \"rationale\": \"None of the candidates match all target attributes simultaneously with high confidence; each candidate exhibits significant discrepancies in age, zip code, or medical flag.\"\n}",
+  "input_tokens": 389,
+  "output_tokens": 105,
+  "seconds": 12.761701799929142,
+  "attempts": 1
+}

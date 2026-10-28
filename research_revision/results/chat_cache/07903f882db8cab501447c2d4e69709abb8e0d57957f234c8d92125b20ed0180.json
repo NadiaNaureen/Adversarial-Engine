@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "target vs candidate s55-a01108: age match (30), postal prefix match (160), gender match (woman), medical flag match (none), occupation mismatch (Accountant vs Nurse)",
+      "target vs candidate s55-a03662: age mismatch (30 vs 29), postal prefix mismatch (160 vs 120), occupation match (Accountant), gender match (woman), medical flag match (none)"
+    ],
+    "rationale": "Multiple candidates share partial overlapping attributes with the target, but no single candidate provides a strong match across all key fields (age, zip code, and occupation)."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"target vs candidate s55-a01108: age match (30), postal prefix match (160), gender match (woman), medical flag match (none), occupation mismatch (Accountant vs Nurse)\",\n    \"target vs candidate s55-a03662: age mismatch (30 vs 29), postal prefix mismatch (160 vs 120), occupation match (Accountant), gender match (woman), medical flag match (none)\"\n  ],\n  \"rationale\": \"Multiple candidates share partial overlapping attributes with the target, but no single candidate provides a strong match across all key fields (age, zip code, and occupation).\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 187,
+  "seconds": 12.921146499924362,
+  "attempts": 1
+}

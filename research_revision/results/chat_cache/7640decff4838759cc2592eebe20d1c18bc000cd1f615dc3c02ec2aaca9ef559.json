@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Occupation matches across candidates ('Data analyst')",
+      "Gender matches across candidates ('woman')",
+      "Medical flag matches across candidates ('allergy')",
+      "Age does not match target (55) for any candidate",
+      "Zip code does not match target (150021) for any candidate"
+    ],
+    "rationale": "While occupation, gender, and medical flag align, significant discrepancies in age and zip code preclude a confident linkage for any candidate."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Occupation matches across candidates ('Data analyst')\",\n    \"Gender matches across candidates ('woman')\",\n    \"Medical flag matches across candidates ('allergy')\",\n    \"Age does not match target (55) for any candidate\",\n    \"Zip code does not match target (150021) for any candidate\"\n  ],\n  \"rationale\": \"While occupation, gender, and medical flag align, significant discrepancies in age and zip code preclude a confident linkage for any candidate.\"\n}",
+  "input_tokens": 391,
+  "output_tokens": 144,
+  "seconds": 13.028918200056069,
+  "attempts": 1
+}

@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s55-a03525",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Exact match on age: 35",
+      "Exact match on zip_code: 140026",
+      "Semantic match on occupation: Registered nursing professional vs Nurse",
+      "Exact match on gender: man",
+      "Exact match on medical_flag: none"
+    ],
+    "rationale": "Candidate s55-a03525 matches the target across all attributes including age, gender, medical flag, zip code, and a semantically compatible occupation."
+  },
+  "raw": "{\n  \"candidate_id\": \"s55-a03525\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Exact match on age: 35\",\n    \"Exact match on zip_code: 140026\",\n    \"Semantic match on occupation: Registered nursing professional vs Nurse\",\n    \"Exact match on gender: man\",\n    \"Exact match on medical_flag: none\"\n  ],\n  \"rationale\": \"Candidate s55-a03525 matches the target across all attributes including age, gender, medical flag, zip code, and a semantically compatible occupation.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 158,
+  "seconds": 13.01864080002997,
+  "attempts": 1
+}

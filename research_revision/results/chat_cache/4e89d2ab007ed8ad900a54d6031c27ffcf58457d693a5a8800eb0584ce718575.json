@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s22-a08925",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Age matches exactly (57)",
+      "Zip code matches exactly (140001)",
+      "Gender matches exactly (woman)",
+      "Medical flag matches exactly (none)"
+    ],
+    "rationale": "Candidate s22-a08925 shares exact matches for age, zip code, gender, and medical flag, with no contradictory fields."
+  },
+  "raw": "{\n  \"candidate_id\": \"s22-a08925\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (57)\",\n    \"Zip code matches exactly (140001)\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (none)\"\n  ],\n  \"rationale\": \"Candidate s22-a08925 shares exact matches for age, zip code, gender, and medical flag, with no contradictory fields.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 132,
+  "seconds": 12.667820099974051,
+  "attempts": 1
+}

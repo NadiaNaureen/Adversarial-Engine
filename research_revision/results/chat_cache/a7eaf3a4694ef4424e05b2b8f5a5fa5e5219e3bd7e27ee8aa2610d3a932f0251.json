@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a09340",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Age matches exactly (18)",
+      "Zip code matches exactly (170001)",
+      "Occupation 'Data analyst' is semantically compatible with 'Data analysis specialist'",
+      "Gender matches exactly (woman)",
+      "Medical flag matches exactly (allergy)"
+    ],
+    "rationale": "Candidate s11-a09340 matches the target across all available fields including age, zip code, occupation, gender, and medical flag."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a09340\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (18)\",\n    \"Zip code matches exactly (170001)\",\n    \"Occupation 'Data analyst' is semantically compatible with 'Data analysis specialist'\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (allergy)\"\n  ],\n  \"rationale\": \"Candidate s11-a09340 matches the target across all available fields including age, zip code, occupation, gender, and medical flag.\"\n}",
+  "input_tokens": 391,
+  "output_tokens": 152,
+  "seconds": 12.774840300087817,
+  "attempts": 1
+}

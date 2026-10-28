@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a01448",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches exactly for candidate s33-a01448 (33) and s33-a08065 (33)",
+      "Zip code prefix matches closely for s33-a01448 (120003 vs 120000)",
+      "Gender matches across multiple candidates",
+      "Target occupation is null, providing no distinguishing semantic evidence"
+    ],
+    "rationale": "While candidate s33-a01448 shares age, gender, and a very close zip code prefix, multiple candidates share the exact age and gender with the target, and the target lacks an occupation to differentiate them. Due to multiple plausible leads and insufficient distinguishing evidence, the decision is ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a01448\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches exactly for candidate s33-a01448 (33) and s33-a08065 (33)\",\n    \"Zip code prefix matches closely for s33-a01448 (120003 vs 120000)\",\n    \"Gender matches across multiple candidates\",\n    \"Target occupation is null, providing no distinguishing semantic evidence\"\n  ],\n  \"rationale\": \"While candidate s33-a01448 shares age, gender, and a very close zip code prefix, multiple candidates share the exact age and gender with the target, and the target lacks an occupation to differentiate them. Due to multiple plausible leads and insufficient distinguishing evidence, the decision is ambiguous.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 214,
+  "seconds": 14.643015000037849,
+  "attempts": 1
+}

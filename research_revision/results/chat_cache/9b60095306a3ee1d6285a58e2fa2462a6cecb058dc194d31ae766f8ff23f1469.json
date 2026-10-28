@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches across multiple candidates but zip codes differ significantly",
+      "Occupation matches ('Shop assistant') across candidates",
+      "Medical flag discrepancies exist"
+    ],
+    "rationale": "Multiple candidates share age and occupation with the target, but zip codes and medical flags vary without a single distinctly superior match, leading to insufficient evidence for a definitive linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches across multiple candidates but zip codes differ significantly\",\n    \"Occupation matches ('Shop assistant') across candidates\",\n    \"Medical flag discrepancies exist\"\n  ],\n  \"rationale\": \"Multiple candidates share age and occupation with the target, but zip codes and medical flags vary without a single distinctly superior match, leading to insufficient evidence for a definitive linkage.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 116,
+  "seconds": 19.763510000077076,
+  "attempts": 1
+}

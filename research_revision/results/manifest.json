@@ -1,0 +1,20 @@
+{
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "source_sha256": {
+    "research_revision\\evaluate.py": "f60823d1891ddac899c783aed4c2ea10a3ca66b78116176563219bf1539487f5",
+    "research_revision\\protocol.md": "94ba31ee1247413107458fc0a874b6e355f3218ef4d40d67f5897a6909064db5",
+    "app\\linkage.py": "a6c3a2e990b370a5cc19cd6a8e0ae042c8f4216edee2bc752764b8b445776025",
+    "app\\rag.py": "be7baf2a5801a7828aff7d499c8403427937ef008ea3e2eb36e3c6f4fd482919"
+  },
+  "cloud_requested": true,
+  "started_utc": "2026-10-23T06:42:13Z",
+  "population_size": 10000
+}

@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a09568",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Age matches exactly (46)",
+      "Zip code matches exactly (180003)",
+      "Gender matches exactly (man)",
+      "Medical flag matches exactly (diabetes)",
+      "Occupation is compatible (target is null)"
+    ],
+    "rationale": "Candidate s11-a09568 shares exact matches across all available identifying fields including age, zip code, gender, and medical flag, while the target's occupation is unstated."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a09568\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (46)\",\n    \"Zip code matches exactly (180003)\",\n    \"Gender matches exactly (man)\",\n    \"Medical flag matches exactly (diabetes)\",\n    \"Occupation is compatible (target is null)\"\n  ],\n  \"rationale\": \"Candidate s11-a09568 shares exact matches across all available identifying fields including age, zip code, gender, and medical flag, while the target's occupation is unstated.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 153,
+  "seconds": 16.779589600046165,
+  "attempts": 1
+}

@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a06473",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Exact age match (56)",
+      "Exact zip code match (130013)",
+      "Exact gender match (man)",
+      "Exact medical flag match (allergy)",
+      "Target occupation is null, candidate occupation (Teacher) does not contradict"
+    ],
+    "rationale": "Candidate s11-a06473 matches all available target fields (age, zip code, gender, and medical flag) perfectly, while other candidates have discrepancies in age or zip code."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a06473\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Exact age match (56)\",\n    \"Exact zip code match (130013)\",\n    \"Exact gender match (man)\",\n    \"Exact medical flag match (allergy)\",\n    \"Target occupation is null, candidate occupation (Teacher) does not contradict\"\n  ],\n  \"rationale\": \"Candidate s11-a06473 matches all available target fields (age, zip code, gender, and medical flag) perfectly, while other candidates have discrepancies in age or zip code.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 160,
+  "seconds": 1.0069094999926165,
+  "attempts": 1
+}

@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Age matches across all candidates (56)",
+      "Gender matches across all candidates (man)",
+      "Medical flag matches across all candidates (hypertension)",
+      "Zip codes do not match between target (120006) and any candidate",
+      "Occupations vary significantly with no clear single match (Agricultural worker vs Driver, Accountant, Farmer)"
+    ],
+    "rationale": "While age, gender, and medical flags align across all candidates, none of the candidates share the target's zip code, and occupational paraphrases are insufficient to uniquely or strongly link any single candidate given the conflicting locations and varied professions."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches across all candidates (56)\",\n    \"Gender matches across all candidates (man)\",\n    \"Medical flag matches across all candidates (hypertension)\",\n    \"Zip codes do not match between target (120006) and any candidate\",\n    \"Occupations vary significantly with no clear single match (Agricultural worker vs Driver, Accountant, Farmer)\"\n  ],\n  \"rationale\": \"While age, gender, and medical flags align across all candidates, none of the candidates share the target's zip code, and occupational paraphrases are insufficient to uniquely or strongly link any single candidate given the conflicting locations and varied professions.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 176,
+  "seconds": 9.784993799985386,
+  "attempts": 1
+}

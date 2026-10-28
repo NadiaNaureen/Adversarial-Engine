@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "age match across all candidates (30)",
+      "gender match across all candidates (woman)",
+      "medical_flag match across all candidates (none)",
+      "zip codes differ significantly among candidates"
+    ],
+    "rationale": "Multiple candidates share demographic attributes (age, gender, medical flag) with the target, but differ in zip codes and occupations, and no single candidate stands out definitively."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"age match across all candidates (30)\",\n    \"gender match across all candidates (woman)\",\n    \"medical_flag match across all candidates (none)\",\n    \"zip codes differ significantly among candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share demographic attributes (age, gender, medical flag) with the target, but differ in zip codes and occupations, and no single candidate stands out definitively.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 126,
+  "seconds": 12.83606320002582,
+  "attempts": 1
+}

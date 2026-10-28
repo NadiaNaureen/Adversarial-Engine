@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Target gender 'nonbinary' does not match candidate genders",
+      "No candidate closely matches the target's specific combination of age, zip code, and nonbinary gender"
+    ],
+    "rationale": "None of the candidates exhibit sufficient matching attributes across age, location, and gender to establish a reliable linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Target gender 'nonbinary' does not match candidate genders\",\n    \"No candidate closely matches the target's specific combination of age, zip code, and nonbinary gender\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient matching attributes across age, location, and gender to establish a reliable linkage.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 109,
+  "seconds": 6.204373899963684,
+  "attempts": 1
+}

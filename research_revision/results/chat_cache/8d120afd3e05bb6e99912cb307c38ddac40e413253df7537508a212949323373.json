@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Age 32 matches candidate s33-a05359 and s33-a05580",
+      "Zip code prefix 140019 does not closely match any candidate zip codes",
+      "Gender man matches candidates s33-a05359, s33-a05580, and s33-a07104",
+      "Medical flag none matches candidates s33-a05359 and s33-a07104",
+      "Target occupation is null, preventing occupation verification"
+    ],
+    "rationale": "No single candidate exhibits strong multi-field alignment across age, gender, medical flag, and zip code, resulting in an insufficient evidence decision."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age 32 matches candidate s33-a05359 and s33-a05580\",\n    \"Zip code prefix 140019 does not closely match any candidate zip codes\",\n    \"Gender man matches candidates s33-a05359, s33-a05580, and s33-a07104\",\n    \"Medical flag none matches candidates s33-a05359 and s33-a07104\",\n    \"Target occupation is null, preventing occupation verification\"\n  ],\n  \"rationale\": \"No single candidate exhibits strong multi-field alignment across age, gender, medical flag, and zip code, resulting in an insufficient evidence decision.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 213,
+  "seconds": 13.50331629998982,
+  "attempts": 1
+}

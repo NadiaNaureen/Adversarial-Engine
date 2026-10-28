@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "age match across candidates",
+      "zip code match for s44-a04671",
+      "medical flag conflict across all candidates"
+    ],
+    "rationale": "None of the candidates match all target attributes simultaneously, particularly regarding the medical flag of asthma."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"age match across candidates\",\n    \"zip code match for s44-a04671\",\n    \"medical flag conflict across all candidates\"\n  ],\n  \"rationale\": \"None of the candidates match all target attributes simultaneously, particularly regarding the medical flag of asthma.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 103,
+  "seconds": 21.07846210000571,
+  "attempts": 1
+}

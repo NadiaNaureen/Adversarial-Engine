@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a01376",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Exact match on age: 37",
+      "Exact match on zip_code: 120003",
+      "Exact match on gender: woman",
+      "Exact match on medical_flag: none"
+    ],
+    "rationale": "Candidate s33-a01376 matches all available target attributes precisely, including age, zip code, gender, and medical flag, with no contradictory data."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a01376\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Exact match on age: 37\",\n    \"Exact match on zip_code: 120003\",\n    \"Exact match on gender: woman\",\n    \"Exact match on medical_flag: none\"\n  ],\n  \"rationale\": \"Candidate s33-a01376 matches all available target attributes precisely, including age, zip code, gender, and medical flag, with no contradictory data.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 144,
+  "seconds": 13.094622000004165,
+  "attempts": 1
+}

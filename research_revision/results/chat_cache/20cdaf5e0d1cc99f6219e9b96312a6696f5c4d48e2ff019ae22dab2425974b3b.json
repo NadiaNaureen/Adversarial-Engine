@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Candidate s22-a06598 matches age (26), gender (nonbinary), and medical_flag (none), but zip_code (130015) differs from target (110014).",
+      "Candidate s22-a00402 matches zip_code (110014), gender (nonbinary), and medical_flag (none), but age (22) differs from target (26).",
+      "Candidate s22-a00363 matches age (26) and medical_flag (none), but zip_code (180012) and gender (woman) differ.",
+      "Candidate s22-a09219 matches gender (nonbinary) and medical_flag (none), but age (24) and zip_code (170023) differ."
+    ],
+    "rationale": "None of the candidates fully align across all available demographic fields (age, zip code, and gender) to establish a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Candidate s22-a06598 matches age (26), gender (nonbinary), and medical_flag (none), but zip_code (130015) differs from target (110014).\",\n    \"Candidate s22-a00402 matches zip_code (110014), gender (nonbinary), and medical_flag (none), but age (22) differs from target (26).\",\n    \"Candidate s22-a00363 matches age (26) and medical_flag (none), but zip_code (180012) and gender (woman) differ.\",\n    \"Candidate s22-a09219 matches gender (nonbinary) and medical_flag (none), but age (24) and zip_code (170023) differ.\"\n  ],\n  \"rationale\": \"None of the candidates fully align across all available demographic fields (age, zip code, and gender) to establish a definitive match.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 276,
+  "seconds": 12.987239200039767,
+  "attempts": 1
+}

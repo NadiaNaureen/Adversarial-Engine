@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a06473",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "zip_code match: 130013",
+      "occupation match: Teacher",
+      "gender match: man",
+      "medical_flag match: allergy",
+      "age close match: 56 vs 57"
+    ],
+    "rationale": "Candidate s11-a06473 shares matching zip code, occupation, gender, and medical flag, with an age very close (56 vs 57), but candidate s11-a07468 matches the exact age (57) though with a different zip code. Due to multiple partial overlaps without a single unambiguous exact match across all attributes, the decision is ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a06473\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"zip_code match: 130013\",\n    \"occupation match: Teacher\",\n    \"gender match: man\",\n    \"medical_flag match: allergy\",\n    \"age close match: 56 vs 57\"\n  ],\n  \"rationale\": \"Candidate s11-a06473 shares matching zip code, occupation, gender, and medical flag, with an age very close (56 vs 57), but candidate s11-a07468 matches the exact age (57) though with a different zip code. Due to multiple partial overlaps without a single unambiguous exact match across all attributes, the decision is ambiguous.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 198,
+  "seconds": 7.0574260000139475,
+  "attempts": 1
+}

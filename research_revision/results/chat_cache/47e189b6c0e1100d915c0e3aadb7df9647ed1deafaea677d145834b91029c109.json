@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "No single candidate matches all key attributes of age, zip code, occupation, and medical flag simultaneously."
+    ],
+    "rationale": "The target profile cannot be conclusively linked to any single candidate due to conflicting fields across all options."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"No single candidate matches all key attributes of age, zip code, occupation, and medical flag simultaneously.\"\n  ],\n  \"rationale\": \"The target profile cannot be conclusively linked to any single candidate due to conflicting fields across all options.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 91,
+  "seconds": 13.377341300016269,
+  "attempts": 1
+}

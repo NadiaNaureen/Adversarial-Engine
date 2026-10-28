@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "No candidate matches all target attributes (age 59, zip 150014, occupation Civil engineer).",
+      "Candidate s11-a09057 matches age, zip, and gender, but occupation is Accountant.",
+      "Candidate s11-a04718 matches occupation and gender, but age and zip differ."
+    ],
+    "rationale": "None of the candidates provide a sufficiently strong multi-attribute match to confirm identity linkage without contradictions."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"No candidate matches all target attributes (age 59, zip 150014, occupation Civil engineer).\",\n    \"Candidate s11-a09057 matches age, zip, and gender, but occupation is Accountant.\",\n    \"Candidate s11-a04718 matches occupation and gender, but age and zip differ.\"\n  ],\n  \"rationale\": \"None of the candidates provide a sufficiently strong multi-attribute match to confirm identity linkage without contradictions.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 149,
+  "seconds": 11.172574199968949,
+  "attempts": 1
+}

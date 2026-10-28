@@ -1,0 +1,828 @@
+{
+  "3": {
+    "DOI": "10.1007/s10207-024-00944-7",
+    "title": [
+      "Protecting privacy in the age of big data: exploring data linking methods for quasi-identifier selection"
+    ],
+    "author": [
+      {
+        "given": "Antonio",
+        "family": "Borrero-Foncubierta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mercedes",
+        "family": "Rodriguez-Garcia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrés",
+        "family": "Muñoz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan Manuel",
+        "family": "Dodero",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "International Journal of Information Security"
+    ],
+    "volume": "24",
+    "issue": "1",
+    "page": null,
+    "article-number": "37",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          3
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/s10207-024-00944-7",
+    "type": "journal-article"
+  },
+  "1": {
+    "DOI": "10.1016/j.knosys.2024.112945",
+    "title": [
+      "Enhancing text anonymization via re-identification risk-based explainability"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7254-2560",
+        "authenticated-orcid": false,
+        "given": "Benet",
+        "family": "Manzanares-Salor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7275-7887",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Sánchez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Knowledge-Based Systems"
+    ],
+    "volume": "310",
+    "issue": null,
+    "page": "112945",
+    "article-number": "112945",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV",
+    "URL": "https://doi.org/10.1016/j.knosys.2024.112945",
+    "type": "journal-article"
+  },
+  "2": {
+    "DOI": "10.1007/s10618-024-01066-3",
+    "title": [
+      "Evaluating the disclosure risk of anonymized documents via a machine learning-based re-identification attack"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7254-2560",
+        "authenticated-orcid": false,
+        "given": "Benet",
+        "family": "Manzanares-Salor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7275-7887",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Sánchez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7649-0689",
+        "authenticated-orcid": false,
+        "given": "Pierre",
+        "family": "Lison",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Data Mining and Knowledge Discovery"
+    ],
+    "volume": "38",
+    "issue": "6",
+    "page": "4040-4075",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          3
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/s10618-024-01066-3",
+    "type": "journal-article"
+  },
+  "4": {
+    "DOI": "10.1007/s10994-025-06799-w",
+    "title": [
+      "Differentially-private data synthetisation for efficient re-identification risk control"
+    ],
+    "author": [
+      {
+        "given": "Tânia",
+        "family": "Carvalho",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nuno",
+        "family": "Moniz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luís",
+        "family": "Antunes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nitesh",
+        "family": "Chawla",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Machine Learning"
+    ],
+    "volume": "114",
+    "issue": "7",
+    "page": null,
+    "article-number": "164",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          6
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/s10994-025-06799-w",
+    "type": "journal-article"
+  },
+  "5": {
+    "DOI": "10.1007/s10994-025-06835-9",
+    "title": [
+      "SafeGen: safeguarding privacy and fairness through a genetic method"
+    ],
+    "author": [
+      {
+        "given": "Martina",
+        "family": "Cinquini",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marta",
+        "family": "Marchiori Manerba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Federico",
+        "family": "Mazzoni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francesca",
+        "family": "Pratesi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Riccardo",
+        "family": "Guidotti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Machine Learning"
+    ],
+    "volume": "114",
+    "issue": "10",
+    "page": null,
+    "article-number": "227",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          8
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/s10994-025-06835-9",
+    "type": "journal-article"
+  },
+  "7": {
+    "DOI": "10.1145/1217299.1217302",
+    "title": [
+      "<i>L</i>\n            -diversity"
+    ],
+    "author": [
+      {
+        "given": "Ashwin",
+        "family": "Machanavajjhala",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Kifer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Johannes",
+        "family": "Gehrke",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muthuramakrishnan",
+        "family": "Venkitasubramaniam",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "ACM Transactions on Knowledge Discovery from Data"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "page": "3",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          3
+        ]
+      ]
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "URL": "https://doi.org/10.1145/1217299.1217302",
+    "type": "journal-article"
+  },
+  "8": {
+    "DOI": "10.1109/icde.2007.367856",
+    "title": [
+      "t-Closeness: Privacy Beyond k-Anonymity and l-Diversity"
+    ],
+    "author": [
+      {
+        "given": "Ninghui",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tiancheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suresh",
+        "family": "Venkatasubramanian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "2007 IEEE 23rd International Conference on Data Engineering"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "106-115",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          4
+        ]
+      ]
+    },
+    "publisher": "IEEE",
+    "URL": "https://doi.org/10.1109/icde.2007.367856",
+    "type": "proceedings-article"
+  },
+  "9": {
+    "DOI": "10.1007/11787006_1",
+    "title": [
+      "Differential Privacy"
+    ],
+    "author": [
+      {
+        "given": "Cynthia",
+        "family": "Dwork",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Automata, Languages and Programming"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-12",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "publisher": "Springer Berlin Heidelberg",
+    "URL": "https://doi.org/10.1007/11787006_1",
+    "type": "book-chapter"
+  },
+  "14": {
+    "DOI": "10.1109/mitp.2025.3634142",
+    "title": [
+      "SD\n                    <i>k</i>\n                    A: Synthetic Data Integrated\n                    <i>k</i>\n                    -Anonymity Model for Data Sharing With Improved Utility"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3030-5054",
+        "authenticated-orcid": false,
+        "given": "Abdul",
+        "family": "Majeed",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Warwick University, Coventry, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4240-6255",
+        "authenticated-orcid": false,
+        "given": "Seong Oun",
+        "family": "Hwang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Gachon University, Seongnam, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IT Professional"
+    ],
+    "volume": "28",
+    "issue": "1",
+    "page": "73-80",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "URL": "https://doi.org/10.1109/mitp.2025.3634142",
+    "type": "journal-article"
+  },
+  "15": {
+    "DOI": "10.1145/3719027.3765139",
+    "title": [
+      "Exposing Privacy Risks in Anonymizing Clinical Data: Combinatorial Refinement Attacks on\n                    <i>k</i>\n                    -Anonymity Without Auxiliary Information"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-1378-0647",
+        "authenticated-orcid": false,
+        "given": "Somiya",
+        "family": "Chhillar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "George Mason University, Fairfax, VA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8897-419X",
+        "authenticated-orcid": false,
+        "given": "Mary K.",
+        "family": "Righi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MAP Clinics, Fairfax, VA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2223-4268",
+        "authenticated-orcid": false,
+        "given": "Rebecca E.",
+        "family": "Sutter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "George Mason University, Fairfax, VA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9982-6536",
+        "authenticated-orcid": false,
+        "given": "Evgenios M.",
+        "family": "Kornaropoulos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "George Mason University, Fairfax, VA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "4259-4273",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          19
+        ]
+      ]
+    },
+    "publisher": "ACM",
+    "URL": "https://doi.org/10.1145/3719027.3765139",
+    "type": "proceedings-article"
+  },
+  "18": {
+    "DOI": "10.1038/s41467-019-10933-3",
+    "title": [
+      "Estimating the success of re-identifications in incomplete datasets using generative models"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9956-1187",
+        "authenticated-orcid": false,
+        "given": "Luc",
+        "family": "Rocher",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julien M.",
+        "family": "Hendrickx",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yves-Alexandre",
+        "family": "de Montjoye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "volume": "10",
+    "issue": "1",
+    "page": null,
+    "article-number": "3069",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          23
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1038/s41467-019-10933-3",
+    "type": "journal-article"
+  },
+  "22": {
+    "DOI": "10.1080/01621459.1969.10501049",
+    "title": [
+      "A Theory for Record Linkage"
+    ],
+    "author": [
+      {
+        "given": "Ivan P.",
+        "family": "Fellegi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan B.",
+        "family": "Sunter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "64",
+    "issue": "328",
+    "page": "1183-1210",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1969,
+          12
+        ]
+      ]
+    },
+    "publisher": "Informa UK Limited",
+    "URL": "https://doi.org/10.1080/01621459.1969.10501049",
+    "type": "journal-article"
+  }
+}

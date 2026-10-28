@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Age matches (41) for candidates s11-a00543, s11-a06088, s11-a09242",
+      "Occupation matches (Architect) for all candidates",
+      "Gender matches (woman) for all candidates",
+      "Zip code (180016) does not closely match any candidate zip prefix",
+      "Medical flag (hypertension) only matches candidate s11-a03286, but age mismatches"
+    ],
+    "rationale": "No single candidate matches all key attributes (age, zip code, and medical flag) simultaneously, leaving multiple partial matches without a clear definitive leader."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches (41) for candidates s11-a00543, s11-a06088, s11-a09242\",\n    \"Occupation matches (Architect) for all candidates\",\n    \"Gender matches (woman) for all candidates\",\n    \"Zip code (180016) does not closely match any candidate zip prefix\",\n    \"Medical flag (hypertension) only matches candidate s11-a03286, but age mismatches\"\n  ],\n  \"rationale\": \"No single candidate matches all key attributes (age, zip code, and medical flag) simultaneously, leaving multiple partial matches without a clear definitive leader.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 196,
+  "seconds": 5.124150999938138,
+  "attempts": 3
+}

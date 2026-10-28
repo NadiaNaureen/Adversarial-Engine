@@ -1,0 +1,5837 @@
+[
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-000-age_noise",
+    "group": "s44-test-0-000",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 55,
+      "zip_code": "120006",
+      "occupation": "Farmer",
+      "gender": "man",
+      "medical_flag": "hypertension"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a02121",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.588408,
+          0.588408
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a02121",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801",
+          "s44-a09652",
+          "s44-a03961",
+          "s44-a08847",
+          "s44-a01316"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.588408,
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a02121",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801",
+          "s44-a09652",
+          "s44-a03961",
+          "s44-a08847",
+          "s44-a01316",
+          "s44-a02231",
+          "s44-a03094",
+          "s44-a09783",
+          "s44-a02354",
+          "s44-a02840",
+          "s44-a06570",
+          "s44-a07206",
+          "s44-a08232"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.588408,
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a02121",
+        "score": 0.496623,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801"
+        ],
+        "scores": [
+          0.496623,
+          0.496623,
+          0.496623,
+          0.496623
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a02121",
+        "score": 0.496623,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801",
+          "s44-a09652",
+          "s44-a03961",
+          "s44-a08847",
+          "s44-a01316"
+        ],
+        "scores": [
+          0.496623,
+          0.496623,
+          0.496623,
+          0.496623,
+          0.496623,
+          0.130675,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a02121",
+        "score": 0.496623,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801",
+          "s44-a09652",
+          "s44-a03961",
+          "s44-a08847",
+          "s44-a01316",
+          "s44-a02231",
+          "s44-a03094",
+          "s44-a09783",
+          "s44-a02354",
+          "s44-a02840",
+          "s44-a06570",
+          "s44-a07206",
+          "s44-a08232"
+        ],
+        "scores": [
+          0.496623,
+          0.496623,
+          0.496623,
+          0.496623,
+          0.496623,
+          0.130675,
+          0.130675,
+          0.130675,
+          0.130675,
+          0.085571,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a06102",
+        "score": 4.84822517630425,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.588408,
+          0.588408
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.011023400002159178,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "age match across all candidates (55)",
+          "occupation match across all candidates (Farmer)",
+          "gender match across all candidates (man)",
+          "medical_flag match across all candidates (hypertension)",
+          "zip_code mismatch across all candidates (120006 vs 150019, 140023, 180019, 180001)"
+        ],
+        "rationale": "Multiple candidates share identical demographics and medical flags with the target, but all candidates have differing zip codes, making it impossible to definitively link a single candidate."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"age match across all candidates (55)\",\n    \"occupation match across all candidates (Farmer)\",\n    \"gender match across all candidates (man)\",\n    \"medical_flag match across all candidates (hypertension)\",\n    \"zip_code mismatch across all candidates (120006 vs 150019, 140023, 180019, 180001)\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographics and medical flags with the target, but all candidates have differing zip codes, making it impossible to definitively link a single candidate.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 175,
+      "seconds": 16.118590699974447,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-000-changed",
+    "group": "s44-test-0-000",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 56,
+      "zip_code": "120006",
+      "occupation": "Accountant",
+      "gender": "man",
+      "medical_flag": "hypertension"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05282",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a05282",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897",
+          "s44-a00285",
+          "s44-a04278",
+          "s44-a06686",
+          "s44-a07190"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a05282",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897",
+          "s44-a00285",
+          "s44-a04278",
+          "s44-a06686",
+          "s44-a07190",
+          "s44-a07925",
+          "s44-a09687",
+          "s44-a09745",
+          "s44-a07622",
+          "s44-a09001",
+          "s44-a00586",
+          "s44-a00993",
+          "s44-a09544"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a05282",
+        "score": 0.501419,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897"
+        ],
+        "scores": [
+          0.501419,
+          0.501419,
+          0.138957,
+          0.002837
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a05282",
+        "score": 0.501419,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897",
+          "s44-a00285",
+          "s44-a04278",
+          "s44-a06686",
+          "s44-a07190"
+        ],
+        "scores": [
+          0.501419,
+          0.501419,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.002837
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a05282",
+        "score": 0.501419,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897",
+          "s44-a00285",
+          "s44-a04278",
+          "s44-a06686",
+          "s44-a07190",
+          "s44-a07925",
+          "s44-a09687",
+          "s44-a09745",
+          "s44-a07622",
+          "s44-a09001",
+          "s44-a00586",
+          "s44-a00993",
+          "s44-a09544"
+        ],
+        "scores": [
+          0.501419,
+          0.501419,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.138957,
+          0.002837,
+          0.002837,
+          0.002837,
+          0.002837,
+          0.002837,
+          0.002837,
+          0.002837
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a05282",
+        "score": 4.84822517630425,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a09386",
+          "s44-a05282",
+          "s44-a05152",
+          "s44-a08897"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.011253200005739927,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "Zip code 120006 does not match any candidate zip codes",
+          "Multiple candidates share age, occupation, gender, and hypertension status without unique distinguishing location"
+        ],
+        "rationale": "Multiple candidates share matching age, occupation, gender, and medical flags, but none match the target zip code and no single candidate stands out definitively."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"Zip code 120006 does not match any candidate zip codes\",\n    \"Multiple candidates share age, occupation, gender, and hypertension status without unique distinguishing location\"\n  ],\n  \"rationale\": \"Multiple candidates share matching age, occupation, gender, and medical flags, but none match the target zip code and no single candidate stands out definitively.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 118,
+      "seconds": 9.917652799980715,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-000-clean",
+    "group": "s44-test-0-000",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 56,
+      "zip_code": "120006",
+      "occupation": "Farmer",
+      "gender": "man",
+      "medical_flag": "hypertension"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a07806",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a07806",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561",
+          "s44-a01316",
+          "s44-a01445",
+          "s44-a05667",
+          "s44-a03986"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a07806",
+        "score": 0.588408,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561",
+          "s44-a01316",
+          "s44-a01445",
+          "s44-a05667",
+          "s44-a03986",
+          "s44-a05086",
+          "s44-a05765",
+          "s44-a09783",
+          "s44-a09927",
+          "s44-a02354",
+          "s44-a04178",
+          "s44-a05510",
+          "s44-a06570"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a07806",
+        "score": 0.496623,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561"
+        ],
+        "scores": [
+          0.496623,
+          0.496623,
+          0.130675,
+          0.130675
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a07806",
+        "score": 0.496623,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561",
+          "s44-a01316",
+          "s44-a01445",
+          "s44-a05667",
+          "s44-a03986"
+        ],
+        "scores": [
+          0.496623,
+          0.496623,
+          0.130675,
+          0.130675,
+          0.130675,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a07806",
+        "score": 0.496623,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561",
+          "s44-a01316",
+          "s44-a01445",
+          "s44-a05667",
+          "s44-a03986",
+          "s44-a05086",
+          "s44-a05765",
+          "s44-a09783",
+          "s44-a09927",
+          "s44-a02354",
+          "s44-a04178",
+          "s44-a05510",
+          "s44-a06570"
+        ],
+        "scores": [
+          0.496623,
+          0.496623,
+          0.130675,
+          0.130675,
+          0.130675,
+          0.130675,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a07806",
+        "score": 4.84822517630425,
+        "margin": 0.7654018348127343,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07806",
+          "s44-a09652",
+          "s44-a06959",
+          "s44-a08561"
+        ],
+        "scores": [
+          0.588408,
+          0.588408,
+          0.176816,
+          0.176816
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.011452799895778298,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age 56 matches multiple candidates",
+          "Occupation 'Farmer' matches all candidates",
+          "Gender 'man' matches all candidates",
+          "Zip code and medical flags vary significantly among top age-matching candidates"
+        ],
+        "rationale": "Multiple candidates share the target's age, gender, and occupation, but none share both the exact zip code and medical flag, leading to ambiguous or insufficient evidence to select a single definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age 56 matches multiple candidates\",\n    \"Occupation 'Farmer' matches all candidates\",\n    \"Gender 'man' matches all candidates\",\n    \"Zip code and medical flags vary significantly among top age-matching candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share the target's age, gender, and occupation, but none share both the exact zip code and medical flag, leading to ambiguous or insufficient evidence to select a single definitive match.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 138,
+      "seconds": 8.918901300057769,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-000-combined_noise",
+    "group": "s44-test-0-000",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 55,
+      "zip_code": "120020",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "hypertension"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a01053",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00491",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053",
+          "s44-a00491",
+          "s44-a00999",
+          "s44-a01031",
+          "s44-a02121"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00491",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053",
+          "s44-a00491",
+          "s44-a00999",
+          "s44-a01031",
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801",
+          "s44-a00835",
+          "s44-a08777",
+          "s44-a08979",
+          "s44-a01370",
+          "s44-a07905"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a01053",
+        "score": 0.32772,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053"
+        ],
+        "scores": [
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00491",
+        "score": 0.32772,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053",
+          "s44-a00491",
+          "s44-a00999",
+          "s44-a01031",
+          "s44-a02121"
+        ],
+        "scores": [
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00491",
+        "score": 0.32772,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053",
+          "s44-a00491",
+          "s44-a00999",
+          "s44-a01031",
+          "s44-a02121",
+          "s44-a06102",
+          "s44-a06266",
+          "s44-a08801",
+          "s44-a00835",
+          "s44-a08777",
+          "s44-a08979",
+          "s44-a01370",
+          "s44-a07905"
+        ],
+        "scores": [
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a01208",
+        "score": 2.924049306856582,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a06745",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06877",
+          "s44-a06745",
+          "s44-a08232",
+          "s44-a01053"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.009742000023834407,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a06745",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.85,
+        "evidence": [
+          "Exact match on age: 55",
+          "Exact match on gender: man",
+          "Exact match on medical_flag: hypertension",
+          "High proximity on zip_code: 120022 vs target 120020"
+        ],
+        "rationale": "Candidate s44-a06745 shares identical age, gender, medical flag, and a very close postal prefix (120022 vs 120020) compared to other candidates who have more distant zip codes."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a06745\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"Exact match on age: 55\",\n    \"Exact match on gender: man\",\n    \"Exact match on medical_flag: hypertension\",\n    \"High proximity on zip_code: 120022 vs target 120020\"\n  ],\n  \"rationale\": \"Candidate s44-a06745 shares identical age, gender, medical flag, and a very close postal prefix (120022 vs 120020) compared to other candidates who have more distant zip codes.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 171,
+      "seconds": 12.086497899959795,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-000-missing",
+    "group": "s44-test-0-000",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 56,
+      "zip_code": "120006",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "hypertension"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a01633",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a01633",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828",
+          "s44-a03517",
+          "s44-a05257",
+          "s44-a06464",
+          "s44-a09186"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a01633",
+        "score": 0.430895,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828",
+          "s44-a03517",
+          "s44-a05257",
+          "s44-a06464",
+          "s44-a09186",
+          "s44-a09386",
+          "s44-a09652",
+          "s44-a06601",
+          "s44-a07310",
+          "s44-a05282",
+          "s44-a06629",
+          "s44-a09135",
+          "s44-a09903"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895,
+          0.032637,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a01633",
+        "score": 0.32772,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828"
+        ],
+        "scores": [
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a01633",
+        "score": 0.32772,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828",
+          "s44-a03517",
+          "s44-a05257",
+          "s44-a06464",
+          "s44-a09186"
+        ],
+        "scores": [
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a01633",
+        "score": 0.32772,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828",
+          "s44-a03517",
+          "s44-a05257",
+          "s44-a06464",
+          "s44-a09186",
+          "s44-a09386",
+          "s44-a09652",
+          "s44-a06601",
+          "s44-a07310",
+          "s44-a05282",
+          "s44-a06629",
+          "s44-a09135",
+          "s44-a09903"
+        ],
+        "scores": [
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.32772,
+          0.084268,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a08228",
+        "score": 2.924049306856582,
+        "margin": 0.21161860878330074,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a07806",
+          "s44-a01633",
+          "s44-a02828"
+        ],
+        "scores": [
+          0.430895,
+          0.430895,
+          0.430895,
+          0.430895
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.00893529993481934,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age matches across multiple candidates (56)",
+          "Gender matches across multiple candidates (man)",
+          "Medical flag matches across multiple candidates (hypertension)",
+          "Zip codes differ and do not align to a single strong candidate"
+        ],
+        "rationale": "Multiple candidates share exact demographic and medical attributes (age, gender, medical flag), but have different zip codes and no occupation is provided in the target to differentiate them."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches across multiple candidates (56)\",\n    \"Gender matches across multiple candidates (man)\",\n    \"Medical flag matches across multiple candidates (hypertension)\",\n    \"Zip codes differ and do not align to a single strong candidate\"\n  ],\n  \"rationale\": \"Multiple candidates share exact demographic and medical attributes (age, gender, medical flag), but have different zip codes and no occupation is provided in the target to differentiate them.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 132,
+      "seconds": 14.048674499965273,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-000-paraphrase",
+    "group": "s44-test-0-000",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 56,
+      "zip_code": "120006",
+      "occupation": "Agricultural worker",
+      "gender": "man",
+      "medical_flag": "hypertension"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a02036",
+        "score": 0.176816,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806"
+        ],
+        "scores": [
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a01633",
+        "score": 0.176816,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806",
+          "s44-a03517",
+          "s44-a09386",
+          "s44-a01633",
+          "s44-a02828"
+        ],
+        "scores": [
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a01633",
+        "score": 0.176816,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806",
+          "s44-a03517",
+          "s44-a09386",
+          "s44-a01633",
+          "s44-a02828",
+          "s44-a05257",
+          "s44-a06464",
+          "s44-a09186",
+          "s44-a09652",
+          "s44-a06629",
+          "s44-a01316",
+          "s44-a04051",
+          "s44-a05765"
+        ],
+        "scores": [
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a02036",
+        "score": 0.037669,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806"
+        ],
+        "scores": [
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a01633",
+        "score": 0.037669,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806",
+          "s44-a03517",
+          "s44-a09386",
+          "s44-a01633",
+          "s44-a02828"
+        ],
+        "scores": [
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a01633",
+        "score": 0.037669,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806",
+          "s44-a03517",
+          "s44-a09386",
+          "s44-a01633",
+          "s44-a02828",
+          "s44-a05257",
+          "s44-a06464",
+          "s44-a09186",
+          "s44-a09652",
+          "s44-a06629",
+          "s44-a01316",
+          "s44-a04051",
+          "s44-a05765"
+        ],
+        "scores": [
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.037669,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a08228",
+        "score": 1.7947474849272593,
+        "margin": 0.21161860878330074,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a02036",
+          "s44-a05282",
+          "s44-a07310",
+          "s44-a07806"
+        ],
+        "scores": [
+          0.176816,
+          0.176816,
+          0.176816,
+          0.176816
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.009475399972870946,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age matches across all candidates (56)",
+          "Gender matches across all candidates (man)",
+          "Medical flag matches across all candidates (hypertension)",
+          "Zip codes do not match between target (120006) and any candidate",
+          "Occupations vary significantly with no clear single match (Agricultural worker vs Driver, Accountant, Farmer)"
+        ],
+        "rationale": "While age, gender, and medical flags align across all candidates, none of the candidates share the target's zip code, and occupational paraphrases are insufficient to uniquely or strongly link any single candidate given the conflicting locations and varied professions."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches across all candidates (56)\",\n    \"Gender matches across all candidates (man)\",\n    \"Medical flag matches across all candidates (hypertension)\",\n    \"Zip codes do not match between target (120006) and any candidate\",\n    \"Occupations vary significantly with no clear single match (Agricultural worker vs Driver, Accountant, Farmer)\"\n  ],\n  \"rationale\": \"While age, gender, and medical flags align across all candidates, none of the candidates share the target's zip code, and occupational paraphrases are insufficient to uniquely or strongly link any single candidate given the conflicting locations and varied professions.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 176,
+      "seconds": 9.784993799985386,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-001-age_noise",
+    "group": "s44-test-0-001",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 36,
+      "zip_code": "120015",
+      "occupation": "Teacher",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00448",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00448",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448",
+          "s44-a00957",
+          "s44-a00984",
+          "s44-a02410",
+          "s44-a03500"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00448",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448",
+          "s44-a00957",
+          "s44-a00984",
+          "s44-a02410",
+          "s44-a03500",
+          "s44-a03581",
+          "s44-a04118",
+          "s44-a05447",
+          "s44-a06443",
+          "s44-a08476",
+          "s44-a08508",
+          "s44-a08713",
+          "s44-a09695"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a00448",
+        "score": 0.44712,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448"
+        ],
+        "scores": [
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00448",
+        "score": 0.44712,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448",
+          "s44-a00957",
+          "s44-a00984",
+          "s44-a02410",
+          "s44-a03500"
+        ],
+        "scores": [
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00448",
+        "score": 0.44712,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448",
+          "s44-a00957",
+          "s44-a00984",
+          "s44-a02410",
+          "s44-a03500",
+          "s44-a03581",
+          "s44-a04118",
+          "s44-a05447",
+          "s44-a06443",
+          "s44-a08476",
+          "s44-a08508",
+          "s44-a08713",
+          "s44-a09695"
+        ],
+        "scores": [
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a09483",
+        "score": 8.271648620209092,
+        "margin": 3.4234234439048423,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a01570",
+          "s44-a00684",
+          "s44-a04670",
+          "s44-a00448"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.010484799975529313,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Candidate s44-a01570 matches zip code, occupation, gender, and medical_flag, but differs in age (43 vs 36).",
+          "Candidates s44-a00684, s44-a04670, and s44-a00448 match age (36), occupation, gender, and medical_flag, but differ in zip codes (150019, 180027, 180021 vs 120015)."
+        ],
+        "rationale": "No single candidate matches all key attributes (age and zip code) simultaneously. The candidates split between matching age or zip code, making it impossible to definitively link a single identity."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Candidate s44-a01570 matches zip code, occupation, gender, and medical_flag, but differs in age (43 vs 36).\",\n    \"Candidates s44-a00684, s44-a04670, and s44-a00448 match age (36), occupation, gender, and medical_flag, but differ in zip codes (150019, 180027, 180021 vs 120015).\"\n  ],\n  \"rationale\": \"No single candidate matches all key attributes (age and zip code) simultaneously. The candidates split between matching age or zip code, making it impossible to definitively link a single identity.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 211,
+      "seconds": 13.753207199973986,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-001-changed",
+    "group": "s44-test-0-001",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 37,
+      "zip_code": "120015",
+      "occupation": "Researcher",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a09686",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.143865
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00393",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736",
+          "s44-a00393",
+          "s44-a04932",
+          "s44-a05409",
+          "s44-a05352"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.143865,
+          0.143865
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00393",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736",
+          "s44-a00393",
+          "s44-a04932",
+          "s44-a05409",
+          "s44-a05352",
+          "s44-a08173",
+          "s44-a03450",
+          "s44-a00634",
+          "s44-a06071",
+          "s44-a09522",
+          "s44-a02535",
+          "s44-a01438",
+          "s44-a03825"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.223922,
+          0.223922,
+          0.204146,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a09686",
+        "score": 0.478357,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736"
+        ],
+        "scores": [
+          0.478357,
+          0.478357,
+          0.478357,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00393",
+        "score": 0.478357,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736",
+          "s44-a00393",
+          "s44-a04932",
+          "s44-a05409",
+          "s44-a05352"
+        ],
+        "scores": [
+          0.478357,
+          0.478357,
+          0.478357,
+          0.478357,
+          0.478357,
+          0.478357,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00393",
+        "score": 0.478357,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736",
+          "s44-a00393",
+          "s44-a04932",
+          "s44-a05409",
+          "s44-a05352",
+          "s44-a08173",
+          "s44-a03450",
+          "s44-a00634",
+          "s44-a06071",
+          "s44-a09522",
+          "s44-a02535",
+          "s44-a01438",
+          "s44-a03825"
+        ],
+        "scores": [
+          0.478357,
+          0.478357,
+          0.478357,
+          0.478357,
+          0.478357,
+          0.478357,
+          0.266314,
+          0.266314,
+          0.254265,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a09483",
+        "score": 7.506246785396358,
+        "margin": 2.4464030003088073,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a09686",
+          "s44-a09743",
+          "s44-a09736"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.143865
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.011052299989387393,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age matches across multiple candidates (37)",
+          "Gender matches across multiple candidates (man)",
+          "Medical flag matches across multiple candidates (none)",
+          "Occupation 'Researcher' matches multiple candidates (s44-a09686, s44-a09743, s44-a09736)",
+          "Zip codes differ across all candidates and do not match target '120015'"
+        ],
+        "rationale": "Multiple candidates share identical age, gender, medical flag, and occupation attributes with the target, but differing zip codes and no uniquely distinguishing secondary identifier make it impossible to select a single definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across multiple candidates (37)\",\n    \"Gender matches across multiple candidates (man)\",\n    \"Medical flag matches across multiple candidates (none)\",\n    \"Occupation 'Researcher' matches multiple candidates (s44-a09686, s44-a09743, s44-a09736)\",\n    \"Zip codes differ across all candidates and do not match target '120015'\"\n  ],\n  \"rationale\": \"Multiple candidates share identical age, gender, medical flag, and occupation attributes with the target, but differing zip codes and no uniquely distinguishing secondary identifier make it impossible to select a single definitive match.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 186,
+      "seconds": 18.06210690003354,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-001-clean",
+    "group": "s44-test-0-001",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 37,
+      "zip_code": "120015",
+      "occupation": "Teacher",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a02913",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a01570",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106",
+          "s44-a01570",
+          "s44-a03741",
+          "s44-a04759",
+          "s44-a04785"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a01570",
+        "score": 0.571933,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106",
+          "s44-a01570",
+          "s44-a03741",
+          "s44-a04759",
+          "s44-a04785",
+          "s44-a05183",
+          "s44-a05384",
+          "s44-a07110",
+          "s44-a07899",
+          "s44-a08435",
+          "s44-a08568",
+          "s44-a08843",
+          "s44-a09695"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a02913",
+        "score": 0.44712,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106"
+        ],
+        "scores": [
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a01570",
+        "score": 0.44712,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106",
+          "s44-a01570",
+          "s44-a03741",
+          "s44-a04759",
+          "s44-a04785"
+        ],
+        "scores": [
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a01570",
+        "score": 0.44712,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106",
+          "s44-a01570",
+          "s44-a03741",
+          "s44-a04759",
+          "s44-a04785",
+          "s44-a05183",
+          "s44-a05384",
+          "s44-a07110",
+          "s44-a07899",
+          "s44-a08435",
+          "s44-a08568",
+          "s44-a08843",
+          "s44-a09695"
+        ],
+        "scores": [
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712,
+          0.44712
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a09483",
+        "score": 7.506246785396358,
+        "margin": 2.4464030003088073,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03450",
+          "s44-a02913",
+          "s44-a03165",
+          "s44-a05106"
+        ],
+        "scores": [
+          0.571933,
+          0.571933,
+          0.571933,
+          0.571933
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.009368799976073205,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age matches across all candidates (37)",
+          "Occupation matches across all candidates (Teacher)",
+          "Gender matches across all candidates (man)",
+          "Medical flag matches across all candidates (none)",
+          "Zip codes differ and do not uniquely link a single candidate to target postal prefix 120015"
+        ],
+        "rationale": "Multiple candidates share identical demographic and occupational attributes with the target, but zip code variations prevent a definitive single match, leading to an ambiguous decision."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across all candidates (37)\",\n    \"Occupation matches across all candidates (Teacher)\",\n    \"Gender matches across all candidates (man)\",\n    \"Medical flag matches across all candidates (none)\",\n    \"Zip codes differ and do not uniquely link a single candidate to target postal prefix 120015\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographic and occupational attributes with the target, but zip code variations prevent a definitive single match, leading to an ambiguous decision.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 147,
+      "seconds": 11.299864200060256,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-001-combined_noise",
+    "group": "s44-test-0-001",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 38,
+      "zip_code": "180017",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a03444",
+        "score": 0.475887,
+        "margin": 0.06859900000000002,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933"
+        ],
+        "scores": [
+          0.475887,
+          0.407288,
+          0.407288,
+          0.407288
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a03444",
+        "score": 0.475887,
+        "margin": 0.06859900000000002,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933",
+          "s44-a05187",
+          "s44-a00420",
+          "s44-a09338",
+          "s44-a07076"
+        ],
+        "scores": [
+          0.475887,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a03444",
+        "score": 0.475887,
+        "margin": 0.06859900000000002,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933",
+          "s44-a05187",
+          "s44-a00420",
+          "s44-a09338",
+          "s44-a07076",
+          "s44-a00601",
+          "s44-a00666",
+          "s44-a01247",
+          "s44-a01464",
+          "s44-a01689",
+          "s44-a02373",
+          "s44-a09595",
+          "s44-a04348"
+        ],
+        "scores": [
+          0.475887,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a03444",
+        "score": 0.623464,
+        "margin": 0.359786,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933"
+        ],
+        "scores": [
+          0.623464,
+          0.263678,
+          0.263678,
+          0.263678
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a03444",
+        "score": 0.623464,
+        "margin": 0.359786,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933",
+          "s44-a05187",
+          "s44-a00420",
+          "s44-a09338",
+          "s44-a07076"
+        ],
+        "scores": [
+          0.623464,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a03444",
+        "score": 0.623464,
+        "margin": 0.359786,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933",
+          "s44-a05187",
+          "s44-a00420",
+          "s44-a09338",
+          "s44-a07076",
+          "s44-a00601",
+          "s44-a00666",
+          "s44-a01247",
+          "s44-a01464",
+          "s44-a01689",
+          "s44-a02373",
+          "s44-a09595",
+          "s44-a04348"
+        ],
+        "scores": [
+          0.623464,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a09537",
+        "score": 8.63554860732568,
+        "margin": 5.7114993004690975,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03444",
+          "s44-a03833",
+          "s44-a09565",
+          "s44-a01933"
+        ],
+        "scores": [
+          0.475887,
+          0.407288,
+          0.407288,
+          0.407288
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.009773699915967882,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches across candidates (38)",
+          "No candidate matches zip code 180017 and gender man simultaneously",
+          "Target occupation is null"
+        ],
+        "rationale": "None of the candidates match both the age/gender profile and the exact zip code simultaneously, leaving no strong single match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches across candidates (38)\",\n    \"No candidate matches zip code 180017 and gender man simultaneously\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"None of the candidates match both the age/gender profile and the exact zip code simultaneously, leaving no strong single match.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 112,
+      "seconds": 7.060658999951556,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-001-missing",
+    "group": "s44-test-0-001",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 37,
+      "zip_code": "120015",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a03942",
+        "score": 0.407288,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613"
+        ],
+        "scores": [
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a03942",
+        "score": 0.407288,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613",
+          "s44-a09483",
+          "s44-a06071",
+          "s44-a07018",
+          "s44-a09864"
+        ],
+        "scores": [
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a01837",
+        "score": 0.407288,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613",
+          "s44-a09483",
+          "s44-a06071",
+          "s44-a07018",
+          "s44-a09864",
+          "s44-a05352",
+          "s44-a08173",
+          "s44-a01837",
+          "s44-a03893",
+          "s44-a06933",
+          "s44-a07638",
+          "s44-a07943",
+          "s44-a09294"
+        ],
+        "scores": [
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a03942",
+        "score": 0.263678,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613"
+        ],
+        "scores": [
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a03942",
+        "score": 0.263678,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613",
+          "s44-a09483",
+          "s44-a06071",
+          "s44-a07018",
+          "s44-a09864"
+        ],
+        "scores": [
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a01837",
+        "score": 0.263678,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613",
+          "s44-a09483",
+          "s44-a06071",
+          "s44-a07018",
+          "s44-a09864",
+          "s44-a05352",
+          "s44-a08173",
+          "s44-a01837",
+          "s44-a03893",
+          "s44-a06933",
+          "s44-a07638",
+          "s44-a07943",
+          "s44-a09294"
+        ],
+        "scores": [
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678,
+          0.263678
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a09483",
+        "score": 8.63554860732568,
+        "margin": 5.7114993004690975,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a04233",
+          "s44-a07425",
+          "s44-a07613"
+        ],
+        "scores": [
+          0.407288,
+          0.407288,
+          0.407288,
+          0.407288
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.008886699914000928,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "Age 37 matches candidate s44-a03942 but zip codes differ significantly",
+          "Zip code 120015 matches multiple candidates (s44-a04233, s44-a07425, s44-a07613) but their ages (50, 33, 31) do not match the target age of 37",
+          "Target occupation is null across all candidates"
+        ],
+        "rationale": "No single candidate uniquely matches both the age and zip code of the target profile, resulting in ambiguous and insufficient evidence for a definitive linkage."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age 37 matches candidate s44-a03942 but zip codes differ significantly\",\n    \"Zip code 120015 matches multiple candidates (s44-a04233, s44-a07425, s44-a07613) but their ages (50, 33, 31) do not match the target age of 37\",\n    \"Target occupation is null across all candidates\"\n  ],\n  \"rationale\": \"No single candidate uniquely matches both the age and zip code of the target profile, resulting in ambiguous and insufficient evidence for a definitive linkage.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 187,
+      "seconds": 16.61835390003398,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-0-001-paraphrase",
+    "group": "s44-test-0-001",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 37,
+      "zip_code": "120015",
+      "occupation": "School educator",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a03450",
+        "score": 0.143865,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786"
+        ],
+        "scores": [
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a01969",
+        "score": 0.143865,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786",
+          "s44-a09743",
+          "s44-a01969",
+          "s44-a03152",
+          "s44-a05352"
+        ],
+        "scores": [
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a01837",
+        "score": 0.143865,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786",
+          "s44-a09743",
+          "s44-a01969",
+          "s44-a03152",
+          "s44-a05352",
+          "s44-a06059",
+          "s44-a06511",
+          "s44-a08173",
+          "s44-a01837",
+          "s44-a04874",
+          "s44-a06177",
+          "s44-a08845",
+          "s44-a09864"
+        ],
+        "scores": [
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a03450",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a01969",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786",
+          "s44-a09743",
+          "s44-a01969",
+          "s44-a03152",
+          "s44-a05352"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a01837",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786",
+          "s44-a09743",
+          "s44-a01969",
+          "s44-a03152",
+          "s44-a05352",
+          "s44-a06059",
+          "s44-a06511",
+          "s44-a08173",
+          "s44-a01837",
+          "s44-a04874",
+          "s44-a06177",
+          "s44-a08845",
+          "s44-a09864"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a09483",
+        "score": 7.506246785396358,
+        "margin": 5.711499300469098,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a03450",
+        "score": 0.143865,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03942",
+          "s44-a03450",
+          "s44-a06071",
+          "s44-a08786"
+        ],
+        "scores": [
+          0.143865,
+          0.143865,
+          0.143865,
+          0.143865
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.011495399987325072,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a03450",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.82,
+        "evidence": [
+          "Age matches exactly (37)",
+          "Gender matches (man)",
+          "Medical flag matches (none)",
+          "Occupation 'Teacher' is a strong semantic match for 'School educator'"
+        ],
+        "rationale": "Candidate s44-a03450 shares exact demographic details including age, gender, and medical flag, and has an occupationally synonymous role ('Teacher' vs 'School educator'), providing strong evidence for a match."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a03450\",\n  \"decision\": \"match\",\n  \"confidence\": 0.82,\n  \"evidence\": [\n    \"Age matches exactly (37)\",\n    \"Gender matches (man)\",\n    \"Medical flag matches (none)\",\n    \"Occupation 'Teacher' is a strong semantic match for 'School educator'\"\n  ],\n  \"rationale\": \"Candidate s44-a03450 shares exact demographic details including age, gender, and medical flag, and has an occupationally synonymous role ('Teacher' vs 'School educator'), providing strong evidence for a match.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 147,
+      "seconds": 8.815726200002246,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-000-age_noise",
+    "group": "s44-test-1-000",
+    "truth": "s44-a00181",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 45,
+      "zip_code": "160000",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629",
+          "s44-a08309",
+          "s44-a00564",
+          "s44-a05499",
+          "s44-a01467"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629",
+          "s44-a08309",
+          "s44-a00564",
+          "s44-a05499",
+          "s44-a01467",
+          "s44-a02369",
+          "s44-a02963",
+          "s44-a04058",
+          "s44-a04530",
+          "s44-a08000",
+          "s44-a07480",
+          "s44-a08805",
+          "s44-a09414"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.51689,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629"
+        ],
+        "scores": [
+          0.51689,
+          0.51689,
+          0.102972,
+          0.03378
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.51689,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629",
+          "s44-a08309",
+          "s44-a00564",
+          "s44-a05499",
+          "s44-a01467"
+        ],
+        "scores": [
+          0.51689,
+          0.51689,
+          0.173117,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.03378
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.51689,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629",
+          "s44-a08309",
+          "s44-a00564",
+          "s44-a05499",
+          "s44-a01467",
+          "s44-a02369",
+          "s44-a02963",
+          "s44-a04058",
+          "s44-a04530",
+          "s44-a08000",
+          "s44-a07480",
+          "s44-a08805",
+          "s44-a09414"
+        ],
+        "scores": [
+          0.51689,
+          0.51689,
+          0.173117,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.03378,
+          0.03378,
+          0.03378,
+          0.03378
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a00181",
+        "score": 10.771343085556648,
+        "margin": 5.923117909252398,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a02342",
+          "s44-a06257",
+          "s44-a07629"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.011152999941259623,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a00181",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Exact match on zip_code: 160000",
+          "Exact match on occupation: Accountant",
+          "Exact match on gender: woman",
+          "Exact match on medical_flag: asthma",
+          "Very close age: target 45, candidate 46"
+        ],
+        "rationale": "Candidate s44-a00181 shares exact matches across almost all fields including zip code, occupation, gender, and medical flag, with a negligible one-year age difference."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a00181\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Exact match on zip_code: 160000\",\n    \"Exact match on occupation: Accountant\",\n    \"Exact match on gender: woman\",\n    \"Exact match on medical_flag: asthma\",\n    \"Very close age: target 45, candidate 46\"\n  ],\n  \"rationale\": \"Candidate s44-a00181 shares exact matches across almost all fields including zip code, occupation, gender, and medical flag, with a negligible one-year age difference.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 163,
+      "seconds": 15.737532799947076,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-000-changed",
+    "group": "s44-test-1-000",
+    "truth": "s44-a00181",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160000",
+      "occupation": "Farmer",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187",
+          "s44-a05355",
+          "s44-a00135",
+          "s44-a00239",
+          "s44-a00492"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187",
+          "s44-a05355",
+          "s44-a00135",
+          "s44-a00239",
+          "s44-a00492",
+          "s44-a01151",
+          "s44-a03083",
+          "s44-a03442",
+          "s44-a04047",
+          "s44-a07092",
+          "s44-a07536",
+          "s44-a08456",
+          "s44-a09063"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.601822,
+        "margin": 0.019596999999999976,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187"
+        ],
+        "scores": [
+          0.601822,
+          0.582225,
+          0.094614,
+          0.094614
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.601822,
+        "margin": 0.019596999999999976,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187",
+          "s44-a05355",
+          "s44-a00135",
+          "s44-a00239",
+          "s44-a00492"
+        ],
+        "scores": [
+          0.601822,
+          0.582225,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.024777,
+          0.024777
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.601822,
+        "margin": 0.019596999999999976,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187",
+          "s44-a05355",
+          "s44-a00135",
+          "s44-a00239",
+          "s44-a00492",
+          "s44-a01151",
+          "s44-a03083",
+          "s44-a03442",
+          "s44-a04047",
+          "s44-a07092",
+          "s44-a07536",
+          "s44-a08456",
+          "s44-a09063"
+        ],
+        "scores": [
+          0.601822,
+          0.582225,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.094614,
+          0.024777,
+          0.024777,
+          0.024777
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a00181",
+        "score": 8.271648620209092,
+        "margin": 4.188825278717577,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a04671",
+          "s44-a00181",
+          "s44-a06901",
+          "s44-a02187"
+        ],
+        "scores": [
+          0.588183,
+          0.588183,
+          0.176365,
+          0.176365
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.011079300078563392,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "age match across candidates",
+          "zip code match for s44-a04671",
+          "medical flag conflict across all candidates"
+        ],
+        "rationale": "None of the candidates match all target attributes simultaneously, particularly regarding the medical flag of asthma."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"age match across candidates\",\n    \"zip code match for s44-a04671\",\n    \"medical flag conflict across all candidates\"\n  ],\n  \"rationale\": \"None of the candidates match all target attributes simultaneously, particularly regarding the medical flag of asthma.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 103,
+      "seconds": 21.07846210000571,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-000-clean",
+    "group": "s44-test-1-000",
+    "truth": "s44-a00181",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160000",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.411817,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078"
+        ],
+        "scores": [
+          1.0,
+          0.588183,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.411817,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078",
+          "s44-a07659",
+          "s44-a09190",
+          "s44-a09598",
+          "s44-a00404"
+        ],
+        "scores": [
+          1.0,
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.411817,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078",
+          "s44-a07659",
+          "s44-a09190",
+          "s44-a09598",
+          "s44-a00404",
+          "s44-a00572",
+          "s44-a02963",
+          "s44-a03077",
+          "s44-a05030",
+          "s44-a05216",
+          "s44-a06294",
+          "s44-a08000",
+          "s44-a09047"
+        ],
+        "scores": [
+          1.0,
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.48311000000000004,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078"
+        ],
+        "scores": [
+          1.0,
+          0.51689,
+          0.173117,
+          0.102972
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.48311000000000004,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078",
+          "s44-a07659",
+          "s44-a09190",
+          "s44-a09598",
+          "s44-a00404"
+        ],
+        "scores": [
+          1.0,
+          0.51689,
+          0.173117,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.48311000000000004,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078",
+          "s44-a07659",
+          "s44-a09190",
+          "s44-a09598",
+          "s44-a00404",
+          "s44-a00572",
+          "s44-a02963",
+          "s44-a03077",
+          "s44-a05030",
+          "s44-a05216",
+          "s44-a06294",
+          "s44-a08000",
+          "s44-a09047"
+        ],
+        "scores": [
+          1.0,
+          0.51689,
+          0.173117,
+          0.103925,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.102972,
+          0.03378
+        ]
+      },
+      "exact": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a00181",
+        "score": 11.536744920369383,
+        "margin": 6.688519744065133,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a00181",
+        "score": 1.0,
+        "margin": 0.411817,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a03830",
+          "s44-a04671",
+          "s44-a06078"
+        ],
+        "scores": [
+          1.0,
+          0.588183,
+          0.176365,
+          0.176365
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.011834300006739795,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a00181",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches exactly (46)",
+          "zip_code matches exactly (160000)",
+          "occupation matches exactly (Accountant)",
+          "gender matches exactly (woman)",
+          "medical_flag matches exactly (asthma)"
+        ],
+        "rationale": "Candidate s44-a00181 is an exact match across all available attributes including age, zip code, occupation, gender, and medical flag."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a00181\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (46)\",\n    \"zip_code matches exactly (160000)\",\n    \"occupation matches exactly (Accountant)\",\n    \"gender matches exactly (woman)\",\n    \"medical_flag matches exactly (asthma)\"\n  ],\n  \"rationale\": \"Candidate s44-a00181 is an exact match across all available attributes including age, zip code, occupation, gender, and medical flag.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 146,
+      "seconds": 1.425275499932468,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-000-combined_noise",
+    "group": "s44-test-1-000",
+    "truth": "s44-a00181",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 47,
+      "zip_code": "180026",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05497",
+        "score": 0.430575,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243"
+        ],
+        "scores": [
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00530",
+        "score": 0.430575,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243",
+          "s44-a00530",
+          "s44-a01719",
+          "s44-a02605",
+          "s44-a05170"
+        ],
+        "scores": [
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00530",
+        "score": 0.430575,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243",
+          "s44-a00530",
+          "s44-a01719",
+          "s44-a02605",
+          "s44-a05170",
+          "s44-a06630",
+          "s44-a07174",
+          "s44-a07730",
+          "s44-a08795",
+          "s44-a04418",
+          "s44-a02880",
+          "s44-a04108",
+          "s44-a06649"
+        ],
+        "scores": [
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a05497",
+        "score": 0.349881,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243"
+        ],
+        "scores": [
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00530",
+        "score": 0.349881,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243",
+          "s44-a00530",
+          "s44-a01719",
+          "s44-a02605",
+          "s44-a05170"
+        ],
+        "scores": [
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a06649",
+        "score": 0.427872,
+        "margin": 0.07799099999999998,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243",
+          "s44-a00530",
+          "s44-a01719",
+          "s44-a02605",
+          "s44-a05170",
+          "s44-a06630",
+          "s44-a07174",
+          "s44-a07730",
+          "s44-a08795",
+          "s44-a04418",
+          "s44-a02880",
+          "s44-a04108",
+          "s44-a06649"
+        ],
+        "scores": [
+          0.427872,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a02605",
+        "score": 2.924049306856582,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05497",
+          "s44-a06985",
+          "s44-a09589",
+          "s44-a07243"
+        ],
+        "scores": [
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.009423300041817129,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Target age 47 matches candidates s44-a05497 and s44-a07243",
+          "Target zip_code 180026 matches candidates s44-a06985 and s44-a09589",
+          "Target gender woman matches all candidates",
+          "Target medical_flag asthma matches all candidates",
+          "Target occupation is null for all candidates"
+        ],
+        "rationale": "Multiple candidates share subsets of matching features (age vs. zip code) without a single candidate uniquely aligning across all primary identifiers, leading to ties and ambiguous linkage."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Target age 47 matches candidates s44-a05497 and s44-a07243\",\n    \"Target zip_code 180026 matches candidates s44-a06985 and s44-a09589\",\n    \"Target gender woman matches all candidates\",\n    \"Target medical_flag asthma matches all candidates\",\n    \"Target occupation is null for all candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share subsets of matching features (age vs. zip code) without a single candidate uniquely aligning across all primary identifiers, leading to ties and ambiguous linkage.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 184,
+      "seconds": 12.173965800087899,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-000-missing",
+    "group": "s44-test-1-000",
+    "truth": "s44-a00181",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160000",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.463852,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645"
+        ],
+        "scores": [
+          0.894427,
+          0.430575,
+          0.430575,
+          0.430575
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.463852,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a06294",
+          "s44-a09153",
+          "s44-a02939"
+        ],
+        "scores": [
+          0.894427,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.463852,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a06294",
+          "s44-a09153",
+          "s44-a02939",
+          "s44-a03830",
+          "s44-a04663",
+          "s44-a04953",
+          "s44-a01184",
+          "s44-a04337",
+          "s44-a01465",
+          "s44-a03301",
+          "s44-a06564"
+        ],
+        "scores": [
+          0.894427,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.430575,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.466555,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645"
+        ],
+        "scores": [
+          0.894427,
+          0.427872,
+          0.349881,
+          0.349881
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.466555,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a06294",
+          "s44-a09153",
+          "s44-a02939"
+        ],
+        "scores": [
+          0.894427,
+          0.427872,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.466555,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a06294",
+          "s44-a09153",
+          "s44-a02939",
+          "s44-a03830",
+          "s44-a04663",
+          "s44-a04953",
+          "s44-a01184",
+          "s44-a04337",
+          "s44-a01465",
+          "s44-a03301",
+          "s44-a06564"
+        ],
+        "scores": [
+          0.894427,
+          0.427872,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.349881,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a00181",
+        "score": 9.400950442138415,
+        "margin": 6.476901135281833,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a00181",
+        "score": 0.894427,
+        "margin": 0.463852,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a00062",
+          "s44-a04671",
+          "s44-a00645"
+        ],
+        "scores": [
+          0.894427,
+          0.430575,
+          0.430575,
+          0.430575
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.009362600045278668,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a00181",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (46)",
+          "Zip code matches exactly (160000)",
+          "Gender matches (woman)",
+          "Medical flag matches (asthma)"
+        ],
+        "rationale": "Candidate s44-a00181 shares exact matches across all available primary attributes including age, zip code, gender, and medical flag, with only occupation being null in the target."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a00181\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (46)\",\n    \"Zip code matches exactly (160000)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (asthma)\"\n  ],\n  \"rationale\": \"Candidate s44-a00181 shares exact matches across all available primary attributes including age, zip code, gender, and medical flag, with only occupation being null in the target.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 140,
+      "seconds": 18.909946299972944,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-000-paraphrase",
+    "group": "s44-test-1-000",
+    "truth": "s44-a00181",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160000",
+      "occupation": "Accounting professional",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.411818,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301"
+        ],
+        "scores": [
+          0.588183,
+          0.176365,
+          0.176365,
+          0.0
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.411818,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a09153",
+          "s44-a06294"
+        ],
+        "scores": [
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.411818,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a09153",
+          "s44-a06294",
+          "s44-a01184",
+          "s44-a03150",
+          "s44-a03830",
+          "s44-a04337",
+          "s44-a04663",
+          "s44-a04953",
+          "s44-a07456",
+          "s44-a04865"
+        ],
+        "scores": [
+          0.588183,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.176365,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.53326,
+        "margin": 0.39989299999999994,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301"
+        ],
+        "scores": [
+          0.53326,
+          0.133367,
+          0.06652,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.53326,
+        "margin": 0.39989299999999994,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a09153",
+          "s44-a06294"
+        ],
+        "scores": [
+          0.53326,
+          0.133367,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a00181",
+        "score": 0.53326,
+        "margin": 0.39989299999999994,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301",
+          "s44-a00645",
+          "s44-a04417",
+          "s44-a09153",
+          "s44-a06294",
+          "s44-a01184",
+          "s44-a03150",
+          "s44-a03830",
+          "s44-a04337",
+          "s44-a04663",
+          "s44-a04953",
+          "s44-a07456",
+          "s44-a04865"
+        ],
+        "scores": [
+          0.53326,
+          0.133367,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.06652,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a00181",
+        "score": 8.271648620209092,
+        "margin": 6.476901135281833,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a00181",
+        "score": 0.588183,
+        "margin": 0.411818,
+        "valid": true,
+        "candidates": [
+          "s44-a00181",
+          "s44-a04671",
+          "s44-a00062",
+          "s44-a07301"
+        ],
+        "scores": [
+          0.588183,
+          0.176365,
+          0.176365,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.010977899888530374,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a00181",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.99,
+        "evidence": [
+          "Age matches exactly (46)",
+          "Zip code matches exactly (160000)",
+          "Occupation is semantically compatible (Accounting professional vs Accountant)",
+          "Gender matches exactly (woman)",
+          "Medical flag matches exactly (asthma)"
+        ],
+        "rationale": "Candidate s44-a00181 exhibits an exact match across age, zip code, gender, medical flag, and has a semantically compatible occupation with the target."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a00181\",\n  \"decision\": \"match\",\n  \"confidence\": 0.99,\n  \"evidence\": [\n    \"Age matches exactly (46)\",\n    \"Zip code matches exactly (160000)\",\n    \"Occupation is semantically compatible (Accounting professional vs Accountant)\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (asthma)\"\n  ],\n  \"rationale\": \"Candidate s44-a00181 exhibits an exact match across age, zip code, gender, medical flag, and has a semantically compatible occupation with the target.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 153,
+      "seconds": 4.3748607999878,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-001-age_noise",
+    "group": "s44-test-1-001",
+    "truth": "s44-a07231",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 55,
+      "zip_code": "120001",
+      "occupation": "Driver",
+      "gender": "nonbinary",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203",
+          "s44-a01388",
+          "s44-a02241",
+          "s44-a02671",
+          "s44-a07282"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203",
+          "s44-a01388",
+          "s44-a02241",
+          "s44-a02671",
+          "s44-a07282",
+          "s44-a08062",
+          "s44-a08989",
+          "s44-a09842",
+          "s44-a01803",
+          "s44-a08129",
+          "s44-a09509",
+          "s44-a04823",
+          "s44-a08669"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.564103,
+        "margin": 0.43589700000000003,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203"
+        ],
+        "scores": [
+          0.564103,
+          0.128206,
+          0.128206,
+          0.128206
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.564103,
+        "margin": 0.43589700000000003,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203",
+          "s44-a01388",
+          "s44-a02241",
+          "s44-a02671",
+          "s44-a07282"
+        ],
+        "scores": [
+          0.564103,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.564103,
+        "margin": 0.43589700000000003,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203",
+          "s44-a01388",
+          "s44-a02241",
+          "s44-a02671",
+          "s44-a07282",
+          "s44-a08062",
+          "s44-a08989",
+          "s44-a09842",
+          "s44-a01803",
+          "s44-a08129",
+          "s44-a09509",
+          "s44-a04823",
+          "s44-a08669"
+        ],
+        "scores": [
+          0.564103,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a07231",
+        "score": 10.771343085556648,
+        "margin": 9.953616044225424,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03324",
+          "s44-a04392",
+          "s44-a07203"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.010780399898067117,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a07231",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age is extremely close (54 vs 55)",
+          "Zip code is an exact match (120001)",
+          "Occupation is an exact match (Driver)",
+          "Gender is an exact match (nonbinary)",
+          "Medical flag is an exact match (diabetes)"
+        ],
+        "rationale": "Candidate s44-a07231 matches the target across nearly all high-value attributes including exact zip code, occupation, gender, and medical flag, with a negligible age difference of one year."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a07231\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age is extremely close (54 vs 55)\",\n    \"Zip code is an exact match (120001)\",\n    \"Occupation is an exact match (Driver)\",\n    \"Gender is an exact match (nonbinary)\",\n    \"Medical flag is an exact match (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s44-a07231 matches the target across nearly all high-value attributes including exact zip code, occupation, gender, and medical flag, with a negligible age difference of one year.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 167,
+      "seconds": 15.216820299974643,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-001-changed",
+    "group": "s44-test-1-001",
+    "truth": "s44-a07231",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 54,
+      "zip_code": "120001",
+      "occupation": "Pharmacist",
+      "gender": "nonbinary",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951",
+          "s44-a02105",
+          "s44-a03506",
+          "s44-a09058",
+          "s44-a04958"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951",
+          "s44-a02105",
+          "s44-a03506",
+          "s44-a09058",
+          "s44-a04958",
+          "s44-a08638",
+          "s44-a02694",
+          "s44-a07101",
+          "s44-a00189",
+          "s44-a00754",
+          "s44-a02712",
+          "s44-a06691",
+          "s44-a07164"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.580879,
+        "margin": 0.419121,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951"
+        ],
+        "scores": [
+          0.580879,
+          0.161758,
+          0.161758,
+          0.161758
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.580879,
+        "margin": 0.419121,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951",
+          "s44-a02105",
+          "s44-a03506",
+          "s44-a09058",
+          "s44-a04958"
+        ],
+        "scores": [
+          0.580879,
+          0.161758,
+          0.161758,
+          0.161758,
+          0.161758,
+          0.161758,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.580879,
+        "margin": 0.419121,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951",
+          "s44-a02105",
+          "s44-a03506",
+          "s44-a09058",
+          "s44-a04958",
+          "s44-a08638",
+          "s44-a02694",
+          "s44-a07101",
+          "s44-a00189",
+          "s44-a00754",
+          "s44-a02712",
+          "s44-a06691",
+          "s44-a07164"
+        ],
+        "scores": [
+          0.580879,
+          0.161758,
+          0.161758,
+          0.161758,
+          0.161758,
+          0.161758,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a07231",
+        "score": 8.271648620209092,
+        "margin": 6.688519744065133,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a03073",
+          "s44-a01811",
+          "s44-a05951"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.01092410006094724,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age and medical flag match multiple candidates",
+          "Occupation and ZIP codes diverge across candidates"
+        ],
+        "rationale": "No single candidate uniquely aligns across all key attributes (age, zip_code, occupation, gender, medical_flag); multiple partial matches exist, making the evidence inconclusive."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age and medical flag match multiple candidates\",\n    \"Occupation and ZIP codes diverge across candidates\"\n  ],\n  \"rationale\": \"No single candidate uniquely aligns across all key attributes (age, zip_code, occupation, gender, medical_flag); multiple partial matches exist, making the evidence inconclusive.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 103,
+      "seconds": 18.378682899987325,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-001-clean",
+    "group": "s44-test-1-001",
+    "truth": "s44-a07231",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 54,
+      "zip_code": "120001",
+      "occupation": "Driver",
+      "gender": "nonbinary",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.8,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300"
+        ],
+        "scores": [
+          1.0,
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.8,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300",
+          "s44-a00391",
+          "s44-a02125",
+          "s44-a02321",
+          "s44-a05055"
+        ],
+        "scores": [
+          1.0,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.8,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300",
+          "s44-a00391",
+          "s44-a02125",
+          "s44-a02321",
+          "s44-a05055",
+          "s44-a05476",
+          "s44-a08182",
+          "s44-a09733",
+          "s44-a02241",
+          "s44-a09058",
+          "s44-a00383",
+          "s44-a04958",
+          "s44-a00884"
+        ],
+        "scores": [
+          1.0,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.871794,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300"
+        ],
+        "scores": [
+          1.0,
+          0.128206,
+          0.128206,
+          0.128206
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.871794,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300",
+          "s44-a00391",
+          "s44-a02125",
+          "s44-a02321",
+          "s44-a05055"
+        ],
+        "scores": [
+          1.0,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.79174,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300",
+          "s44-a00391",
+          "s44-a02125",
+          "s44-a02321",
+          "s44-a05055",
+          "s44-a05476",
+          "s44-a08182",
+          "s44-a09733",
+          "s44-a02241",
+          "s44-a09058",
+          "s44-a00383",
+          "s44-a04958",
+          "s44-a00884"
+        ],
+        "scores": [
+          1.0,
+          0.20826,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.128206,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a07231",
+        "score": 11.536744920369383,
+        "margin": 9.953616044225424,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a07231",
+        "score": 1.0,
+        "margin": 0.8,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a02712",
+          "s44-a04392",
+          "s44-a00300"
+        ],
+        "scores": [
+          1.0,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.010935100028291345,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a07231",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches exactly (54)",
+          "zip_code matches exactly (120001)",
+          "occupation matches exactly (Driver)",
+          "gender matches exactly (nonbinary)",
+          "medical_flag matches exactly (diabetes)"
+        ],
+        "rationale": "Candidate s44-a07231 shares an exact match across all five provided fields with the target record."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a07231\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (54)\",\n    \"zip_code matches exactly (120001)\",\n    \"occupation matches exactly (Driver)\",\n    \"gender matches exactly (nonbinary)\",\n    \"medical_flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s44-a07231 shares an exact match across all five provided fields with the target record.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 137,
+      "seconds": 5.657423699973151,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-001-combined_noise",
+    "group": "s44-test-1-001",
+    "truth": "s44-a07231",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 53,
+      "zip_code": "140019",
+      "occupation": null,
+      "gender": "nonbinary",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a04301",
+        "score": 0.447214,
+        "margin": 0.447214,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975"
+        ],
+        "scores": [
+          0.447214,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a04301",
+        "score": 0.447214,
+        "margin": 0.447214,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975",
+          "s44-a00364",
+          "s44-a00381",
+          "s44-a03199",
+          "s44-a04071"
+        ],
+        "scores": [
+          0.447214,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a04301",
+        "score": 0.447214,
+        "margin": 0.447214,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975",
+          "s44-a00364",
+          "s44-a00381",
+          "s44-a03199",
+          "s44-a04071",
+          "s44-a04318",
+          "s44-a04518",
+          "s44-a05828",
+          "s44-a05835",
+          "s44-a06463",
+          "s44-a08669",
+          "s44-a08813",
+          "s44-a08964"
+        ],
+        "scores": [
+          0.447214,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a04301",
+        "score": 0.420168,
+        "margin": 0.366077,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975"
+        ],
+        "scores": [
+          0.420168,
+          0.054091,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a04301",
+        "score": 0.420168,
+        "margin": 0.366077,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975",
+          "s44-a00364",
+          "s44-a00381",
+          "s44-a03199",
+          "s44-a04071"
+        ],
+        "scores": [
+          0.420168,
+          0.054091,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a04301",
+        "score": 0.420168,
+        "margin": 0.366077,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975",
+          "s44-a00364",
+          "s44-a00381",
+          "s44-a03199",
+          "s44-a04071",
+          "s44-a04318",
+          "s44-a04518",
+          "s44-a05828",
+          "s44-a05835",
+          "s44-a06463",
+          "s44-a08669",
+          "s44-a08813",
+          "s44-a08964"
+        ],
+        "scores": [
+          0.420168,
+          0.054091,
+          0.054091,
+          0.054091,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a04301",
+        "score": 2.924049306856582,
+        "margin": 0.9770204435960346,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a04301",
+        "score": 0.447214,
+        "margin": 0.447214,
+        "valid": true,
+        "candidates": [
+          "s44-a04301",
+          "s44-a00026",
+          "s44-a07616",
+          "s44-a08975"
+        ],
+        "scores": [
+          0.447214,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.009185600094497204,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a04301",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.85,
+        "evidence": [
+          "Age matches exactly (53)",
+          "Zip code prefix compatible (140019 vs 140015)",
+          "Gender matches exactly (nonbinary)",
+          "Medical flag matches exactly (diabetes)",
+          "Target occupation is null, candidate is Researcher"
+        ],
+        "rationale": "Candidate s44-a04301 shares exact matches on age, gender, medical flag, and has a highly compatible postal code prefix, providing strong linkage despite the target's missing occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a04301\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"Age matches exactly (53)\",\n    \"Zip code prefix compatible (140019 vs 140015)\",\n    \"Gender matches exactly (nonbinary)\",\n    \"Medical flag matches exactly (diabetes)\",\n    \"Target occupation is null, candidate is Researcher\"\n  ],\n  \"rationale\": \"Candidate s44-a04301 shares exact matches on age, gender, medical flag, and has a highly compatible postal code prefix, providing strong linkage despite the target's missing occupation.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 164,
+      "seconds": 5.783589900005609,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-001-missing",
+    "group": "s44-test-1-001",
+    "truth": "s44-a07231",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 54,
+      "zip_code": "120001",
+      "occupation": null,
+      "gender": "nonbinary",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.44721299999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712"
+        ],
+        "scores": [
+          0.894427,
+          0.447214,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.44721299999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712",
+          "s44-a05767",
+          "s44-a07742",
+          "s44-a09398",
+          "s44-a07737"
+        ],
+        "scores": [
+          0.894427,
+          0.447214,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.44721299999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712",
+          "s44-a05767",
+          "s44-a07742",
+          "s44-a09398",
+          "s44-a07737",
+          "s44-a00391",
+          "s44-a01383",
+          "s44-a01594",
+          "s44-a01792",
+          "s44-a02321",
+          "s44-a03036",
+          "s44-a03073",
+          "s44-a08366"
+        ],
+        "scores": [
+          0.894427,
+          0.447214,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.474259,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712"
+        ],
+        "scores": [
+          0.894427,
+          0.420168,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.474259,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712",
+          "s44-a05767",
+          "s44-a07742",
+          "s44-a09398",
+          "s44-a07737"
+        ],
+        "scores": [
+          0.894427,
+          0.420168,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.474259,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712",
+          "s44-a05767",
+          "s44-a07742",
+          "s44-a09398",
+          "s44-a07737",
+          "s44-a00391",
+          "s44-a01383",
+          "s44-a01594",
+          "s44-a01792",
+          "s44-a02321",
+          "s44-a03036",
+          "s44-a03073",
+          "s44-a08366"
+        ],
+        "scores": [
+          0.894427,
+          0.420168,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a07231",
+        "score": 9.400950442138415,
+        "margin": 6.688519744065133,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a07231",
+        "score": 0.894427,
+        "margin": 0.44721299999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a04958",
+          "s44-a09058",
+          "s44-a02712"
+        ],
+        "scores": [
+          0.894427,
+          0.447214,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.009686400066129863,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a07231",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.98,
+        "evidence": [
+          "Age matches exactly (54)",
+          "Zip code matches exactly (120001)",
+          "Gender matches exactly (nonbinary)",
+          "Medical flag matches exactly (diabetes)"
+        ],
+        "rationale": "Candidate s44-a07231 shares exact matches across all available identifying attributes including age, zip code, gender, and medical flag, with no conflicting data."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a07231\",\n  \"decision\": \"match\",\n  \"confidence\": 0.98,\n  \"evidence\": [\n    \"Age matches exactly (54)\",\n    \"Zip code matches exactly (120001)\",\n    \"Gender matches exactly (nonbinary)\",\n    \"Medical flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s44-a07231 shares exact matches across all available identifying attributes including age, zip code, gender, and medical flag, with no conflicting data.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 138,
+      "seconds": 14.898106099921279,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-test-1-001-paraphrase",
+    "group": "s44-test-1-001",
+    "truth": "s44-a07231",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 54,
+      "zip_code": "120001",
+      "occupation": "Vehicle operator",
+      "gender": "nonbinary",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958",
+          "s44-a09614",
+          "s44-a08638",
+          "s44-a00672",
+          "s44-a01811"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958",
+          "s44-a09614",
+          "s44-a08638",
+          "s44-a00672",
+          "s44-a01811",
+          "s44-a06409",
+          "s44-a07127",
+          "s44-a04016",
+          "s44-a07737",
+          "s44-a02533",
+          "s44-a04392",
+          "s44-a08630",
+          "s44-a08483"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.580879,
+        "margin": 0.419121,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958"
+        ],
+        "scores": [
+          0.580879,
+          0.161758,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.580879,
+        "margin": 0.419121,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958",
+          "s44-a09614",
+          "s44-a08638",
+          "s44-a00672",
+          "s44-a01811"
+        ],
+        "scores": [
+          0.580879,
+          0.161758,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s44-a07231",
+        "score": 0.580879,
+        "margin": 0.419121,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958",
+          "s44-a09614",
+          "s44-a08638",
+          "s44-a00672",
+          "s44-a01811",
+          "s44-a06409",
+          "s44-a07127",
+          "s44-a04016",
+          "s44-a07737",
+          "s44-a02533",
+          "s44-a04392",
+          "s44-a08630",
+          "s44-a08483"
+        ],
+        "scores": [
+          0.580879,
+          0.161758,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s44-a07231",
+        "score": 8.271648620209092,
+        "margin": 6.688519744065133,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s44-a07231",
+        "score": 0.6,
+        "margin": 0.39999999999999997,
+        "valid": true,
+        "candidates": [
+          "s44-a07231",
+          "s44-a09058",
+          "s44-a03073",
+          "s44-a04958"
+        ],
+        "scores": [
+          0.6,
+          0.2,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.008662600070238113,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a07231",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches (54 == 54)",
+          "Zip code matches (120001 == 120001)",
+          "Occupation is semantically compatible (Driver matches Vehicle operator)",
+          "Gender matches (nonbinary == nonbinary)",
+          "Medical flag matches (diabetes == diabetes)"
+        ],
+        "rationale": "Candidate s44-a07231 has exact matches across age, zip code, gender, and medical flag, with an occupation that is semantically compatible with the target."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a07231\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches (54 == 54)\",\n    \"Zip code matches (120001 == 120001)\",\n    \"Occupation is semantically compatible (Driver matches Vehicle operator)\",\n    \"Gender matches (nonbinary == nonbinary)\",\n    \"Medical flag matches (diabetes == diabetes)\"\n  ],\n  \"rationale\": \"Candidate s44-a07231 has exact matches across age, zip code, gender, and medical flag, with an occupation that is semantically compatible with the target.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 167,
+      "seconds": 12.841356500051916,
+      "attempts": 1
+    }
+  }
+]

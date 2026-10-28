@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a01062",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.85,
+    "evidence": [
+      "Age matches exactly (21)",
+      "Gender matches exactly (man)",
+      "Occupation matches exactly (Student)",
+      "Medical flag matches exactly (none)",
+      "Zip code prefix shares strong regional proximity (180006 vs 180011)"
+    ],
+    "rationale": "Candidate s33-a01062 matches all categorical and demographic attributes of the target (age, gender, occupation, medical flag) and has a very close zip code prefix, providing strong linkage."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a01062\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"Age matches exactly (21)\",\n    \"Gender matches exactly (man)\",\n    \"Occupation matches exactly (Student)\",\n    \"Medical flag matches exactly (none)\",\n    \"Zip code prefix shares strong regional proximity (180006 vs 180011)\"\n  ],\n  \"rationale\": \"Candidate s33-a01062 matches all categorical and demographic attributes of the target (age, gender, occupation, medical flag) and has a very close zip code prefix, providing strong linkage.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 164,
+  "seconds": 5.877704699989408,
+  "attempts": 1
+}

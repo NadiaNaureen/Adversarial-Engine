@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "Age discrepancies across all candidates do not align with the target age of 60.",
+      "Zip code prefixes vary significantly from the target zip code prefix."
+    ],
+    "rationale": "None of the candidates meet the criteria for a strong match based on age and geographic proximity, leading to insufficient evidence for linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"Age discrepancies across all candidates do not align with the target age of 60.\",\n    \"Zip code prefixes vary significantly from the target zip code prefix.\"\n  ],\n  \"rationale\": \"None of the candidates meet the criteria for a strong match based on age and geographic proximity, leading to insufficient evidence for linkage.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 109,
+  "seconds": 12.80305089999456,
+  "attempts": 1
+}

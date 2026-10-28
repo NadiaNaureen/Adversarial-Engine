@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "age match (37) across all candidates",
+      "occupation match (Teacher) across all candidates",
+      "gender match (woman) across all candidates",
+      "medical_flag match (none) across all candidates",
+      "zip_code mismatch across all candidates (target 170009 vs candidates 180023, 150011, 150017, 160014)"
+    ],
+    "rationale": "Multiple candidates share identical demographics and occupation with the target, but all have differing zip codes with no clear single best match, making the linkage ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"age match (37) across all candidates\",\n    \"occupation match (Teacher) across all candidates\",\n    \"gender match (woman) across all candidates\",\n    \"medical_flag match (none) across all candidates\",\n    \"zip_code mismatch across all candidates (target 170009 vs candidates 180023, 150011, 150017, 160014)\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographics and occupation with the target, but all have differing zip codes with no clear single best match, making the linkage ambiguous.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 180,
+  "seconds": 12.452838900033385,
+  "attempts": 1
+}

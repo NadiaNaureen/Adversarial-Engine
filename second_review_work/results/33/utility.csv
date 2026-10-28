@@ -1,0 +1,8 @@
+seed,policy,min_k,singleton_fraction,changed_fraction,suppression_fraction,normalized_loss,marginal_tv
+33,original,1,0.9966666666666667,0.0,0.0,0.0,0.0
+33,age_band,1,0.97,0.2,0.0,0.026865671641791163,0.0
+33,postal_prefix,1,0.87,0.2,0.0,0.1,0.0
+33,medical_suppression,1,0.9966666666666667,0.2,0.2,0.2,0.0
+33,occupation_suppression,1,0.9666666666666667,0.2,0.2,0.2,0.5
+33,combined,1,0.028333333333333332,0.8,0.4,0.5268656716417845,0.5
+33,k5,5,0.0,0.6,0.2,0.4233830845771185,1.0

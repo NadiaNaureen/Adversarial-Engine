@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a02774",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches exactly for multiple candidates (36)",
+      "Occupation matches for multiple candidates (Teacher)",
+      "Gender matches for multiple candidates (woman)",
+      "Medical flag matches for multiple candidates (none)",
+      "Zip codes vary significantly among top candidates, with s33-a02774 having a close regional prefix (170020 vs 170009) while another candidate shares the exact zip code but has a different age."
+    ],
+    "rationale": "Multiple candidates share high attribute overlap with the target, but no single candidate provides an exact match across all primary identifiers (exact zip code and exact age combined), resulting in a tie and ambiguous classification."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a02774\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches exactly for multiple candidates (36)\",\n    \"Occupation matches for multiple candidates (Teacher)\",\n    \"Gender matches for multiple candidates (woman)\",\n    \"Medical flag matches for multiple candidates (none)\",\n    \"Zip codes vary significantly among top candidates, with s33-a02774 having a close regional prefix (170020 vs 170009) while another candidate shares the exact zip code but has a different age.\"\n  ],\n  \"rationale\": \"Multiple candidates share high attribute overlap with the target, but no single candidate provides an exact match across all primary identifiers (exact zip code and exact age combined), resulting in a tie and ambiguous classification.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 200,
+  "seconds": 12.57636469998397,
+  "attempts": 1
+}

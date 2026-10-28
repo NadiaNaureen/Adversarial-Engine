@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "accessed": "2026-10-23",
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "paid_standard_input_usd_per_million": 0.3,
+  "paid_standard_output_usd_per_million": 2.5,
+  "exclusions": [
+    "embedding and indexing",
+    "failed attempts with unavailable usage",
+    "unreported billable tokens",
+    "taxes"
+  ],
+  "actual_billing_cost": null
+}

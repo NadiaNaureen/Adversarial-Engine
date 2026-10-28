@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Age matches partially in some candidates but differs significantly in others",
+      "Zip code matches only partially or differs across all candidates",
+      "Occupation 'Researcher' appears but lacks full demographic alignment in a single candidate"
+    ],
+    "rationale": "None of the candidates exhibit a strong enough multi-field match across age, zip code, and occupation to confirm identity linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age matches partially in some candidates but differs significantly in others\",\n    \"Zip code matches only partially or differs across all candidates\",\n    \"Occupation 'Researcher' appears but lacks full demographic alignment in a single candidate\"\n  ],\n  \"rationale\": \"None of the candidates exhibit a strong enough multi-field match across age, zip code, and occupation to confirm identity linkage.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 121,
+  "seconds": 12.740186799899675,
+  "attempts": 1
+}

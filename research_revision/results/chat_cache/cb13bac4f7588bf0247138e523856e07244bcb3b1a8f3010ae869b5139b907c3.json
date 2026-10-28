@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Target age 24 does not match candidate ages 29, 32, 41, and candidate s22-a04855 has differing zip code and gender",
+      "Zip code 170022 matches multiple candidates but none match age and gender simultaneously",
+      "Occupation 'Student' matches all candidates but is too generic for positive identification"
+    ],
+    "rationale": "No single candidate shares a strong multi-field match across age, zip code, and gender with the target."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Target age 24 does not match candidate ages 29, 32, 41, and candidate s22-a04855 has differing zip code and gender\",\n    \"Zip code 170022 matches multiple candidates but none match age and gender simultaneously\",\n    \"Occupation 'Student' matches all candidates but is too generic for positive identification\"\n  ],\n  \"rationale\": \"No single candidate shares a strong multi-field match across age, zip code, and gender with the target.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 156,
+  "seconds": 12.925463700084947,
+  "attempts": 1
+}

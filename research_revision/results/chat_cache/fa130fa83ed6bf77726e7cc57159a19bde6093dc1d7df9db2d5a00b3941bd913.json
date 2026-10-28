@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s44-a08099",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 1.0,
+    "evidence": [
+      "age matches exactly (44)",
+      "zip_code matches exactly (160015)",
+      "occupation matches exactly (Accountant)",
+      "gender matches exactly (woman)",
+      "medical_flag matches exactly (asthma)"
+    ],
+    "rationale": "Candidate s44-a08099 shares all exact attribute values with the target record, providing strong and conclusive evidence of a true identity linkage."
+  },
+  "raw": "{\n  \"candidate_id\": \"s44-a08099\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (44)\",\n    \"zip_code matches exactly (160015)\",\n    \"occupation matches exactly (Accountant)\",\n    \"gender matches exactly (woman)\",\n    \"medical_flag matches exactly (asthma)\"\n  ],\n  \"rationale\": \"Candidate s44-a08099 shares all exact attribute values with the target record, providing strong and conclusive evidence of a true identity linkage.\"\n}",
+  "input_tokens": 389,
+  "output_tokens": 145,
+  "seconds": 8.651742700021714,
+  "attempts": 1
+}

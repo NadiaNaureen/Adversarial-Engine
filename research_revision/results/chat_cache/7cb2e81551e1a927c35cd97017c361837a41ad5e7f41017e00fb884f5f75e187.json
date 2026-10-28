@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Age matches across candidates",
+      "Gender matches across candidates",
+      "Zip code and medical flags conflict or diverge among candidates sharing the same occupation"
+    ],
+    "rationale": "Multiple candidates share identical age, gender, and occupation (Architect) with differing zip codes and medical flags, and none present a uniquely distinguishing combination matching all target fields. Therefore, evidence is insufficient to select a single match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age matches across candidates\",\n    \"Gender matches across candidates\",\n    \"Zip code and medical flags conflict or diverge among candidates sharing the same occupation\"\n  ],\n  \"rationale\": \"Multiple candidates share identical age, gender, and occupation (Architect) with differing zip codes and medical flags, and none present a uniquely distinguishing combination matching all target fields. Therefore, evidence is insufficient to select a single match.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 127,
+  "seconds": 8.829836099990644,
+  "attempts": 1
+}

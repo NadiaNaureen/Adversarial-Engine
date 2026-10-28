@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches across multiple candidates (32)",
+      "Gender matches across multiple candidates (man)",
+      "Medical flag matches across multiple candidates (none)",
+      "Occupation 'Data analysis specialist' is semantically compatible with 'Data analyst' in candidates s33-a08973 and s33-a03575",
+      "Zip codes differ significantly among matching occupation candidates (140019 vs 130029 and 160029)"
+    ],
+    "rationale": "Multiple candidates share identical demographic and occupation attributes with differing zip codes, creating a tie between potential matches without sufficient distinguishing evidence."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across multiple candidates (32)\",\n    \"Gender matches across multiple candidates (man)\",\n    \"Medical flag matches across multiple candidates (none)\",\n    \"Occupation 'Data analysis specialist' is semantically compatible with 'Data analyst' in candidates s33-a08973 and s33-a03575\",\n    \"Zip codes differ significantly among matching occupation candidates (140019 vs 130029 and 160029)\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographic and occupation attributes with differing zip codes, creating a tie between potential matches without sufficient distinguishing evidence.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 183,
+  "seconds": 21.048977499944158,
+  "attempts": 1
+}

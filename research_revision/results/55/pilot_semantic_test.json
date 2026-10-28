@@ -1,0 +1,1989 @@
+[
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-000-age_noise",
+    "group": "s55-test-0-000",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 31,
+      "zip_code": "160000",
+      "occupation": "Civil engineer",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09490",
+        "score": 0.146635,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07537",
+          "s55-a09696",
+          "s55-a01108",
+          "s55-a09490"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07537",
+          "s55-a09696",
+          "s55-a01108",
+          "s55-a09490"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0002848000731319189,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches for multiple candidates",
+          "Gender matches for all candidates",
+          "Zip code prefix overlaps for several candidates but no single candidate aligns strongly across all fields",
+          "Occupations do not match the target's occupation of Civil engineer"
+        ],
+        "rationale": "None of the candidates exhibit strong multi-field alignment with the target. While age and gender match across multiple records, occupations differ significantly, and zip code overlaps are insufficient to establish a definitive match without ambiguity."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches for multiple candidates\",\n    \"Gender matches for all candidates\",\n    \"Zip code prefix overlaps for several candidates but no single candidate aligns strongly across all fields\",\n    \"Occupations do not match the target's occupation of Civil engineer\"\n  ],\n  \"rationale\": \"None of the candidates exhibit strong multi-field alignment with the target. While age and gender match across multiple records, occupations differ significantly, and zip code overlaps are insufficient to establish a definitive match without ambiguity.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 145,
+      "seconds": 13.141803700011224,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-000-changed",
+    "group": "s55-test-0-000",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "160000",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01108",
+        "score": 0.146635,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a03662",
+          "s55-a09490",
+          "s55-a01208"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.146635,
+          0.146635
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a03662",
+          "s55-a09490",
+          "s55-a01208"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.146635,
+          0.146635
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0002914000069722533,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "target vs candidate s55-a01108: age match (30), postal prefix match (160), gender match (woman), medical flag match (none), occupation mismatch (Accountant vs Nurse)",
+          "target vs candidate s55-a03662: age mismatch (30 vs 29), postal prefix mismatch (160 vs 120), occupation match (Accountant), gender match (woman), medical flag match (none)"
+        ],
+        "rationale": "Multiple candidates share partial overlapping attributes with the target, but no single candidate provides a strong match across all key fields (age, zip code, and occupation)."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"target vs candidate s55-a01108: age match (30), postal prefix match (160), gender match (woman), medical flag match (none), occupation mismatch (Accountant vs Nurse)\",\n    \"target vs candidate s55-a03662: age mismatch (30 vs 29), postal prefix mismatch (160 vs 120), occupation match (Accountant), gender match (woman), medical flag match (none)\"\n  ],\n  \"rationale\": \"Multiple candidates share partial overlapping attributes with the target, but no single candidate provides a strong match across all key fields (age, zip code, and occupation).\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 187,
+      "seconds": 12.921146499924362,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-000-clean",
+    "group": "s55-test-0-000",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "160000",
+      "occupation": "Civil engineer",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01108",
+        "score": 0.146635,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a09490",
+          "s55-a07537",
+          "s55-a05678"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a09490",
+          "s55-a07537",
+          "s55-a05678"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0002855999628081918,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender matches for multiple candidates",
+          "no candidate shares strong multi-field exact matches for age, zip code, and occupation simultaneously"
+        ],
+        "rationale": "None of the candidates exhibit sufficient matching attributes across age, occupation, and exact location to surpass ambiguity or insufficient evidence thresholds."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender matches for multiple candidates\",\n    \"no candidate shares strong multi-field exact matches for age, zip code, and occupation simultaneously\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient matching attributes across age, occupation, and exact location to surpass ambiguity or insufficient evidence thresholds.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 104,
+      "seconds": 12.888879499980249,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-000-combined_noise",
+    "group": "s55-test-0-000",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 31,
+      "zip_code": "150018",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09696",
+        "score": 0.409291,
+        "margin": 0.39971100000000004,
+        "valid": true,
+        "candidates": [
+          "s55-a09696",
+          "s55-a07537",
+          "s55-a01108",
+          "s55-a00959"
+        ],
+        "scores": [
+          0.409291,
+          0.00958,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a09696",
+          "s55-a07537",
+          "s55-a01108",
+          "s55-a00959"
+        ],
+        "scores": [
+          0.409291,
+          0.00958,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00027459999546408653,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age 31 matches candidate s55-a09696 and s55-a07537",
+          "Gender woman matches all candidates",
+          "Zip code prefix 150 matches s55-a09696 (150022)",
+          "Target occupation is null"
+        ],
+        "rationale": "While candidate s55-a09696 shares the exact age, gender, and a close postal code prefix, retrieval is a lead rather than proof, and the zipcode does not match fully. Therefore, evidence is insufficient to confirm a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age 31 matches candidate s55-a09696 and s55-a07537\",\n    \"Gender woman matches all candidates\",\n    \"Zip code prefix 150 matches s55-a09696 (150022)\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"While candidate s55-a09696 shares the exact age, gender, and a close postal code prefix, retrieval is a lead rather than proof, and the zipcode does not match fully. Therefore, evidence is insufficient to confirm a definitive match.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 179,
+      "seconds": 12.811148699955083,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-000-missing",
+    "group": "s55-test-0-000",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "160000",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01108",
+        "score": 0.409291,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a09490",
+          "s55-a07537",
+          "s55-a01627"
+        ],
+        "scores": [
+          0.409291,
+          0.409291,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a09490",
+          "s55-a07537",
+          "s55-a01627"
+        ],
+        "scores": [
+          0.409291,
+          0.409291,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00032570003531873226,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Target age is 30, closest candidate age is 30 (s55-a01108)",
+          "Target zip prefix 160000 partially overlaps with candidates in 1600xx",
+          "Target gender is woman, matching all candidates",
+          "Target medical_flag is none, matching multiple candidates"
+        ],
+        "rationale": "Multiple candidates share partial traits such as gender and zip code prefix, but no single candidate has enough distinctive matching fields to definitively link without ambiguity."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Target age is 30, closest candidate age is 30 (s55-a01108)\",\n    \"Target zip prefix 160000 partially overlaps with candidates in 1600xx\",\n    \"Target gender is woman, matching all candidates\",\n    \"Target medical_flag is none, matching multiple candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share partial traits such as gender and zip code prefix, but no single candidate has enough distinctive matching fields to definitively link without ambiguity.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 157,
+      "seconds": 12.809781500021927,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-000-paraphrase",
+    "group": "s55-test-0-000",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "160000",
+      "occupation": "Civil engineering professional",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01108",
+        "score": 0.146635,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a07537",
+          "s55-a09490",
+          "s55-a01627"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01108",
+          "s55-a07537",
+          "s55-a09490",
+          "s55-a01627"
+        ],
+        "scores": [
+          0.146635,
+          0.146635,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0003871999215334654,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "age mismatch across all candidates",
+          "occupation mismatch across all candidates",
+          "medical_flag mismatch for the closest age candidate"
+        ],
+        "rationale": "None of the candidates exhibit strong multi-field alignment with the target profile to establish a confident match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"age mismatch across all candidates\",\n    \"occupation mismatch across all candidates\",\n    \"medical_flag mismatch for the closest age candidate\"\n  ],\n  \"rationale\": \"None of the candidates exhibit strong multi-field alignment with the target profile to establish a confident match.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 100,
+      "seconds": 13.661478900001384,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-001-age_noise",
+    "group": "s55-test-0-001",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 40,
+      "zip_code": "130009",
+      "occupation": "Civil engineer",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01103",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01103",
+          "s55-a09784",
+          "s55-a06292",
+          "s55-a05639"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a01103",
+          "s55-a09784",
+          "s55-a06292",
+          "s55-a05639"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00029070000164210796,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender matches across multiple candidates",
+          "no candidate shares matching age, zip code, occupation, and medical flag simultaneously"
+        ],
+        "rationale": "None of the candidates exhibit a strong enough combination of matching fields to establish a definitive identity linkage."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender matches across multiple candidates\",\n    \"no candidate shares matching age, zip code, occupation, and medical flag simultaneously\"\n  ],\n  \"rationale\": \"None of the candidates exhibit a strong enough combination of matching fields to establish a definitive identity linkage.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 96,
+      "seconds": 13.798778400057927,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-001-changed",
+    "group": "s55-test-0-001",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 41,
+      "zip_code": "130009",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07973",
+        "score": 0.177532,
+        "margin": 0.177532,
+        "valid": true,
+        "candidates": [
+          "s55-a09420",
+          "s55-a01103",
+          "s55-a07973",
+          "s55-a01794"
+        ],
+        "scores": [
+          0.177532,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a09420",
+          "s55-a01103",
+          "s55-a07973",
+          "s55-a01794"
+        ],
+        "scores": [
+          0.177532,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00028609996661543846,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "Age matches for multiple candidates (41)",
+          "Gender matches across all candidates (woman)",
+          "No single candidate matches all key attributes (age, zip code, occupation, medical flag)"
+        ],
+        "rationale": "No single candidate aligns sufficiently across all demographic and medical attributes to establish a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age matches for multiple candidates (41)\",\n    \"Gender matches across all candidates (woman)\",\n    \"No single candidate matches all key attributes (age, zip code, occupation, medical flag)\"\n  ],\n  \"rationale\": \"No single candidate aligns sufficiently across all demographic and medical attributes to establish a definitive match.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 110,
+      "seconds": 12.526140400092117,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-001-clean",
+    "group": "s55-test-0-001",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 41,
+      "zip_code": "130009",
+      "occupation": "Civil engineer",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a04336",
+        "score": 0.177532,
+        "margin": 0.177532,
+        "valid": true,
+        "candidates": [
+          "s55-a04336",
+          "s55-a09420",
+          "s55-a01103",
+          "s55-a09784"
+        ],
+        "scores": [
+          0.177532,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a04336",
+          "s55-a09420",
+          "s55-a01103",
+          "s55-a09784"
+        ],
+        "scores": [
+          0.177532,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00033489998895674944,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches candidate s55-a04336 and s55-a09420 (41)",
+          "Occupation 'Civil engineer' matches candidates s55-a04336 and s55-a09784",
+          "Gender 'woman' matches all candidates",
+          "Zip code and medical flags differ or are inconsistent across top candidates"
+        ],
+        "rationale": "No single candidate aligns across all key identifiers including age, occupation, zip code, and medical flag, resulting in insufficient evidence for a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s55-a04336 and s55-a09420 (41)\",\n    \"Occupation 'Civil engineer' matches candidates s55-a04336 and s55-a09784\",\n    \"Gender 'woman' matches all candidates\",\n    \"Zip code and medical flags differ or are inconsistent across top candidates\"\n  ],\n  \"rationale\": \"No single candidate aligns across all key identifiers including age, occupation, zip code, and medical flag, resulting in insufficient evidence for a definitive match.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 168,
+      "seconds": 13.140302099986002,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-001-combined_noise",
+    "group": "s55-test-0-001",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 40,
+      "zip_code": "130012",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01103",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a06292",
+          "s55-a01103",
+          "s55-a05282",
+          "s55-a07225"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a06292",
+          "s55-a01103",
+          "s55-a05282",
+          "s55-a07225"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00025829998776316643,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "gender matches across all candidates",
+          "medical_flag (asthma) matches across all candidates",
+          "age and zip_code do not align closely with any single candidate"
+        ],
+        "rationale": "Multiple candidates share common traits like gender and medical flag, but none present a compelling combination of age and zip code alignment to establish a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"gender matches across all candidates\",\n    \"medical_flag (asthma) matches across all candidates\",\n    \"age and zip_code do not align closely with any single candidate\"\n  ],\n  \"rationale\": \"Multiple candidates share common traits like gender and medical flag, but none present a compelling combination of age and zip code alignment to establish a definitive match.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 119,
+      "seconds": 11.857043800060637,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-001-missing",
+    "group": "s55-test-0-001",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 41,
+      "zip_code": "130009",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07973",
+        "score": 0.431402,
+        "margin": 0.431402,
+        "valid": true,
+        "candidates": [
+          "s55-a01103",
+          "s55-a09420",
+          "s55-a02618",
+          "s55-a07973"
+        ],
+        "scores": [
+          0.431402,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a07973",
+        "score": 0.431402,
+        "margin": 0.431402,
+        "valid": true,
+        "candidates": [
+          "s55-a01103",
+          "s55-a09420",
+          "s55-a02618",
+          "s55-a07973"
+        ],
+        "scores": [
+          0.431402,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.0002565999748185277,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a07973",
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age matches for candidate s55-a07973 (41)",
+          "Gender matches (woman)",
+          "Medical flag matches (asthma)",
+          "Zip code prefix differs (130009 vs 170017)",
+          "Alternative candidate s55-a09420 shares exact age and closer zip prefix (130027) but lacks medical flag"
+        ],
+        "rationale": "Multiple candidates share key demographic attributes such as age and gender, making it impossible to definitively link a single candidate without stronger distinguishing evidence."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a07973\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches for candidate s55-a07973 (41)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (asthma)\",\n    \"Zip code prefix differs (130009 vs 170017)\",\n    \"Alternative candidate s55-a09420 shares exact age and closer zip prefix (130027) but lacks medical flag\"\n  ],\n  \"rationale\": \"Multiple candidates share key demographic attributes such as age and gender, making it impossible to definitively link a single candidate without stronger distinguishing evidence.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 180,
+      "seconds": 12.399394200067036,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-0-001-paraphrase",
+    "group": "s55-test-0-001",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 41,
+      "zip_code": "130009",
+      "occupation": "Civil engineering professional",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01103",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a04336",
+          "s55-a01103",
+          "s55-a09420",
+          "s55-a09784"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a04336",
+          "s55-a01103",
+          "s55-a09420",
+          "s55-a09784"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00028639996889978647,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches candidate s55-a04336 and s55-a09420",
+          "Zip code prefix partly aligns with s55-a09420 (1300xx)",
+          "Occupation aligns with s55-a04336 and s55-a09784",
+          "Medical flag aligns with s55-a01103"
+        ],
+        "rationale": "No single candidate matches all attributes strongly enough to confirm a definitive linkage; traits are fragmented across multiple candidates."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s55-a04336 and s55-a09420\",\n    \"Zip code prefix partly aligns with s55-a09420 (1300xx)\",\n    \"Occupation aligns with s55-a04336 and s55-a09784\",\n    \"Medical flag aligns with s55-a01103\"\n  ],\n  \"rationale\": \"No single candidate matches all attributes strongly enough to confirm a definitive linkage; traits are fragmented across multiple candidates.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 170,
+      "seconds": 12.592461499967612,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-000-age_noise",
+    "group": "s55-test-1-000",
+    "truth": "s55-a07225",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 47,
+      "zip_code": "160021",
+      "occupation": "Shop assistant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07225",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a06198",
+          "s55-a07602"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a07225",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a06198",
+          "s55-a07602"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00037489994429051876,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a07225",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age is highly close (47 vs 46)",
+          "Zip code is an exact match (160021)",
+          "Occupation is an exact match (Shop assistant)",
+          "Gender is an exact match (woman)",
+          "Medical flag is an exact match (asthma)"
+        ],
+        "rationale": "Candidate s55-a07225 shares nearly all demographic and health attributes with the target, including exact matches on zip code, occupation, gender, and medical flag, with a very minor age difference of 1 year."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a07225\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age is highly close (47 vs 46)\",\n    \"Zip code is an exact match (160021)\",\n    \"Occupation is an exact match (Shop assistant)\",\n    \"Gender is an exact match (woman)\",\n    \"Medical flag is an exact match (asthma)\"\n  ],\n  \"rationale\": \"Candidate s55-a07225 shares nearly all demographic and health attributes with the target, including exact matches on zip code, occupation, gender, and medical flag, with a very minor age difference of 1 year.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 173,
+      "seconds": 8.488408999983221,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-000-changed",
+    "group": "s55-test-1-000",
+    "truth": "s55-a07225",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160021",
+      "occupation": "Student",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07225",
+        "score": 0.588766,
+        "margin": 0.35506400000000005,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a05004",
+          "s55-a09903"
+        ],
+        "scores": [
+          0.588766,
+          0.233702,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a05004",
+          "s55-a09903"
+        ],
+        "scores": [
+          0.588766,
+          0.233702,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.00031530007254332304,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age 46 matches multiple candidates (s55-a07225, s55-a05004, s55-a09903)",
+          "Gender 'woman' matches s55-a07225 and s55-a09903",
+          "Medical flag 'asthma' matches s55-a07225 and s55-a05004",
+          "Zip code prefix 1600 aligns best with s55-a07225 (160021)"
+        ],
+        "rationale": "Candidate s55-a07225 shares age, gender, medical flag, and close zip code, but no single candidate uniquely satisfies all fields completely without conflicts across occupation or location."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age 46 matches multiple candidates (s55-a07225, s55-a05004, s55-a09903)\",\n    \"Gender 'woman' matches s55-a07225 and s55-a09903\",\n    \"Medical flag 'asthma' matches s55-a07225 and s55-a05004\",\n    \"Zip code prefix 1600 aligns best with s55-a07225 (160021)\"\n  ],\n  \"rationale\": \"Candidate s55-a07225 shares age, gender, medical flag, and close zip code, but no single candidate uniquely satisfies all fields completely without conflicts across occupation or location.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 225,
+      "seconds": 18.699239299981855,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-000-clean",
+    "group": "s55-test-1-000",
+    "truth": "s55-a07225",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160021",
+      "occupation": "Shop assistant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07225",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07602",
+          "s55-a06198",
+          "s55-a06277"
+        ],
+        "scores": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": "s55-a07225",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a07225",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07602",
+          "s55-a06198",
+          "s55-a06277"
+        ],
+        "scores": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0005803999956697226,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a07225",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches exactly (46)",
+          "zip_code matches exactly (160021)",
+          "occupation matches exactly (Shop assistant)",
+          "gender matches exactly (woman)",
+          "medical_flag matches exactly (asthma)"
+        ],
+        "rationale": "Candidate s55-a07225 shares all exact attribute values with the target record."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a07225\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (46)\",\n    \"zip_code matches exactly (160021)\",\n    \"occupation matches exactly (Shop assistant)\",\n    \"gender matches exactly (woman)\",\n    \"medical_flag matches exactly (asthma)\"\n  ],\n  \"rationale\": \"Candidate s55-a07225 shares all exact attribute values with the target record.\"\n}",
+      "input_tokens": 391,
+      "output_tokens": 134,
+      "seconds": 4.066644000005908,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-000-combined_noise",
+    "group": "s55-test-1-000",
+    "truth": "s55-a07225",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 47,
+      "zip_code": "150016",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01696",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07747",
+          "s55-a07225",
+          "s55-a06292",
+          "s55-a01696"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a07747",
+          "s55-a07225",
+          "s55-a06292",
+          "s55-a01696"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0002638999139890075,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender match across candidates",
+          "medical_flag match across candidates",
+          "zip_code prefixes do not align closely with target zip_code 150016"
+        ],
+        "rationale": "Multiple candidates share similar biometric and medical attributes, but none present a uniquely strong geographic or distinct identifier match to single out a definitive candidate."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"medical_flag match across candidates\",\n    \"zip_code prefixes do not align closely with target zip_code 150016\"\n  ],\n  \"rationale\": \"Multiple candidates share similar biometric and medical attributes, but none present a uniquely strong geographic or distinct identifier match to single out a definitive candidate.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 118,
+      "seconds": 13.125087200081907,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-000-missing",
+    "group": "s55-test-1-000",
+    "truth": "s55-a07225",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160021",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07225",
+        "score": 0.894427,
+        "margin": 0.894427,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a09903",
+          "s55-a07973"
+        ],
+        "scores": [
+          0.894427,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a07225",
+        "score": 0.894427,
+        "margin": 0.894427,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a09903",
+          "s55-a07973"
+        ],
+        "scores": [
+          0.894427,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0003155999584123492,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a07225",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Exact match on age: 46",
+          "Exact match on zip_code: 160021",
+          "Exact match on gender: woman",
+          "Exact match on medical_flag: asthma",
+          "Candidate occupation is provided while target is null"
+        ],
+        "rationale": "Candidate s55-a07225 matches the target perfectly across all available attributes (age, zip code, gender, and medical flag), providing strong evidence for a unique match."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a07225\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Exact match on age: 46\",\n    \"Exact match on zip_code: 160021\",\n    \"Exact match on gender: woman\",\n    \"Exact match on medical_flag: asthma\",\n    \"Candidate occupation is provided while target is null\"\n  ],\n  \"rationale\": \"Candidate s55-a07225 matches the target perfectly across all available attributes (age, zip code, gender, and medical flag), providing strong evidence for a unique match.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 160,
+      "seconds": 12.77613160002511,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-000-paraphrase",
+    "group": "s55-test-1-000",
+    "truth": "s55-a07225",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 46,
+      "zip_code": "160021",
+      "occupation": "Retail sales assistant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a07225",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a09903",
+          "s55-a06292"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a07225",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a07225",
+          "s55-a07747",
+          "s55-a09903",
+          "s55-a06292"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00029039999935775995,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a07225",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (46)",
+          "Zip code matches exactly (160021)",
+          "Gender matches exactly (woman)",
+          "Medical flag matches exactly (asthma)",
+          "Occupation 'Shop assistant' is semantically compatible with 'Retail sales assistant'"
+        ],
+        "rationale": "Candidate s55-a07225 shares exact matches across age, zip code, gender, and medical flag, with a synonymous occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a07225\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (46)\",\n    \"Zip code matches exactly (160021)\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (asthma)\",\n    \"Occupation 'Shop assistant' is semantically compatible with 'Retail sales assistant'\"\n  ],\n  \"rationale\": \"Candidate s55-a07225 shares exact matches across age, zip code, gender, and medical flag, with a synonymous occupation.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 151,
+      "seconds": 12.906850400031544,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-001-age_noise",
+    "group": "s55-test-1-001",
+    "truth": "s55-a09659",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 60,
+      "zip_code": "150024",
+      "occupation": "Farmer",
+      "gender": "woman",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09659",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a06316",
+          "s55-a09003",
+          "s55-a04832"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a09659",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a06316",
+          "s55-a09003",
+          "s55-a04832"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0002839000662788749,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a09659",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age is extremely close (60 vs 59)",
+          "Zip code matches exactly (150024)",
+          "Occupation matches exactly (Farmer)",
+          "Gender matches exactly (woman)",
+          "Medical flag matches exactly (diabetes)"
+        ],
+        "rationale": "Candidate s55-a09659 shares an exact match on zip code, occupation, gender, and medical flag, with an age difference of only one year, providing strong evidence of a synthetic identity linkage."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a09659\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age is extremely close (60 vs 59)\",\n    \"Zip code matches exactly (150024)\",\n    \"Occupation matches exactly (Farmer)\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s55-a09659 shares an exact match on zip code, occupation, gender, and medical flag, with an age difference of only one year, providing strong evidence of a synthetic identity linkage.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 160,
+      "seconds": 11.513117599999532,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-001-changed",
+    "group": "s55-test-1-001",
+    "truth": "s55-a09659",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 59,
+      "zip_code": "150024",
+      "occupation": "Student",
+      "gender": "woman",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09659",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a09696",
+          "s55-a09414",
+          "s55-a00959"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a09696",
+          "s55-a09414",
+          "s55-a00959"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.0002983999438583851,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Candidate s55-a09659 matches age (59), zip_code (150024), gender (woman), and medical_flag (diabetes), but occupation differs ('Farmer' vs 'Student').",
+          "Candidate s55-a09696 matches occupation ('Student') and gender (woman), but age and medical flag differ."
+        ],
+        "rationale": "No single candidate provides a complete, unambiguous match across all provided fields, with the closest candidate having a conflicting occupation."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Candidate s55-a09659 matches age (59), zip_code (150024), gender (woman), and medical_flag (diabetes), but occupation differs ('Farmer' vs 'Student').\",\n    \"Candidate s55-a09696 matches occupation ('Student') and gender (woman), but age and medical flag differ.\"\n  ],\n  \"rationale\": \"No single candidate provides a complete, unambiguous match across all provided fields, with the closest candidate having a conflicting occupation.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 154,
+      "seconds": 12.885626900009811,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-001-clean",
+    "group": "s55-test-1-001",
+    "truth": "s55-a09659",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 59,
+      "zip_code": "150024",
+      "occupation": "Farmer",
+      "gender": "woman",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09659",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a06316",
+          "s55-a00932",
+          "s55-a09003"
+        ],
+        "scores": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": "s55-a09659",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a09659",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a06316",
+          "s55-a00932",
+          "s55-a09003"
+        ],
+        "scores": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0002986999461427331,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a09659",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches exactly (59)",
+          "zip_code matches exactly (150024)",
+          "occupation matches exactly (Farmer)",
+          "gender matches exactly (woman)",
+          "medical_flag matches exactly (diabetes)"
+        ],
+        "rationale": "Candidate s55-a09659 shares exact attributes across all five fields with the target record, representing a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a09659\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (59)\",\n    \"zip_code matches exactly (150024)\",\n    \"occupation matches exactly (Farmer)\",\n    \"gender matches exactly (woman)\",\n    \"medical_flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s55-a09659 shares exact attributes across all five fields with the target record, representing a definitive match.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 139,
+      "seconds": 8.362187799997628,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-001-combined_noise",
+    "group": "s55-test-1-001",
+    "truth": "s55-a09659",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 58,
+      "zip_code": "140009",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a01103",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a05639",
+          "s55-a04980",
+          "s55-a01103",
+          "s55-a01591"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s55-a05639",
+          "s55-a04980",
+          "s55-a01103",
+          "s55-a01591"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00026190001517534256,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender matches across candidates",
+          "ages do not closely align with target age 58",
+          "medical flags mostly mismatch except for unrelated profiles"
+        ],
+        "rationale": "None of the candidates present a strong overall match across age, zip code, and medical flags to justify a positive linkage."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender matches across candidates\",\n    \"ages do not closely align with target age 58\",\n    \"medical flags mostly mismatch except for unrelated profiles\"\n  ],\n  \"rationale\": \"None of the candidates present a strong overall match across age, zip code, and medical flags to justify a positive linkage.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 108,
+      "seconds": 12.829796699923463,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-001-missing",
+    "group": "s55-test-1-001",
+    "truth": "s55-a09659",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 59,
+      "zip_code": "150024",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09659",
+        "score": 0.894427,
+        "margin": 0.894427,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a07537",
+          "s55-a09414",
+          "s55-a00959"
+        ],
+        "scores": [
+          0.894427,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a09659",
+        "score": 0.894427,
+        "margin": 0.894427,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a07537",
+          "s55-a09414",
+          "s55-a00959"
+        ],
+        "scores": [
+          0.894427,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0002589999930933118,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a09659",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (59)",
+          "Zip code matches exactly (150024)",
+          "Gender matches exactly (woman)",
+          "Medical flag matches exactly (diabetes)"
+        ],
+        "rationale": "Candidate s55-a09659 shares an exact match across all available features including age, zip code, gender, and medical flag, with occupation being null in the target."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a09659\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (59)\",\n    \"Zip code matches exactly (150024)\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s55-a09659 shares an exact match across all available features including age, zip code, gender, and medical flag, with occupation being null in the target.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 140,
+      "seconds": 12.738462599925697,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 55,
+    "target_id": "s55-test-1-001-paraphrase",
+    "group": "s55-test-1-001",
+    "truth": "s55-a09659",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 59,
+      "zip_code": "150024",
+      "occupation": "Agricultural worker",
+      "gender": "woman",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s55-a09659",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a04532",
+          "s55-a00932",
+          "s55-a06316"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s55-a09659",
+        "score": 0.588766,
+        "margin": 0.588766,
+        "valid": true,
+        "candidates": [
+          "s55-a09659",
+          "s55-a04532",
+          "s55-a00932",
+          "s55-a06316"
+        ],
+        "scores": [
+          0.588766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0002842999529093504,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s55-a09659",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.98,
+        "evidence": [
+          "Exact match on age: 59",
+          "Exact match on zip_code: 150024",
+          "Semantically compatible occupation: Agricultural worker vs Farmer",
+          "Exact match on gender: woman",
+          "Exact match on medical_flag: diabetes"
+        ],
+        "rationale": "Candidate s55-a09659 matches the target on all available attributes, including age, zip code, gender, medical flag, and a semantically compatible occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s55-a09659\",\n  \"decision\": \"match\",\n  \"confidence\": 0.98,\n  \"evidence\": [\n    \"Exact match on age: 59\",\n    \"Exact match on zip_code: 150024\",\n    \"Semantically compatible occupation: Agricultural worker vs Farmer\",\n    \"Exact match on gender: woman\",\n    \"Exact match on medical_flag: diabetes\"\n  ],\n  \"rationale\": \"Candidate s55-a09659 matches the target on all available attributes, including age, zip code, gender, medical flag, and a semantically compatible occupation.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 159,
+      "seconds": 13.091481899959035,
+      "attempts": 1
+    }
+  }
+]

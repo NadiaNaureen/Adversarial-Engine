@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Gender matches across multiple candidates",
+      "No single candidate matches both age (51) and zip code prefix (180009)"
+    ],
+    "rationale": "No candidate sufficiently aligns with both the age and zip code of the target record to establish a strong linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Gender matches across multiple candidates\",\n    \"No single candidate matches both age (51) and zip code prefix (180009)\"\n  ],\n  \"rationale\": \"No candidate sufficiently aligns with both the age and zip code of the target record to establish a strong linkage.\"\n}",
+  "input_tokens": 380,
+  "output_tokens": 104,
+  "seconds": 20.44750320003368,
+  "attempts": 1
+}

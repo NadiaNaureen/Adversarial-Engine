@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "gender match across candidates",
+      "medical_flag match across candidates",
+      "zip_code prefixes do not align closely with target zip_code 150016"
+    ],
+    "rationale": "Multiple candidates share similar biometric and medical attributes, but none present a uniquely strong geographic or distinct identifier match to single out a definitive candidate."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"medical_flag match across candidates\",\n    \"zip_code prefixes do not align closely with target zip_code 150016\"\n  ],\n  \"rationale\": \"Multiple candidates share similar biometric and medical attributes, but none present a uniquely strong geographic or distinct identifier match to single out a definitive candidate.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 118,
+  "seconds": 13.125087200081907,
+  "attempts": 1
+}

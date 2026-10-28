@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Candidate s22-a01657 matches age (64), zip_code (180021), gender (woman), and medical_flag (hypertension), but occupation differs (Farmer vs Architect).",
+      "Candidate s22-a09310 matches occupation (Architect) and medical_flag (hypertension), but gender differs (man vs woman) and age/zip differ."
+    ],
+    "rationale": "No single candidate provides a full match across all target fields, particularly regarding the specific combination of occupation, age, and gender. Therefore, evidence is insufficient for a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Candidate s22-a01657 matches age (64), zip_code (180021), gender (woman), and medical_flag (hypertension), but occupation differs (Farmer vs Architect).\",\n    \"Candidate s22-a09310 matches occupation (Architect) and medical_flag (hypertension), but gender differs (man vs woman) and age/zip differ.\"\n  ],\n  \"rationale\": \"No single candidate provides a full match across all target fields, particularly regarding the specific combination of occupation, age, and gender. Therefore, evidence is insufficient for a definitive match.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 177,
+  "seconds": 15.892119700089097,
+  "attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches candidate s33-a05359 (32) but zip code differs (110021 vs 140019)",
+      "Zip code prefix matches candidate s33-a07104 and s33-a00255 (1400xx) but ages differ (43 and 28 vs 32)",
+      "Occupation 'Data analyst' matches all candidates",
+      "Gender 'man' matches all candidates"
+    ],
+    "rationale": "No single candidate matches all key attributes (age, zip code) simultaneously. Candidate s33-a05359 shares the correct age but incorrect zip code, while others share zip code prefixes but have mismatched ages."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s33-a05359 (32) but zip code differs (110021 vs 140019)\",\n    \"Zip code prefix matches candidate s33-a07104 and s33-a00255 (1400xx) but ages differ (43 and 28 vs 32)\",\n    \"Occupation 'Data analyst' matches all candidates\",\n    \"Gender 'man' matches all candidates\"\n  ],\n  \"rationale\": \"No single candidate matches all key attributes (age, zip code) simultaneously. Candidate s33-a05359 shares the correct age but incorrect zip code, while others share zip code prefixes but have mismatched ages.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 209,
+  "seconds": 8.45307980000507,
+  "attempts": 1
+}

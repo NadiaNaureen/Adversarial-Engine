@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Target age 37 matches candidates s44-a05749 and s44-a04867",
+      "Target zip_code prefix 120 doesn't uniquely align with any candidate's postal prefix",
+      "Target occupation is null"
+    ],
+    "rationale": "Multiple candidates share the target's age and gender, but differing zip codes and absent occupation data prevent a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Target age 37 matches candidates s44-a05749 and s44-a04867\",\n    \"Target zip_code prefix 120 doesn't uniquely align with any candidate's postal prefix\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"Multiple candidates share the target's age and gender, but differing zip codes and absent occupation data prevent a definitive match.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 138,
+  "seconds": 12.583957199938595,
+  "attempts": 1
+}

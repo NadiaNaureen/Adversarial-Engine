@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches for multiple candidates",
+      "Gender matches for all candidates",
+      "Zip code prefix overlaps for several candidates but no single candidate aligns strongly across all fields",
+      "Occupations do not match the target's occupation of Civil engineer"
+    ],
+    "rationale": "None of the candidates exhibit strong multi-field alignment with the target. While age and gender match across multiple records, occupations differ significantly, and zip code overlaps are insufficient to establish a definitive match without ambiguity."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches for multiple candidates\",\n    \"Gender matches for all candidates\",\n    \"Zip code prefix overlaps for several candidates but no single candidate aligns strongly across all fields\",\n    \"Occupations do not match the target's occupation of Civil engineer\"\n  ],\n  \"rationale\": \"None of the candidates exhibit strong multi-field alignment with the target. While age and gender match across multiple records, occupations differ significantly, and zip code overlaps are insufficient to establish a definitive match without ambiguity.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 145,
+  "seconds": 13.141803700011224,
+  "attempts": 1
+}

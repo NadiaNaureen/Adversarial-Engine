@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a08065",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches (33 vs 33)",
+      "Gender matches (man vs man)",
+      "Occupation compatible (School educator vs Teacher)",
+      "Zip code prefix mismatch (120000 vs 160023)",
+      "Medical flag matches (none vs none)"
+    ],
+    "rationale": "Candidate s33-a08065 matches age, gender, occupation, and medical flag, but the zip code differs significantly, making the linkage ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a08065\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches (33 vs 33)\",\n    \"Gender matches (man vs man)\",\n    \"Occupation compatible (School educator vs Teacher)\",\n    \"Zip code prefix mismatch (120000 vs 160023)\",\n    \"Medical flag matches (none vs none)\"\n  ],\n  \"rationale\": \"Candidate s33-a08065 matches age, gender, occupation, and medical flag, but the zip code differs significantly, making the linkage ambiguous.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 159,
+  "seconds": 11.02397989993915,
+  "attempts": 1
+}

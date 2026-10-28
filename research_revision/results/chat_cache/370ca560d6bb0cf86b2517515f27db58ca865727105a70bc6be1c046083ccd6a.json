@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "gender match across candidates",
+      "medical_flag match with multiple candidates",
+      "age and zip code overlap partially but without distinct distinguishing primary key"
+    ],
+    "rationale": "Multiple candidates share high demographic overlap (gender, medical flag) without a single standout match, and the target lacks key fields like occupation to differentiate them."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"medical_flag match with multiple candidates\",\n    \"age and zip code overlap partially but without distinct distinguishing primary key\"\n  ],\n  \"rationale\": \"Multiple candidates share high demographic overlap (gender, medical flag) without a single standout match, and the target lacks key fields like occupation to differentiate them.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 114,
+  "seconds": 10.156569499988109,
+  "attempts": 1
+}

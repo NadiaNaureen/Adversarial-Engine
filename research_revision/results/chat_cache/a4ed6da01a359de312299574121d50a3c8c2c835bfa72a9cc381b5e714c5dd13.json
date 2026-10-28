@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches 58 for multiple candidates (s22-a03480, s22-a01091, s22-a07471)",
+      "Gender matches 'man' for multiple candidates",
+      "Medical flag matches 'none' for multiple candidates",
+      "Occupation 'Farmer' is semantically compatible with 'Agricultural worker' for multiple candidates",
+      "Zip codes differ across all top age-matching candidates (160015, 160004, 130011 vs target 140005)"
+    ],
+    "rationale": "Multiple candidates share identical matching attributes for age, gender, medical flag, and occupation, but none uniquely match the target's zip code, leading to a tie and ambiguous linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches 58 for multiple candidates (s22-a03480, s22-a01091, s22-a07471)\",\n    \"Gender matches 'man' for multiple candidates\",\n    \"Medical flag matches 'none' for multiple candidates\",\n    \"Occupation 'Farmer' is semantically compatible with 'Agricultural worker' for multiple candidates\",\n    \"Zip codes differ across all top age-matching candidates (160015, 160004, 130011 vs target 140005)\"\n  ],\n  \"rationale\": \"Multiple candidates share identical matching attributes for age, gender, medical flag, and occupation, but none uniquely match the target's zip code, leading to a tie and ambiguous linkage.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 219,
+  "seconds": 2.7639783000340685,
+  "attempts": 1
+}

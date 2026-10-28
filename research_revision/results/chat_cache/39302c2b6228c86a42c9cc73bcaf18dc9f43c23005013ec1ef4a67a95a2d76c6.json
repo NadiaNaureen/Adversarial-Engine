@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Age matches across all candidates (32)",
+      "Gender matches across all candidates (man)",
+      "Medical flag matches across all candidates (none)",
+      "Zip codes differ significantly (target 140019 vs candidates 120023, 170004, 120017, 150016)"
+    ],
+    "rationale": "All candidates share the same age, gender, and medical flag, but none of their zip codes align closely with the target's zip code prefix, and occupation is absent in the target. There is insufficient distinctive evidence to link any single candidate."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age matches across all candidates (32)\",\n    \"Gender matches across all candidates (man)\",\n    \"Medical flag matches across all candidates (none)\",\n    \"Zip codes differ significantly (target 140019 vs candidates 120023, 170004, 120017, 150016)\"\n  ],\n  \"rationale\": \"All candidates share the same age, gender, and medical flag, but none of their zip codes align closely with the target's zip code prefix, and occupation is absent in the target. There is insufficient distinctive evidence to link any single candidate.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 183,
+  "seconds": 11.054722699918784,
+  "attempts": 1
+}

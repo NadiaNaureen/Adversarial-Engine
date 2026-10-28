@@ -1,0 +1,15 @@
+{
+  "research_revision\\build_paper.py": "f78bdf3c497a7467e43fa2173a4fb98570b9532cd5e5d1efc61f1f3f23cf6a99",
+  "research_revision\\build_response.py": "6e0ff9c5f8a310396ef4843a6d6b4569a771dd16f5dd3bcb1a607503dbeecb60",
+  "research_revision\\cloud_pilot.py": "e941f12e010b1d880eeaee248741bea11432a6cb7eaf7fb456fcbc1279d5679c",
+  "research_revision\\cloud_probe.py": "0f8cc879e428029cf339feabc05b2c388e7fff9ffd67a5ff78c0a02c046b8079",
+  "research_revision\\evaluate.py": "5c37f6b81225aa6293b64375149a481e08bac75667472723cb5a8b792519ca02",
+  "research_revision\\finalize.py": "1bdfc90c0c639cd3aa026345d09e79b9d2ca5cc51dbb94fbb23ca408130785a0",
+  "research_revision\\package_evidence.py": "3b870c726cedafe46193cef344c4d7e7345b4c9d007adf6c5d1a71ac961f0341",
+  "research_revision\\record_final_qa.py": "e85d2c0ba8c961e720dd60a71ca561126d992524284b9a7aad66679952ab2cc6",
+  "research_revision\\refresh_utility.py": "e93ec385a7e2a1aa31ff767b5672f6cf5c28a3acc0b48ed94b596a66c13e7a2d",
+  "research_revision\\test_evaluation.py": "dfcdbd346d20ca7ad822e3fc5499042eed814b6f948a6bd6b745741ebac74eec",
+  "research_revision\\validate_artifacts.py": "9f92f538af82f0c5a9e6d8954555a9c1c84a84d8391ff180509fa2ea771f90ab",
+  "research_revision\\verify_references.py": "7655b6914ec6bbacb04ab26195faf7655e2b15b15910ee188c945907e5c46058",
+  "research_revision\\__init__.py": "27eb9a12f3577eb846d9d3c799ff35a2cab5d4dc977c05db22f0871636bf5998"
+}

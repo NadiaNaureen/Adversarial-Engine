@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches multiple candidates",
+      "Zip codes do not match any candidate precisely",
+      "Medical flag and gender match multiple candidates"
+    ],
+    "rationale": "Multiple candidates share exact matches for age, gender, and medical flag, but none match the zip code and the target occupation is missing, leading to an ambiguous tie."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches multiple candidates\",\n    \"Zip codes do not match any candidate precisely\",\n    \"Medical flag and gender match multiple candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share exact matches for age, gender, and medical flag, but none match the zip code and the target occupation is missing, leading to an ambiguous tie.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 111,
+  "seconds": 2.240673699998297,
+  "attempts": 1
+}

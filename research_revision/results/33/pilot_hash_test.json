@@ -1,0 +1,5836 @@
+[
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-000-age_noise",
+    "group": "s33-test-0-000",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 32,
+      "zip_code": "120000",
+      "occupation": "Teacher",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a03586",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a03586",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916",
+          "s33-a06267",
+          "s33-a06887",
+          "s33-a01929",
+          "s33-a02007"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.143516,
+          0.143516
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a03586",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916",
+          "s33-a06267",
+          "s33-a06887",
+          "s33-a01929",
+          "s33-a02007",
+          "s33-a02651",
+          "s33-a03573",
+          "s33-a00301",
+          "s33-a00958",
+          "s33-a05370",
+          "s33-a06570",
+          "s33-a07030",
+          "s33-a07231"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.225875,
+          0.202367,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a03586",
+        "score": 0.447007,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916"
+        ],
+        "scores": [
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a03586",
+        "score": 0.447007,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916",
+          "s33-a06267",
+          "s33-a06887",
+          "s33-a01929",
+          "s33-a02007"
+        ],
+        "scores": [
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a03586",
+        "score": 0.447007,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916",
+          "s33-a06267",
+          "s33-a06887",
+          "s33-a01929",
+          "s33-a02007",
+          "s33-a02651",
+          "s33-a03573",
+          "s33-a00301",
+          "s33-a00958",
+          "s33-a05370",
+          "s33-a06570",
+          "s33-a07030",
+          "s33-a07231"
+        ],
+        "scores": [
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.223686,
+          0.208508,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a03740",
+        "score": 5.239102044489917,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03740",
+          "s33-a03586",
+          "s33-a04551",
+          "s33-a05916"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.00621090002823621,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age matches across multiple candidates",
+          "Occupation matches across multiple candidates",
+          "Gender matches across multiple candidates",
+          "Medical flag matches across multiple candidates",
+          "Multiple candidates share compatible postal prefixes"
+        ],
+        "rationale": "Multiple candidates share identical demographic and occupational attributes with varying zip codes, leading to a tie without definitive distinguishing evidence."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across multiple candidates\",\n    \"Occupation matches across multiple candidates\",\n    \"Gender matches across multiple candidates\",\n    \"Medical flag matches across multiple candidates\",\n    \"Multiple candidates share compatible postal prefixes\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographic and occupational attributes with varying zip codes, leading to a tie without definitive distinguishing evidence.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 116,
+      "seconds": 12.358477900037542,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-000-changed",
+    "group": "s33-test-0-000",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 33,
+      "zip_code": "120000",
+      "occupation": "Student",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00049",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00049",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781",
+          "s33-a02059",
+          "s33-a02807",
+          "s33-a03554",
+          "s33-a03972"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00049",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781",
+          "s33-a02059",
+          "s33-a02807",
+          "s33-a03554",
+          "s33-a03972",
+          "s33-a04675",
+          "s33-a05197",
+          "s33-a06661",
+          "s33-a06844",
+          "s33-a07884",
+          "s33-a01893",
+          "s33-a00908",
+          "s33-a07614"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00049",
+        "score": 0.464922,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781"
+        ],
+        "scores": [
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00049",
+        "score": 0.464922,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781",
+          "s33-a02059",
+          "s33-a02807",
+          "s33-a03554",
+          "s33-a03972"
+        ],
+        "scores": [
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00049",
+        "score": 0.464922,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781",
+          "s33-a02059",
+          "s33-a02807",
+          "s33-a03554",
+          "s33-a03972",
+          "s33-a04675",
+          "s33-a05197",
+          "s33-a06661",
+          "s33-a06844",
+          "s33-a07884",
+          "s33-a01893",
+          "s33-a00908",
+          "s33-a07614"
+        ],
+        "scores": [
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.464922,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a00049",
+        "score": 4.99802502530223,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00049",
+          "s33-a00595",
+          "s33-a00759",
+          "s33-a01781"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.008549800026230514,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "age matches for all candidates",
+          "gender matches for all candidates",
+          "occupation matches for all candidates",
+          "medical_flag matches for all candidates",
+          "zip_code differs significantly across all candidates and does not match target"
+        ],
+        "rationale": "All candidates share identical demographic and occupational attributes with the target, but their zip codes are completely distinct from the target and from each other, leaving no distinguishing evidence to select a single match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"age matches for all candidates\",\n    \"gender matches for all candidates\",\n    \"occupation matches for all candidates\",\n    \"medical_flag matches for all candidates\",\n    \"zip_code differs significantly across all candidates and does not match target\"\n  ],\n  \"rationale\": \"All candidates share identical demographic and occupational attributes with the target, but their zip codes are completely distinct from the target and from each other, leaving no distinguishing evidence to select a single match.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 141,
+      "seconds": 6.911656799959019,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-000-clean",
+    "group": "s33-test-0-000",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 33,
+      "zip_code": "120000",
+      "occupation": "Teacher",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00855",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00855",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292",
+          "s33-a01566",
+          "s33-a03286",
+          "s33-a03842",
+          "s33-a06924"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00855",
+        "score": 0.571758,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292",
+          "s33-a01566",
+          "s33-a03286",
+          "s33-a03842",
+          "s33-a06924",
+          "s33-a07217",
+          "s33-a07372",
+          "s33-a08065",
+          "s33-a08444",
+          "s33-a09512",
+          "s33-a07614",
+          "s33-a03669",
+          "s33-a00908"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758,
+          0.143516,
+          0.143516,
+          0.143516
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00855",
+        "score": 0.447007,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292"
+        ],
+        "scores": [
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00855",
+        "score": 0.447007,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292",
+          "s33-a01566",
+          "s33-a03286",
+          "s33-a03842",
+          "s33-a06924"
+        ],
+        "scores": [
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00855",
+        "score": 0.447007,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292",
+          "s33-a01566",
+          "s33-a03286",
+          "s33-a03842",
+          "s33-a06924",
+          "s33-a07217",
+          "s33-a07372",
+          "s33-a08065",
+          "s33-a08444",
+          "s33-a09512",
+          "s33-a07614",
+          "s33-a03669",
+          "s33-a00908"
+        ],
+        "scores": [
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.447007,
+          0.014813,
+          0.014813,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a07217",
+        "score": 5.239102044489917,
+        "margin": 0.24107701918768676,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02010",
+          "s33-a06934",
+          "s33-a00855",
+          "s33-a01292"
+        ],
+        "scores": [
+          0.571758,
+          0.571758,
+          0.571758,
+          0.571758
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.008001000038348138,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age matches across all candidates (33)",
+          "Occupation matches across all candidates (Teacher)",
+          "Gender matches across all candidates (man)",
+          "Medical flag matches across all candidates (none)",
+          "Zip codes differ and do not strongly link to a single candidate"
+        ],
+        "rationale": "Multiple candidates share identical demographic and occupational attributes except for differing zip codes, making it impossible to confidently select a single match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches across all candidates (33)\",\n    \"Occupation matches across all candidates (Teacher)\",\n    \"Gender matches across all candidates (man)\",\n    \"Medical flag matches across all candidates (none)\",\n    \"Zip codes differ and do not strongly link to a single candidate\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographic and occupational attributes except for differing zip codes, making it impossible to confidently select a single match.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 133,
+      "seconds": 15.017056499957107,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-000-combined_noise",
+    "group": "s33-test-0-000",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 34,
+      "zip_code": "170000",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00163",
+        "score": 0.407035,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770"
+        ],
+        "scores": [
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a08623",
+        "score": 0.50077,
+        "margin": 0.09373500000000007,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770",
+          "s33-a08623",
+          "s33-a04695",
+          "s33-a06625",
+          "s33-a01782"
+        ],
+        "scores": [
+          0.50077,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a08623",
+        "score": 0.50077,
+        "margin": 0.09373500000000007,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770",
+          "s33-a08623",
+          "s33-a04695",
+          "s33-a06625",
+          "s33-a01782",
+          "s33-a02458",
+          "s33-a02738",
+          "s33-a02916",
+          "s33-a03694",
+          "s33-a04147",
+          "s33-a04782",
+          "s33-a04818",
+          "s33-a09158"
+        ],
+        "scores": [
+          0.50077,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00163",
+        "score": 0.263466,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770"
+        ],
+        "scores": [
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a08623",
+        "score": 0.63962,
+        "margin": 0.376154,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770",
+          "s33-a08623",
+          "s33-a04695",
+          "s33-a06625",
+          "s33-a01782"
+        ],
+        "scores": [
+          0.63962,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a08623",
+        "score": 0.63962,
+        "margin": 0.376154,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770",
+          "s33-a08623",
+          "s33-a04695",
+          "s33-a06625",
+          "s33-a01782",
+          "s33-a02458",
+          "s33-a02738",
+          "s33-a02916",
+          "s33-a03694",
+          "s33-a04147",
+          "s33-a04782",
+          "s33-a04818",
+          "s33-a09158"
+        ],
+        "scores": [
+          0.63962,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a01979",
+        "score": 9.581287328804603,
+        "margin": 6.419958768893826,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a07803",
+          "s33-a00163",
+          "s33-a02525",
+          "s33-a07770"
+        ],
+        "scores": [
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0068848999217152596,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "Zip code matches candidate s33-a07803, but age differs significantly (34 vs 50).",
+          "Age and gender match candidates s33-a00163, s33-a02525, and s33-a07770, but their zip codes do not match the target."
+        ],
+        "rationale": "No single candidate shares both the exact age and zip code with the target, and multiple candidates tie on partial attributes."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Zip code matches candidate s33-a07803, but age differs significantly (34 vs 50).\",\n    \"Age and gender match candidates s33-a00163, s33-a02525, and s33-a07770, but their zip codes do not match the target.\"\n  ],\n  \"rationale\": \"No single candidate shares both the exact age and zip code with the target, and multiple candidates tie on partial attributes.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 155,
+      "seconds": 7.250883499975316,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-000-missing",
+    "group": "s33-test-0-000",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 33,
+      "zip_code": "120000",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00474",
+        "score": 0.407035,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474"
+        ],
+        "scores": [
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00059",
+        "score": 0.407035,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474",
+          "s33-a05269",
+          "s33-a05865",
+          "s33-a07860",
+          "s33-a00059"
+        ],
+        "scores": [
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00059",
+        "score": 0.407035,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474",
+          "s33-a05269",
+          "s33-a05865",
+          "s33-a07860",
+          "s33-a00059",
+          "s33-a00434",
+          "s33-a00579",
+          "s33-a01215",
+          "s33-a01311",
+          "s33-a03472",
+          "s33-a08615",
+          "s33-a09397",
+          "s33-a09685"
+        ],
+        "scores": [
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00474",
+        "score": 0.263466,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474"
+        ],
+        "scores": [
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00059",
+        "score": 0.263466,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474",
+          "s33-a05269",
+          "s33-a05865",
+          "s33-a07860",
+          "s33-a00059"
+        ],
+        "scores": [
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00059",
+        "score": 0.263466,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474",
+          "s33-a05269",
+          "s33-a05865",
+          "s33-a07860",
+          "s33-a00059",
+          "s33-a00434",
+          "s33-a00579",
+          "s33-a01215",
+          "s33-a01311",
+          "s33-a03472",
+          "s33-a08615",
+          "s33-a09397",
+          "s33-a09685"
+        ],
+        "scores": [
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466,
+          0.263466
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a00056",
+        "score": 3.161328559910777,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a00474"
+        ],
+        "scores": [
+          0.407035,
+          0.407035,
+          0.407035,
+          0.407035
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.006887299939990044,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "age matches across candidates",
+          "gender matches across candidates",
+          "medical_flag matches across candidates",
+          "zip_code does not match target for any candidate",
+          "occupation is missing in target"
+        ],
+        "rationale": "Multiple candidates share identical matching demographic attributes (age, gender, medical flag) with no distinctive zip code or occupation data in the target to differentiate them."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"age matches across candidates\",\n    \"gender matches across candidates\",\n    \"medical_flag matches across candidates\",\n    \"zip_code does not match target for any candidate\",\n    \"occupation is missing in target\"\n  ],\n  \"rationale\": \"Multiple candidates share identical matching demographic attributes (age, gender, medical flag) with no distinctive zip code or occupation data in the target to differentiate them.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 128,
+      "seconds": 7.5801553999772295,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-000-paraphrase",
+    "group": "s33-test-0-000",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 33,
+      "zip_code": "120000",
+      "occupation": "School educator",
+      "gender": "man",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00908",
+        "score": 0.143516,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311"
+        ],
+        "scores": [
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00059",
+        "score": 0.143516,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311",
+          "s33-a03842",
+          "s33-a00059",
+          "s33-a01215",
+          "s33-a04454"
+        ],
+        "scores": [
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00059",
+        "score": 0.143516,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311",
+          "s33-a03842",
+          "s33-a00059",
+          "s33-a01215",
+          "s33-a04454",
+          "s33-a00366",
+          "s33-a00932",
+          "s33-a03624",
+          "s33-a06934",
+          "s33-a07103",
+          "s33-a08909",
+          "s33-a09387",
+          "s33-a09543"
+        ],
+        "scores": [
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00908",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00059",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311",
+          "s33-a03842",
+          "s33-a00059",
+          "s33-a01215",
+          "s33-a04454"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00059",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311",
+          "s33-a03842",
+          "s33-a00059",
+          "s33-a01215",
+          "s33-a04454",
+          "s33-a00366",
+          "s33-a00932",
+          "s33-a03624",
+          "s33-a06934",
+          "s33-a07103",
+          "s33-a08909",
+          "s33-a09387",
+          "s33-a09543"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a00056",
+        "score": 2.006249659574896,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00908",
+          "s33-a07614",
+          "s33-a09205",
+          "s33-a01311"
+        ],
+        "scores": [
+          0.143516,
+          0.143516,
+          0.143516,
+          0.143516
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.008288500015623868,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "Age matches across all candidates (33)",
+          "Gender matches across all candidates (man)",
+          "Medical flag matches across all candidates (none)",
+          "Zip codes do not match the target zip code (120000)",
+          "Occupations do not match the target occupation (School educator)"
+        ],
+        "rationale": "None of the candidates share a matching zip code or compatible occupation with the target, leaving only baseline demographic agreements which are insufficient for a positive linkage."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age matches across all candidates (33)\",\n    \"Gender matches across all candidates (man)\",\n    \"Medical flag matches across all candidates (none)\",\n    \"Zip codes do not match the target zip code (120000)\",\n    \"Occupations do not match the target occupation (School educator)\"\n  ],\n  \"rationale\": \"None of the candidates share a matching zip code or compatible occupation with the target, leaving only baseline demographic agreements which are insufficient for a positive linkage.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 148,
+      "seconds": 9.079621999990195,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-001-age_noise",
+    "group": "s33-test-0-001",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 29,
+      "zip_code": "110010",
+      "occupation": "Shop assistant",
+      "gender": "woman",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a06660",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a06660",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753",
+          "s33-a00472",
+          "s33-a07386",
+          "s33-a01984",
+          "s33-a07251"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a06660",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753",
+          "s33-a00472",
+          "s33-a07386",
+          "s33-a01984",
+          "s33-a07251",
+          "s33-a07894",
+          "s33-a08432",
+          "s33-a09914",
+          "s33-a00433",
+          "s33-a02861",
+          "s33-a03456",
+          "s33-a04514",
+          "s33-a07158"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a06660",
+        "score": 0.50327,
+        "margin": 0.49673,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.50327,
+          0.00654,
+          0.00654,
+          0.00654
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a06660",
+        "score": 0.50327,
+        "margin": 0.406104,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753",
+          "s33-a00472",
+          "s33-a07386",
+          "s33-a01984",
+          "s33-a07251"
+        ],
+        "scores": [
+          0.50327,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.00654,
+          0.00654,
+          0.00654,
+          0.00654
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a06660",
+        "score": 0.50327,
+        "margin": 0.406104,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753",
+          "s33-a00472",
+          "s33-a07386",
+          "s33-a01984",
+          "s33-a07251",
+          "s33-a07894",
+          "s33-a08432",
+          "s33-a09914",
+          "s33-a00433",
+          "s33-a02861",
+          "s33-a03456",
+          "s33-a04514",
+          "s33-a07158"
+        ],
+        "scores": [
+          0.50327,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.00654,
+          0.00654,
+          0.00654,
+          0.00654
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a06660",
+        "score": 4.99802502530223,
+        "margin": 0.7198998027739929,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a06660",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a06660",
+          "s33-a06048",
+          "s33-a05805",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.007999099907465279,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a06660",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "age matches (29)",
+          "occupation matches (Shop assistant)",
+          "gender matches (woman)",
+          "medical_flag matches (allergy)"
+        ],
+        "rationale": "Candidate s33-a06660 is the only candidate whose age (29) matches the target completely, alongside exact matches for occupation, gender, and medical flag."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a06660\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"age matches (29)\",\n    \"occupation matches (Shop assistant)\",\n    \"gender matches (woman)\",\n    \"medical_flag matches (allergy)\"\n  ],\n  \"rationale\": \"Candidate s33-a06660 is the only candidate whose age (29) matches the target completely, alongside exact matches for occupation, gender, and medical flag.\"\n}",
+      "input_tokens": 391,
+      "output_tokens": 132,
+      "seconds": 21.524781099986285,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-001-changed",
+    "group": "s33-test-0-001",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "110010",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00380",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00380",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495",
+          "s33-a00782",
+          "s33-a01090",
+          "s33-a06332",
+          "s33-a06699"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00380",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495",
+          "s33-a00782",
+          "s33-a01090",
+          "s33-a06332",
+          "s33-a06699",
+          "s33-a09464",
+          "s33-a01888",
+          "s33-a03028",
+          "s33-a03167",
+          "s33-a05349",
+          "s33-a07966",
+          "s33-a08562",
+          "s33-a09650"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00380",
+        "score": 0.511828,
+        "margin": 0.39910699999999993,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495"
+        ],
+        "scores": [
+          0.511828,
+          0.112721,
+          0.112721,
+          0.023656
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00380",
+        "score": 0.511828,
+        "margin": 0.39910699999999993,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495",
+          "s33-a00782",
+          "s33-a01090",
+          "s33-a06332",
+          "s33-a06699"
+        ],
+        "scores": [
+          0.511828,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.023656
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00380",
+        "score": 0.511828,
+        "margin": 0.39910699999999993,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495",
+          "s33-a00782",
+          "s33-a01090",
+          "s33-a06332",
+          "s33-a06699",
+          "s33-a09464",
+          "s33-a01888",
+          "s33-a03028",
+          "s33-a03167",
+          "s33-a05349",
+          "s33-a07966",
+          "s33-a08562",
+          "s33-a09650"
+        ],
+        "scores": [
+          0.511828,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.112721,
+          0.09481,
+          0.023656,
+          0.023656
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a00380",
+        "score": 4.99802502530223,
+        "margin": 0.7198998027739929,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00380",
+          "s33-a04433",
+          "s33-a07751",
+          "s33-a05495"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.007949099992401898,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches candidate s33-a00380 and s33-a07751",
+          "Zip code matches candidate s33-a04433",
+          "Occupation matches all candidates",
+          "Gender matches all candidates",
+          "Medical flag matches candidate s33-a00380 and s33-a05495"
+        ],
+        "rationale": "No single candidate uniquely matches all target attributes simultaneously across age, zip code, and medical flag."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s33-a00380 and s33-a07751\",\n    \"Zip code matches candidate s33-a04433\",\n    \"Occupation matches all candidates\",\n    \"Gender matches all candidates\",\n    \"Medical flag matches candidate s33-a00380 and s33-a05495\"\n  ],\n  \"rationale\": \"No single candidate uniquely matches all target attributes simultaneously across age, zip code, and medical flag.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 159,
+      "seconds": 13.141052299994044,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-001-clean",
+    "group": "s33-test-0-001",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "110010",
+      "occupation": "Shop assistant",
+      "gender": "woman",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a04313",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a04313",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048",
+          "s33-a08283",
+          "s33-a09952",
+          "s33-a07251",
+          "s33-a00873"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a04313",
+        "score": 0.587649,
+        "margin": 0.41235099999999997,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048",
+          "s33-a08283",
+          "s33-a09952",
+          "s33-a07251",
+          "s33-a00873",
+          "s33-a04055",
+          "s33-a04478",
+          "s33-a05132",
+          "s33-a05509",
+          "s33-a05670",
+          "s33-a08361",
+          "s33-a09375",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a04313",
+        "score": 0.50327,
+        "margin": 0.406104,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048"
+        ],
+        "scores": [
+          0.50327,
+          0.097166,
+          0.00654,
+          0.00654
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a04313",
+        "score": 0.50327,
+        "margin": 0.406104,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048",
+          "s33-a08283",
+          "s33-a09952",
+          "s33-a07251",
+          "s33-a00873"
+        ],
+        "scores": [
+          0.50327,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.00654,
+          0.00654,
+          0.00654
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a04313",
+        "score": 0.50327,
+        "margin": 0.406104,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048",
+          "s33-a08283",
+          "s33-a09952",
+          "s33-a07251",
+          "s33-a00873",
+          "s33-a04055",
+          "s33-a04478",
+          "s33-a05132",
+          "s33-a05509",
+          "s33-a05670",
+          "s33-a08361",
+          "s33-a09375",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.50327,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.097166,
+          0.00654,
+          0.00654,
+          0.00654,
+          0.00654,
+          0.00654
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a04313",
+        "score": 4.99802502530223,
+        "margin": 0.7198998027739929,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a04313",
+          "s33-a03631",
+          "s33-a03707",
+          "s33-a06048"
+        ],
+        "scores": [
+          0.587649,
+          0.175298,
+          0.175298,
+          0.175298
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.007994399988092482,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches for multiple candidates",
+          "Zip codes do not match target",
+          "Occupation matches for multiple candidates",
+          "Medical flags conflict across candidates"
+        ],
+        "rationale": "Multiple candidates share partial attributes such as age, occupation, gender, and medical flag, but none align sufficiently on zip code to establish a definitive match without ambiguity."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches for multiple candidates\",\n    \"Zip codes do not match target\",\n    \"Occupation matches for multiple candidates\",\n    \"Medical flags conflict across candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share partial attributes such as age, occupation, gender, and medical flag, but none align sufficiently on zip code to establish a definitive match without ambiguity.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 118,
+      "seconds": 12.903700599912554,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-001-combined_noise",
+    "group": "s33-test-0-001",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 31,
+      "zip_code": "110019",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a02130",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.0
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a02130",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213",
+          "s33-a02849",
+          "s33-a02671",
+          "s33-a06668",
+          "s33-a07350"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a02130",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213",
+          "s33-a02849",
+          "s33-a02671",
+          "s33-a06668",
+          "s33-a07350",
+          "s33-a09860",
+          "s33-a05092",
+          "s33-a02239",
+          "s33-a05604",
+          "s33-a06245",
+          "s33-a09012",
+          "s33-a06084",
+          "s33-a06902"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a02130",
+        "score": 0.342767,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213"
+        ],
+        "scores": [
+          0.342767,
+          0.342767,
+          0.342767,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a02130",
+        "score": 0.342767,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213",
+          "s33-a02849",
+          "s33-a02671",
+          "s33-a06668",
+          "s33-a07350"
+        ],
+        "scores": [
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a02130",
+        "score": 0.342767,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213",
+          "s33-a02849",
+          "s33-a02671",
+          "s33-a06668",
+          "s33-a07350",
+          "s33-a09860",
+          "s33-a05092",
+          "s33-a02239",
+          "s33-a05604",
+          "s33-a06245",
+          "s33-a09012",
+          "s33-a06084",
+          "s33-a06902"
+        ],
+        "scores": [
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a02671",
+        "score": 3.161328559910777,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a06555",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a06555",
+          "s33-a01994",
+          "s33-a02130",
+          "s33-a02213"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.0
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.006590500008314848,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a06555",
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Zip code matches (110019)",
+          "Gender matches (woman)",
+          "Medical flag matches (allergy)",
+          "Age difference is 3 years (31 vs 34)",
+          "Target occupation is null"
+        ],
+        "rationale": "Multiple candidates share the same zip code, gender, and medical flag with small age discrepancies and no unique identifying attributes like name or target occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a06555\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Zip code matches (110019)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (allergy)\",\n    \"Age difference is 3 years (31 vs 34)\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"Multiple candidates share the same zip code, gender, and medical flag with small age discrepancies and no unique identifying attributes like name or target occupation.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 142,
+      "seconds": 16.30042450001929,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-001-missing",
+    "group": "s33-test-0-001",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "110010",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00556",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00380",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889",
+          "s33-a00380",
+          "s33-a02126",
+          "s33-a02717",
+          "s33-a08424"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00380",
+        "score": 0.429818,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889",
+          "s33-a00380",
+          "s33-a02126",
+          "s33-a02717",
+          "s33-a08424",
+          "s33-a08702",
+          "s33-a01659",
+          "s33-a07317",
+          "s33-a06801",
+          "s33-a00397",
+          "s33-a02741",
+          "s33-a04205",
+          "s33-a04798"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00556",
+        "score": 0.342767,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889"
+        ],
+        "scores": [
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00380",
+        "score": 0.342767,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889",
+          "s33-a00380",
+          "s33-a02126",
+          "s33-a02717",
+          "s33-a08424"
+        ],
+        "scores": [
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00380",
+        "score": 0.342767,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889",
+          "s33-a00380",
+          "s33-a02126",
+          "s33-a02717",
+          "s33-a08424",
+          "s33-a08702",
+          "s33-a01659",
+          "s33-a07317",
+          "s33-a06801",
+          "s33-a00397",
+          "s33-a02741",
+          "s33-a04205",
+          "s33-a04798"
+        ],
+        "scores": [
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.342767,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a06801",
+        "score": 3.161328559910777,
+        "margin": 0.24107701918768631,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01687",
+          "s33-a03028",
+          "s33-a00556",
+          "s33-a09889"
+        ],
+        "scores": [
+          0.429818,
+          0.429818,
+          0.429818,
+          0.429818
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.006211700034327805,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "multiple candidates match age and gender",
+          "none of the candidates share the exact zip code while matching all other demographic and medical criteria uniquely"
+        ],
+        "rationale": "There are multiple candidates sharing the target's age (30), gender, and medical flag, but none match the target's zip code uniquely, making a definitive single linkage impossible."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"multiple candidates match age and gender\",\n    \"none of the candidates share the exact zip code while matching all other demographic and medical criteria uniquely\"\n  ],\n  \"rationale\": \"There are multiple candidates sharing the target's age (30), gender, and medical flag, but none match the target's zip code uniquely, making a definitive single linkage impossible.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 119,
+      "seconds": 13.154155500000343,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-0-001-paraphrase",
+    "group": "s33-test-0-001",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 30,
+      "zip_code": "110010",
+      "occupation": "Retail sales assistant",
+      "gender": "woman",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a03028",
+        "score": 0.175298,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702"
+        ],
+        "scores": [
+          0.175298,
+          0.175298,
+          0.175298,
+          0.0
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a03028",
+        "score": 0.175298,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702",
+          "s33-a02848",
+          "s33-a06048",
+          "s33-a02237",
+          "s33-a09889"
+        ],
+        "scores": [
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00556",
+        "score": 0.175298,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702",
+          "s33-a02848",
+          "s33-a06048",
+          "s33-a02237",
+          "s33-a09889",
+          "s33-a00556",
+          "s33-a02741",
+          "s33-a02884",
+          "s33-a03246",
+          "s33-a04863",
+          "s33-a05805",
+          "s33-a09433",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.175298,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a03028",
+        "score": 0.057198,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702"
+        ],
+        "scores": [
+          0.057198,
+          0.057198,
+          0.057198,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a03028",
+        "score": 0.057198,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702",
+          "s33-a02848",
+          "s33-a06048",
+          "s33-a02237",
+          "s33-a09889"
+        ],
+        "scores": [
+          0.057198,
+          0.057198,
+          0.057198,
+          0.057198,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00556",
+        "score": 0.057198,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702",
+          "s33-a02848",
+          "s33-a06048",
+          "s33-a02237",
+          "s33-a09889",
+          "s33-a00556",
+          "s33-a02741",
+          "s33-a02884",
+          "s33-a03246",
+          "s33-a04863",
+          "s33-a05805",
+          "s33-a09433",
+          "s33-a09753"
+        ],
+        "scores": [
+          0.057198,
+          0.057198,
+          0.057198,
+          0.057198,
+          0.057198,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a06801",
+        "score": 2.006249659574896,
+        "margin": 0.24107701918768587,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03028",
+          "s33-a04055",
+          "s33-a04313",
+          "s33-a08702"
+        ],
+        "scores": [
+          0.175298,
+          0.175298,
+          0.175298,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.007651900057680905,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Gender matches across multiple candidates",
+          "Medical flag (allergy) matches across multiple candidates",
+          "No single candidate aligns on age, zip code, and occupation simultaneously"
+        ],
+        "rationale": "While several candidates share subsets of features (such as gender and medical flag, or individual matches on age, zip code, or occupation), none of the candidates provide a strong multi-attribute match to uniquely identify the target."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Gender matches across multiple candidates\",\n    \"Medical flag (allergy) matches across multiple candidates\",\n    \"No single candidate aligns on age, zip code, and occupation simultaneously\"\n  ],\n  \"rationale\": \"While several candidates share subsets of features (such as gender and medical flag, or individual matches on age, zip code, or occupation), none of the candidates provide a strong multi-attribute match to uniquely identify the target.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 133,
+      "seconds": 8.88696939998772,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-000-age_noise",
+    "group": "s33-test-1-000",
+    "truth": "s33-a03390",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 35,
+      "zip_code": "170020",
+      "occupation": "Researcher",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00042",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00042",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234",
+          "s33-a03340",
+          "s33-a04367",
+          "s33-a05611",
+          "s33-a09456"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.141247
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00042",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234",
+          "s33-a03340",
+          "s33-a04367",
+          "s33-a05611",
+          "s33-a09456",
+          "s33-a08198",
+          "s33-a05499",
+          "s33-a00508",
+          "s33-a04134",
+          "s33-a05351",
+          "s33-a06591",
+          "s33-a07729",
+          "s33-a01904"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00042",
+        "score": 0.477665,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234"
+        ],
+        "scores": [
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00042",
+        "score": 0.477665,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234",
+          "s33-a03340",
+          "s33-a04367",
+          "s33-a05611",
+          "s33-a09456"
+        ],
+        "scores": [
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00042",
+        "score": 0.477665,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234",
+          "s33-a03340",
+          "s33-a04367",
+          "s33-a05611",
+          "s33-a09456",
+          "s33-a08198",
+          "s33-a05499",
+          "s33-a00508",
+          "s33-a04134",
+          "s33-a05351",
+          "s33-a06591",
+          "s33-a07729",
+          "s33-a01904"
+        ],
+        "scores": [
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a03390",
+        "score": 11.659060813383741,
+        "margin": 3.2328523849150184,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a05906",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00042",
+          "s33-a05906",
+          "s33-a03390",
+          "s33-a04234"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00827449990902096,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a05906",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (35)",
+          "Zip code postal prefix matches closely (170022 vs 170020)",
+          "Occupation matches exactly (Researcher)",
+          "Gender matches (woman)",
+          "Medical flag matches (none)"
+        ],
+        "rationale": "Candidate s33-a05906 shares exact demographic, occupational, and medical attributes with a very close matching zip code, providing strong evidence for a synthetic linkage."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a05906\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (35)\",\n    \"Zip code postal prefix matches closely (170022 vs 170020)\",\n    \"Occupation matches exactly (Researcher)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (none)\"\n  ],\n  \"rationale\": \"Candidate s33-a05906 shares exact demographic, occupational, and medical attributes with a very close matching zip code, providing strong evidence for a synthetic linkage.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 154,
+      "seconds": 13.925062300055288,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-000-changed",
+    "group": "s33-test-1-000",
+    "truth": "s33-a03390",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 36,
+      "zip_code": "170020",
+      "occupation": "Nurse",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00029",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00029",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00215",
+          "s33-a05492"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00029",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00215",
+          "s33-a05492",
+          "s33-a05701",
+          "s33-a07390",
+          "s33-a07516",
+          "s33-a07575",
+          "s33-a07727",
+          "s33-a08159",
+          "s33-a09383",
+          "s33-a09982"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a02774",
+        "score": 0.54698,
+        "margin": 0.09381700000000004,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774"
+        ],
+        "scores": [
+          0.54698,
+          0.453163,
+          0.453163,
+          0.453163
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.54698,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00215",
+          "s33-a05492"
+        ],
+        "scores": [
+          0.54698,
+          0.54698,
+          0.54698,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.54698,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00215",
+          "s33-a05492",
+          "s33-a05701",
+          "s33-a07390",
+          "s33-a07516",
+          "s33-a07575",
+          "s33-a07727",
+          "s33-a08159",
+          "s33-a09383",
+          "s33-a09982"
+        ],
+        "scores": [
+          0.54698,
+          0.54698,
+          0.54698,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163,
+          0.453163
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a02774",
+        "score": 9.146108231242716,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a01866",
+          "s33-a00029",
+          "s33-a08268",
+          "s33-a02774"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.008456600015051663,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Multiple candidates share age (36), occupation (Nurse), gender (woman), and medical_flag (none) with the target, but have differing zip codes.",
+          "Candidate s33-a02774 matches the exact zip code (170020) and demographics, but differs in occupation (Teacher)."
+        ],
+        "rationale": "There is no single candidate that uniquely matches all fields including zip code and occupation simultaneously, leading to an ambiguous tie between multiple partial matches."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Multiple candidates share age (36), occupation (Nurse), gender (woman), and medical_flag (none) with the target, but have differing zip codes.\",\n    \"Candidate s33-a02774 matches the exact zip code (170020) and demographics, but differs in occupation (Teacher).\"\n  ],\n  \"rationale\": \"There is no single candidate that uniquely matches all fields including zip code and occupation simultaneously, leading to an ambiguous tie between multiple partial matches.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 147,
+      "seconds": 14.419514800072648,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-000-clean",
+    "group": "s33-test-1-000",
+    "truth": "s33-a03390",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 36,
+      "zip_code": "170020",
+      "occupation": "Researcher",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.429376,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774"
+        ],
+        "scores": [
+          1.0,
+          0.570624,
+          0.570624,
+          0.570624
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.429376,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774",
+          "s33-a06554",
+          "s33-a04234",
+          "s33-a00256",
+          "s33-a00498"
+        ],
+        "scores": [
+          1.0,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.429376,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774",
+          "s33-a06554",
+          "s33-a04234",
+          "s33-a00256",
+          "s33-a00498",
+          "s33-a03307",
+          "s33-a08024",
+          "s33-a09793",
+          "s33-a08912",
+          "s33-a00228",
+          "s33-a00738",
+          "s33-a00740",
+          "s33-a02768"
+        ],
+        "scores": [
+          1.0,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.570624,
+          0.223825,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.522335,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774"
+        ],
+        "scores": [
+          1.0,
+          0.477665,
+          0.477665,
+          0.477665
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.522335,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774",
+          "s33-a06554",
+          "s33-a04234",
+          "s33-a00256",
+          "s33-a00498"
+        ],
+        "scores": [
+          1.0,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.522335,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774",
+          "s33-a06554",
+          "s33-a04234",
+          "s33-a00256",
+          "s33-a00498",
+          "s33-a03307",
+          "s33-a08024",
+          "s33-a09793",
+          "s33-a08912",
+          "s33-a00228",
+          "s33-a00738",
+          "s33-a00740",
+          "s33-a02768"
+        ],
+        "scores": [
+          1.0,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.477665,
+          0.266725,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a03390",
+        "score": 12.378960616157736,
+        "margin": 3.23285238491502,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a03390",
+        "score": 1.0,
+        "margin": 0.429376,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a02774"
+        ],
+        "scores": [
+          1.0,
+          0.570624,
+          0.570624,
+          0.570624
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.009011400048620999,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a03390",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches exactly (36)",
+          "zip_code matches exactly (170020)",
+          "occupation matches exactly (Researcher)",
+          "gender matches exactly (woman)",
+          "medical_flag matches exactly (none)"
+        ],
+        "rationale": "Candidate s33-a03390 is an exact match across all provided demographic and professional fields."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a03390\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (36)\",\n    \"zip_code matches exactly (170020)\",\n    \"occupation matches exactly (Researcher)\",\n    \"gender matches exactly (woman)\",\n    \"medical_flag matches exactly (none)\"\n  ],\n  \"rationale\": \"Candidate s33-a03390 is an exact match across all provided demographic and professional fields.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 134,
+      "seconds": 1.1480310999322683,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-000-combined_noise",
+    "group": "s33-test-1-000",
+    "truth": "s33-a03390",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 37,
+      "zip_code": "150025",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00466",
+        "score": 0.405391,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466"
+        ],
+        "scores": [
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00441",
+        "score": 0.499442,
+        "margin": 0.094051,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466",
+          "s33-a03467",
+          "s33-a04167",
+          "s33-a05557",
+          "s33-a00441"
+        ],
+        "scores": [
+          0.499442,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00441",
+        "score": 0.499442,
+        "margin": 0.094051,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466",
+          "s33-a03467",
+          "s33-a04167",
+          "s33-a05557",
+          "s33-a00441",
+          "s33-a03386",
+          "s33-a03945",
+          "s33-a04002",
+          "s33-a04400",
+          "s33-a07905",
+          "s33-a08392",
+          "s33-a09570",
+          "s33-a09898"
+        ],
+        "scores": [
+          0.499442,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00466",
+        "score": 0.26209,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466"
+        ],
+        "scores": [
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00441",
+        "score": 0.639064,
+        "margin": 0.376974,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466",
+          "s33-a03467",
+          "s33-a04167",
+          "s33-a05557",
+          "s33-a00441"
+        ],
+        "scores": [
+          0.639064,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00441",
+        "score": 0.639064,
+        "margin": 0.376974,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466",
+          "s33-a03467",
+          "s33-a04167",
+          "s33-a05557",
+          "s33-a00441",
+          "s33-a03386",
+          "s33-a03945",
+          "s33-a04002",
+          "s33-a04400",
+          "s33-a07905",
+          "s33-a08392",
+          "s33-a09570",
+          "s33-a09898"
+        ],
+        "scores": [
+          0.639064,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a05648",
+        "score": 9.581287328804603,
+        "margin": 6.419958768893826,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a04950",
+          "s33-a05873",
+          "s33-a06690",
+          "s33-a00466"
+        ],
+        "scores": [
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.006948000052943826,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "age matches for multiple candidates but zip codes differ",
+          "zip code matches for multiple candidates but ages differ",
+          "occupation is null for target"
+        ],
+        "rationale": "Multiple candidates share partial attribute matches with the target (some match age, others match zip code), but no single candidate provides a comprehensive or unambiguous match across all identifiers."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"age matches for multiple candidates but zip codes differ\",\n    \"zip code matches for multiple candidates but ages differ\",\n    \"occupation is null for target\"\n  ],\n  \"rationale\": \"Multiple candidates share partial attribute matches with the target (some match age, others match zip code), but no single candidate provides a comprehensive or unambiguous match across all identifiers.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 117,
+      "seconds": 16.51892369997222,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-000-missing",
+    "group": "s33-test-1-000",
+    "truth": "s33-a03390",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 36,
+      "zip_code": "170020",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00256",
+        "score": 0.894427,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.405391
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00256",
+        "score": 0.894427,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a00549",
+          "s33-a01073",
+          "s33-a01978"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00256",
+        "score": 0.894427,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a00549",
+          "s33-a01073",
+          "s33-a01978",
+          "s33-a02470",
+          "s33-a02875",
+          "s33-a04169",
+          "s33-a04753",
+          "s33-a06149",
+          "s33-a06644",
+          "s33-a08138",
+          "s33-a09018"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391,
+          0.405391
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.894427,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.26209
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.894427,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a00549",
+          "s33-a01073",
+          "s33-a01978"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.894427,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a00549",
+          "s33-a01073",
+          "s33-a01978",
+          "s33-a02470",
+          "s33-a02875",
+          "s33-a04169",
+          "s33-a04753",
+          "s33-a06149",
+          "s33-a06644",
+          "s33-a08138",
+          "s33-a09018"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209,
+          0.26209
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a02774",
+        "score": 10.301187131578596,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a03390",
+          "s33-a00228"
+        ],
+        "scores": [
+          0.894427,
+          0.894427,
+          0.894427,
+          0.405391
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.0069784000515937805,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age matches across multiple candidates",
+          "Zip code matches across multiple candidates",
+          "Gender matches across multiple candidates"
+        ],
+        "rationale": "Multiple candidates share identical age, zip code, and gender attributes with the target, but lack unique distinguishing features to definitively select one."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across multiple candidates\",\n    \"Zip code matches across multiple candidates\",\n    \"Gender matches across multiple candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share identical age, zip code, and gender attributes with the target, but lack unique distinguishing features to definitively select one.\"\n}",
+      "input_tokens": 380,
+      "output_tokens": 101,
+      "seconds": 9.874395800055936,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-000-paraphrase",
+    "group": "s33-test-1-000",
+    "truth": "s33-a03390",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 36,
+      "zip_code": "170020",
+      "occupation": "Scientific researcher",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00256",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.141247
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00256",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912",
+          "s33-a06554",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a05545"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00256",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912",
+          "s33-a06554",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a00498",
+          "s33-a01978",
+          "s33-a03147",
+          "s33-a03307",
+          "s33-a08024",
+          "s33-a08138",
+          "s33-a09018"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247,
+          0.141247
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.477665,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912"
+        ],
+        "scores": [
+          0.477665,
+          0.477665,
+          0.477665,
+          0.0
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.477665,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912",
+          "s33-a06554",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a05545"
+        ],
+        "scores": [
+          0.477665,
+          0.477665,
+          0.477665,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a00256",
+        "score": 0.477665,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912",
+          "s33-a06554",
+          "s33-a00228",
+          "s33-a02768",
+          "s33-a05545",
+          "s33-a09611",
+          "s33-a00498",
+          "s33-a01978",
+          "s33-a03147",
+          "s33-a03307",
+          "s33-a08024",
+          "s33-a08138",
+          "s33-a09018"
+        ],
+        "scores": [
+          0.477665,
+          0.477665,
+          0.477665,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a02774",
+        "score": 9.146108231242716,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a03390",
+        "score": 0.570624,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a03390",
+          "s33-a02774",
+          "s33-a00256",
+          "s33-a08912"
+        ],
+        "scores": [
+          0.570624,
+          0.570624,
+          0.570624,
+          0.141247
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.008142900071106851,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a03390",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (36)",
+          "Zip code matches exactly (170020)",
+          "Gender matches (woman)",
+          "Medical flag matches (none)",
+          "Occupation 'Researcher' is semantically compatible with 'Scientific researcher'"
+        ],
+        "rationale": "Candidate s33-a03390 shares exact matches across age, zip code, gender, and medical flag, alongside a semantically compatible occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a03390\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (36)\",\n    \"Zip code matches exactly (170020)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (none)\",\n    \"Occupation 'Researcher' is semantically compatible with 'Scientific researcher'\"\n  ],\n  \"rationale\": \"Candidate s33-a03390 shares exact matches across age, zip code, gender, and medical flag, alongside a semantically compatible occupation.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 148,
+      "seconds": 12.001724500092678,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-001-age_noise",
+    "group": "s33-test-1-001",
+    "truth": "s33-a07778",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 37,
+      "zip_code": "130020",
+      "occupation": "Farmer",
+      "gender": "man",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936",
+          "s33-a00665",
+          "s33-a02171",
+          "s33-a02202",
+          "s33-a02222"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936",
+          "s33-a00665",
+          "s33-a02171",
+          "s33-a02202",
+          "s33-a02222",
+          "s33-a03269",
+          "s33-a03596",
+          "s33-a04292",
+          "s33-a04512",
+          "s33-a05341",
+          "s33-a07171",
+          "s33-a08730",
+          "s33-a09540"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.504056,
+        "margin": 0.49594399999999994,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936"
+        ],
+        "scores": [
+          0.504056,
+          0.008112,
+          0.008112,
+          0.008112
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.504056,
+        "margin": 0.38473099999999993,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936",
+          "s33-a00665",
+          "s33-a02171",
+          "s33-a02202",
+          "s33-a02222"
+        ],
+        "scores": [
+          0.504056,
+          0.119325,
+          0.119325,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.504056,
+        "margin": 0.38473099999999993,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936",
+          "s33-a00665",
+          "s33-a02171",
+          "s33-a02202",
+          "s33-a02222",
+          "s33-a03269",
+          "s33-a03596",
+          "s33-a04292",
+          "s33-a04512",
+          "s33-a05341",
+          "s33-a07171",
+          "s33-a08730",
+          "s33-a09540"
+        ],
+        "scores": [
+          0.504056,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a07778",
+        "score": 11.659060813383741,
+        "margin": 7.380935590855504,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02365",
+          "s33-a00354",
+          "s33-a03936"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.008176100091077387,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a07778",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.98,
+        "evidence": [
+          "age 38 is extremely close to target age 37",
+          "zip_code 130020 matches target exactly",
+          "occupation Farmer matches target exactly",
+          "gender man matches target exactly",
+          "medical_flag diabetes matches target exactly"
+        ],
+        "rationale": "Candidate s33-a07778 shares an exact match on zip code, occupation, gender, and medical flag, with an age that is nearly identical (38 vs 37), making it a very strong match."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a07778\",\n  \"decision\": \"match\",\n  \"confidence\": 0.98,\n  \"evidence\": [\n    \"age 38 is extremely close to target age 37\",\n    \"zip_code 130020 matches target exactly\",\n    \"occupation Farmer matches target exactly\",\n    \"gender man matches target exactly\",\n    \"medical_flag diabetes matches target exactly\"\n  ],\n  \"rationale\": \"Candidate s33-a07778 shares an exact match on zip code, occupation, gender, and medical flag, with an age that is nearly identical (38 vs 37), making it a very strong match.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 169,
+      "seconds": 5.839688800042495,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-001-changed",
+    "group": "s33-test-1-001",
+    "truth": "s33-a07778",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 38,
+      "zip_code": "130020",
+      "occupation": "Student",
+      "gender": "man",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419",
+          "s33-a02823",
+          "s33-a04488",
+          "s33-a09065",
+          "s33-a00661"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419",
+          "s33-a02823",
+          "s33-a04488",
+          "s33-a09065",
+          "s33-a00661",
+          "s33-a02894",
+          "s33-a05889",
+          "s33-a06310",
+          "s33-a09716",
+          "s33-a00849",
+          "s33-a02889",
+          "s33-a08406",
+          "s33-a08437"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.560724,
+        "margin": 0.424904,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419"
+        ],
+        "scores": [
+          0.560724,
+          0.13582,
+          0.026689,
+          0.026689
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.560724,
+        "margin": 0.424904,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419",
+          "s33-a02823",
+          "s33-a04488",
+          "s33-a09065",
+          "s33-a00661"
+        ],
+        "scores": [
+          0.560724,
+          0.13582,
+          0.074069,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.560724,
+        "margin": 0.424904,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419",
+          "s33-a02823",
+          "s33-a04488",
+          "s33-a09065",
+          "s33-a00661",
+          "s33-a02894",
+          "s33-a05889",
+          "s33-a06310",
+          "s33-a09716",
+          "s33-a00849",
+          "s33-a02889",
+          "s33-a08406",
+          "s33-a08437"
+        ],
+        "scores": [
+          0.560724,
+          0.13582,
+          0.074069,
+          0.074069,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689,
+          0.026689
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a07778",
+        "score": 9.146108231242716,
+        "margin": 4.867983008714479,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a02344",
+          "s33-a00404",
+          "s33-a01419"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.008180100005120039,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Candidate s33-a07778 matches age (38), zip_code (130020), gender (man), and medical_flag (diabetes), but occupation differs (Farmer vs Student).",
+          "Candidate s33-a02344 matches age (38), occupation (Student), and gender (man), but zip_code (140012) and medical_flag (none) differ."
+        ],
+        "rationale": "No single candidate matches all target fields strongly enough to be a definitive match, leading to an ambiguous assessment between partial matches."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Candidate s33-a07778 matches age (38), zip_code (130020), gender (man), and medical_flag (diabetes), but occupation differs (Farmer vs Student).\",\n    \"Candidate s33-a02344 matches age (38), occupation (Student), and gender (man), but zip_code (140012) and medical_flag (none) differ.\"\n  ],\n  \"rationale\": \"No single candidate matches all target fields strongly enough to be a definitive match, leading to an ambiguous assessment between partial matches.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 172,
+      "seconds": 8.355107699986547,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-001-clean",
+    "group": "s33-test-1-001",
+    "truth": "s33-a07778",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 38,
+      "zip_code": "130020",
+      "occupation": "Farmer",
+      "gender": "man",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.822609,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214"
+        ],
+        "scores": [
+          1.0,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.822609,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214",
+          "s33-a08654",
+          "s33-a00001",
+          "s33-a00373",
+          "s33-a00744"
+        ],
+        "scores": [
+          1.0,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.822609,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214",
+          "s33-a08654",
+          "s33-a00001",
+          "s33-a00373",
+          "s33-a00744",
+          "s33-a01226",
+          "s33-a02283",
+          "s33-a02662",
+          "s33-a04512",
+          "s33-a05341",
+          "s33-a06317",
+          "s33-a08733",
+          "s33-a07558"
+        ],
+        "scores": [
+          1.0,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.880675,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214"
+        ],
+        "scores": [
+          1.0,
+          0.119325,
+          0.119325,
+          0.119325
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.880675,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214",
+          "s33-a08654",
+          "s33-a00001",
+          "s33-a00373",
+          "s33-a00744"
+        ],
+        "scores": [
+          1.0,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.008112
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.880675,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214",
+          "s33-a08654",
+          "s33-a00001",
+          "s33-a00373",
+          "s33-a00744",
+          "s33-a01226",
+          "s33-a02283",
+          "s33-a02662",
+          "s33-a04512",
+          "s33-a05341",
+          "s33-a06317",
+          "s33-a08733",
+          "s33-a07558"
+        ],
+        "scores": [
+          1.0,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.119325,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112,
+          0.008112
+        ]
+      },
+      "exact": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a07778",
+        "score": 12.378960616157736,
+        "margin": 8.381554823901245,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a07778",
+        "score": 1.0,
+        "margin": 0.822609,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a08052",
+          "s33-a02061",
+          "s33-a06214"
+        ],
+        "scores": [
+          1.0,
+          0.177391,
+          0.177391,
+          0.177391
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.008057700004428625,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a07778",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches 38",
+          "zip_code matches 130020",
+          "occupation matches Farmer",
+          "gender matches man",
+          "medical_flag matches diabetes"
+        ],
+        "rationale": "All target fields match candidate s33-a07778 exactly."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a07778\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches 38\",\n    \"zip_code matches 130020\",\n    \"occupation matches Farmer\",\n    \"gender matches man\",\n    \"medical_flag matches diabetes\"\n  ],\n  \"rationale\": \"All target fields match candidate s33-a07778 exactly.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 120,
+      "seconds": 21.34326019999571,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-001-combined_noise",
+    "group": "s33-test-1-001",
+    "truth": "s33-a07778",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 39,
+      "zip_code": "110011",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a00173",
+        "score": 0.431302,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339"
+        ],
+        "scores": [
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a00122",
+        "score": 0.431302,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339",
+          "s33-a00122",
+          "s33-a00492",
+          "s33-a03339",
+          "s33-a03879"
+        ],
+        "scores": [
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a00122",
+        "score": 0.431302,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339",
+          "s33-a00122",
+          "s33-a00492",
+          "s33-a03339",
+          "s33-a03879",
+          "s33-a08050",
+          "s33-a09498",
+          "s33-a00497",
+          "s33-a05986",
+          "s33-a08217",
+          "s33-a00125",
+          "s33-a02958",
+          "s33-a08683"
+        ],
+        "scores": [
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a08948",
+        "score": 0.46172,
+        "margin": 0.12508200000000003,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339"
+        ],
+        "scores": [
+          0.46172,
+          0.336638,
+          0.336638,
+          0.336638
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a08948",
+        "score": 0.46172,
+        "margin": 0.12508200000000003,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339",
+          "s33-a00122",
+          "s33-a00492",
+          "s33-a03339",
+          "s33-a03879"
+        ],
+        "scores": [
+          0.46172,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a08948",
+        "score": 0.46172,
+        "margin": 0.12508200000000003,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339",
+          "s33-a00122",
+          "s33-a00492",
+          "s33-a03339",
+          "s33-a03879",
+          "s33-a08050",
+          "s33-a09498",
+          "s33-a00497",
+          "s33-a05986",
+          "s33-a08217",
+          "s33-a00125",
+          "s33-a02958",
+          "s33-a08683"
+        ],
+        "scores": [
+          0.46172,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a00863",
+        "score": 3.161328559910777,
+        "margin": 0.0,
+        "valid": true
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s33-a00173",
+          "s33-a08948",
+          "s33-a07399",
+          "s33-a01339"
+        ],
+        "scores": [
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.00672530010342598,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.5,
+        "evidence": [
+          "Age 39 matches s33-a00173, s33-a08948, and s33-a01339",
+          "Zip code 110011 matches s33-a08948 and s33-a07399",
+          "Diabetes medical flag matches s33-a00173, s33-a07399, and s33-a01339",
+          "Gender 'man' matches all candidates"
+        ],
+        "rationale": "Multiple candidates share subsets of target attributes (e.g., age and medical flag vs. age and zip code), but no single candidate matches all available non-null target attributes completely."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age 39 matches s33-a00173, s33-a08948, and s33-a01339\",\n    \"Zip code 110011 matches s33-a08948 and s33-a07399\",\n    \"Diabetes medical flag matches s33-a00173, s33-a07399, and s33-a01339\",\n    \"Gender 'man' matches all candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share subsets of target attributes (e.g., age and medical flag vs. age and zip code), but no single candidate matches all available non-null target attributes completely.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 213,
+      "seconds": 15.966447100043297,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-001-missing",
+    "group": "s33-test-1-001",
+    "truth": "s33-a07778",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 38,
+      "zip_code": "130020",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.46312499999999995,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154"
+        ],
+        "scores": [
+          0.894427,
+          0.431302,
+          0.431302,
+          0.431302
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.46312499999999995,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a06921",
+          "s33-a04817",
+          "s33-a05060"
+        ],
+        "scores": [
+          0.894427,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.46312499999999995,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a06921",
+          "s33-a04817",
+          "s33-a05060",
+          "s33-a05889",
+          "s33-a07229",
+          "s33-a08382",
+          "s33-a04302",
+          "s33-a01098",
+          "s33-a01864",
+          "s33-a02005",
+          "s33-a02476"
+        ],
+        "scores": [
+          0.894427,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.431302,
+          0.031822,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.557789,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154"
+        ],
+        "scores": [
+          0.894427,
+          0.336638,
+          0.336638,
+          0.336638
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.557789,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a06921",
+          "s33-a04817",
+          "s33-a05060"
+        ],
+        "scores": [
+          0.894427,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.557789,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a06921",
+          "s33-a04817",
+          "s33-a05060",
+          "s33-a05889",
+          "s33-a07229",
+          "s33-a08382",
+          "s33-a04302",
+          "s33-a01098",
+          "s33-a01864",
+          "s33-a02005",
+          "s33-a02476"
+        ],
+        "scores": [
+          0.894427,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.336638,
+          0.221152,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a07778",
+        "score": 10.301187131578596,
+        "margin": 7.139858571667819,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a07778",
+        "score": 0.894427,
+        "margin": 0.46312499999999995,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154"
+        ],
+        "scores": [
+          0.894427,
+          0.431302,
+          0.431302,
+          0.431302
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0066711000399664044,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a07778",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (38)",
+          "Zip code matches exactly (130020)",
+          "Gender matches exactly (man)",
+          "Medical flag matches exactly (diabetes)"
+        ],
+        "rationale": "Candidate s33-a07778 exhibits exact matches across all available data fields including age, zip code, gender, and medical flag, while other candidates have differing zip codes."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a07778\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (38)\",\n    \"Zip code matches exactly (130020)\",\n    \"Gender matches exactly (man)\",\n    \"Medical flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s33-a07778 exhibits exact matches across all available data fields including age, zip code, gender, and medical flag, while other candidates have differing zip codes.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 140,
+      "seconds": 10.498243500012904,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 33,
+    "target_id": "s33-test-1-001-paraphrase",
+    "group": "s33-test-1-001",
+    "truth": "s33-a07778",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 38,
+      "zip_code": "130020",
+      "occupation": "Agricultural worker",
+      "gender": "man",
+      "medical_flag": "diabetes"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391
+        ]
+      },
+      "k8_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a07294",
+          "s33-a04302",
+          "s33-a00373"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c1": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a07294",
+          "s33-a04302",
+          "s33-a00373",
+          "s33-a04817",
+          "s33-a05060",
+          "s33-a05889",
+          "s33-a07229",
+          "s33-a08382",
+          "s33-a00591",
+          "s33-a07061",
+          "s33-a08713"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.177391,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "k4_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.524607,
+        "margin": 0.47539400000000004,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154"
+        ],
+        "scores": [
+          0.524607,
+          0.049213,
+          0.049213,
+          0.049213
+        ]
+      },
+      "k8_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.524607,
+        "margin": 0.47539400000000004,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a07294",
+          "s33-a04302",
+          "s33-a00373"
+        ],
+        "scores": [
+          0.524607,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.0,
+          0.0
+        ]
+      },
+      "k16_c3": {
+        "candidate": "s33-a07778",
+        "score": 0.524607,
+        "margin": 0.47539400000000004,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154",
+          "s33-a04239",
+          "s33-a07294",
+          "s33-a04302",
+          "s33-a00373",
+          "s33-a04817",
+          "s33-a05060",
+          "s33-a05889",
+          "s33-a07229",
+          "s33-a08382",
+          "s33-a00591",
+          "s33-a07061",
+          "s33-a08713"
+        ],
+        "scores": [
+          0.524607,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.049213,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "fs": {
+        "candidate": "s33-a07778",
+        "score": 9.146108231242716,
+        "margin": 7.139858571667819,
+        "valid": true
+      },
+      "llm": {
+        "candidate": "s33-a07778",
+        "score": 0.588695,
+        "margin": 0.411304,
+        "valid": true,
+        "candidates": [
+          "s33-a07778",
+          "s33-a09065",
+          "s33-a01845",
+          "s33-a03154"
+        ],
+        "scores": [
+          0.588695,
+          0.177391,
+          0.177391,
+          0.177391
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.007949899998493493,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s33-a07778",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (38)",
+          "Zip code matches exactly (130020)",
+          "Gender matches (man)",
+          "Medical flag matches (diabetes)",
+          "Occupation 'Farmer' is semantically compatible with 'Agricultural worker'"
+        ],
+        "rationale": "Candidate s33-a07778 matches the target across all attributes including exact matches on age, zip code, gender, medical flag, and a semantically compatible occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s33-a07778\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (38)\",\n    \"Zip code matches exactly (130020)\",\n    \"Gender matches (man)\",\n    \"Medical flag matches (diabetes)\",\n    \"Occupation 'Farmer' is semantically compatible with 'Agricultural worker'\"\n  ],\n  \"rationale\": \"Candidate s33-a07778 matches the target across all attributes including exact matches on age, zip code, gender, medical flag, and a semantically compatible occupation.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 153,
+      "seconds": 21.7830105999019,
+      "attempts": 1
+    }
+  }
+]

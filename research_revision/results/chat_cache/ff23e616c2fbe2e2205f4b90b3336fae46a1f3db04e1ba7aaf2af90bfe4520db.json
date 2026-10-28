@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s22-a00130",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Age matches exactly (48)",
+      "Zip code matches exactly (130001)",
+      "Gender matches exactly (woman)",
+      "Medical flag matches exactly (diabetes)"
+    ],
+    "rationale": "Candidate s22-a00130 matches all available target attributes perfectly, including age, zip code, gender, and medical flag."
+  },
+  "raw": "{\n  \"candidate_id\": \"s22-a00130\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (48)\",\n    \"Zip code matches exactly (130001)\",\n    \"Gender matches exactly (woman)\",\n    \"Medical flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s22-a00130 matches all available target attributes perfectly, including age, zip code, gender, and medical flag.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 131,
+  "seconds": 1.8347612000070512,
+  "attempts": 1
+}

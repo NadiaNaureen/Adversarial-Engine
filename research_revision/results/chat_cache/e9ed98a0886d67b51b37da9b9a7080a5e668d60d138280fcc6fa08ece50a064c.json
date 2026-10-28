@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Age matches across all candidates (41)",
+      "Occupation matches across all candidates (Civil engineer)",
+      "Gender matches across all candidates (woman)",
+      "Zip codes differ across all candidates (target: 130009, candidates: 140010, 170011, 170006, 140006)",
+      "Medical flags conflict or do not uniquely point to a single match"
+    ],
+    "rationale": "While age, occupation, and gender align across multiple candidates, the divergent zip codes and inconsistent medical flags prevent a definitive single match, leading to an ambiguous tie or insufficient distinguishing evidence."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches across all candidates (41)\",\n    \"Occupation matches across all candidates (Civil engineer)\",\n    \"Gender matches across all candidates (woman)\",\n    \"Zip codes differ across all candidates (target: 130009, candidates: 140010, 170011, 170006, 140006)\",\n    \"Medical flags conflict or do not uniquely point to a single match\"\n  ],\n  \"rationale\": \"While age, occupation, and gender align across multiple candidates, the divergent zip codes and inconsistent medical flags prevent a definitive single match, leading to an ambiguous tie or insufficient distinguishing evidence.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 190,
+  "seconds": 13.198148200055584,
+  "attempts": 1
+}

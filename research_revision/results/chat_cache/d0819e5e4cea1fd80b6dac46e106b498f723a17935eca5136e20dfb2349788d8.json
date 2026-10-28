@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s44-a04301",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.85,
+    "evidence": [
+      "Age matches exactly (53)",
+      "Zip code prefix compatible (140019 vs 140015)",
+      "Gender matches exactly (nonbinary)",
+      "Medical flag matches exactly (diabetes)",
+      "Target occupation is null, candidate is Researcher"
+    ],
+    "rationale": "Candidate s44-a04301 shares exact matches on age, gender, medical flag, and has a highly compatible postal code prefix, providing strong linkage despite the target's missing occupation."
+  },
+  "raw": "{\n  \"candidate_id\": \"s44-a04301\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"Age matches exactly (53)\",\n    \"Zip code prefix compatible (140019 vs 140015)\",\n    \"Gender matches exactly (nonbinary)\",\n    \"Medical flag matches exactly (diabetes)\",\n    \"Target occupation is null, candidate is Researcher\"\n  ],\n  \"rationale\": \"Candidate s44-a04301 shares exact matches on age, gender, medical flag, and has a highly compatible postal code prefix, providing strong linkage despite the target's missing occupation.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 164,
+  "seconds": 5.783589900005609,
+  "attempts": 1
+}

@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "age match across all candidates (56)",
+      "gender match across all candidates (woman)",
+      "medical_flag match across all candidates (allergy)",
+      "zip_code does not match any candidate precisely",
+      "occupation for target is null"
+    ],
+    "rationale": "Multiple candidates share identical matching attributes (age, gender, medical_flag) with no zip code or occupation data in the target to differentiate them, leading to an ambiguous tie."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"age match across all candidates (56)\",\n    \"gender match across all candidates (woman)\",\n    \"medical_flag match across all candidates (allergy)\",\n    \"zip_code does not match any candidate precisely\",\n    \"occupation for target is null\"\n  ],\n  \"rationale\": \"Multiple candidates share identical matching attributes (age, gender, medical_flag) with no zip code or occupation data in the target to differentiate them, leading to an ambiguous tie.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 141,
+  "seconds": 12.67268580000382,
+  "attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "Occupation matches across all candidates ('Shop assistant')",
+      "Gender mismatches or zip codes/ages do not align sufficiently with any single candidate to establish a definitive match"
+    ],
+    "rationale": "None of the candidates share a sufficiently high overlap of unique identifying features (age, zip code, gender) with the target to warrant a positive match, resulting in insufficient evidence."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"Occupation matches across all candidates ('Shop assistant')\",\n    \"Gender mismatches or zip codes/ages do not align sufficiently with any single candidate to establish a definitive match\"\n  ],\n  \"rationale\": \"None of the candidates share a sufficiently high overlap of unique identifying features (age, zip code, gender) with the target to warrant a positive match, resulting in insufficient evidence.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 121,
+  "seconds": 16.55992220004555,
+  "attempts": 1
+}

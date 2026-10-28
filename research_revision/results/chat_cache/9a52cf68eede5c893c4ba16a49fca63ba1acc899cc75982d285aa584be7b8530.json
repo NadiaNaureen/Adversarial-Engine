@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Candidate s22-a02908 matches age, occupation, gender, and medical flag, but zip code prefix differs (120019 vs 110020).",
+      "Candidate s22-a08998 matches age, zip code, gender, and medical flag, but occupation differs (Shop assistant vs Pharmacist)."
+    ],
+    "rationale": "Multiple candidates share significant attributes with the target, but no single candidate provides a complete and unambiguous match across all fields."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Candidate s22-a02908 matches age, occupation, gender, and medical flag, but zip code prefix differs (120019 vs 110020).\",\n    \"Candidate s22-a08998 matches age, zip code, gender, and medical flag, but occupation differs (Shop assistant vs Pharmacist).\"\n  ],\n  \"rationale\": \"Multiple candidates share significant attributes with the target, but no single candidate provides a complete and unambiguous match across all fields.\"\n}",
+  "input_tokens": 390,
+  "output_tokens": 153,
+  "seconds": 6.161792200058699,
+  "attempts": 1
+}

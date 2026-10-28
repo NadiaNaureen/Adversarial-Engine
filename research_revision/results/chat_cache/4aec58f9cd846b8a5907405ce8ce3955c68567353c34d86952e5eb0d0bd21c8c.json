@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Candidate s22-a07590 matches age (58) and gender (man) but differs in occupation (Driver vs Farmer).",
+      "Candidate s22-a02133 matches occupation (Farmer) and gender (man) with close zip and age, but has age discrepancy (66 vs 58).",
+      "No single candidate strongly matches all primary attributes simultaneously."
+    ],
+    "rationale": "None of the candidates present a sufficiently strong multi-attribute match to confirm identity linkage without significant discrepancies in age, zip code, or occupation."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Candidate s22-a07590 matches age (58) and gender (man) but differs in occupation (Driver vs Farmer).\",\n    \"Candidate s22-a02133 matches occupation (Farmer) and gender (man) with close zip and age, but has age discrepancy (66 vs 58).\",\n    \"No single candidate strongly matches all primary attributes simultaneously.\"\n  ],\n  \"rationale\": \"None of the candidates present a sufficiently strong multi-attribute match to confirm identity linkage without significant discrepancies in age, zip code, or occupation.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 168,
+  "seconds": 7.956143299932592,
+  "attempts": 1
+}

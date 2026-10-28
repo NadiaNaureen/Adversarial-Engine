@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "gender matches for multiple candidates",
+      "no candidate shares strong multi-field exact matches for age, zip code, and occupation simultaneously"
+    ],
+    "rationale": "None of the candidates exhibit sufficient matching attributes across age, occupation, and exact location to surpass ambiguity or insufficient evidence thresholds."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender matches for multiple candidates\",\n    \"no candidate shares strong multi-field exact matches for age, zip code, and occupation simultaneously\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient matching attributes across age, occupation, and exact location to surpass ambiguity or insufficient evidence thresholds.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 104,
+  "seconds": 12.888879499980249,
+  "attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Target age is 30, closest candidate age is 30 (s55-a01108)",
+      "Target zip prefix 160000 partially overlaps with candidates in 1600xx",
+      "Target gender is woman, matching all candidates",
+      "Target medical_flag is none, matching multiple candidates"
+    ],
+    "rationale": "Multiple candidates share partial traits such as gender and zip code prefix, but no single candidate has enough distinctive matching fields to definitively link without ambiguity."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Target age is 30, closest candidate age is 30 (s55-a01108)\",\n    \"Target zip prefix 160000 partially overlaps with candidates in 1600xx\",\n    \"Target gender is woman, matching all candidates\",\n    \"Target medical_flag is none, matching multiple candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share partial traits such as gender and zip code prefix, but no single candidate has enough distinctive matching fields to definitively link without ambiguity.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 157,
+  "seconds": 12.809781500021927,
+  "attempts": 1
+}

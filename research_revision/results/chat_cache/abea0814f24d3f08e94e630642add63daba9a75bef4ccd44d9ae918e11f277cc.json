@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age 46 matches multiple candidates (s55-a07225, s55-a05004, s55-a09903)",
+      "Gender 'woman' matches s55-a07225 and s55-a09903",
+      "Medical flag 'asthma' matches s55-a07225 and s55-a05004",
+      "Zip code prefix 1600 aligns best with s55-a07225 (160021)"
+    ],
+    "rationale": "Candidate s55-a07225 shares age, gender, medical flag, and close zip code, but no single candidate uniquely satisfies all fields completely without conflicts across occupation or location."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age 46 matches multiple candidates (s55-a07225, s55-a05004, s55-a09903)\",\n    \"Gender 'woman' matches s55-a07225 and s55-a09903\",\n    \"Medical flag 'asthma' matches s55-a07225 and s55-a05004\",\n    \"Zip code prefix 1600 aligns best with s55-a07225 (160021)\"\n  ],\n  \"rationale\": \"Candidate s55-a07225 shares age, gender, medical flag, and close zip code, but no single candidate uniquely satisfies all fields completely without conflicts across occupation or location.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 225,
+  "seconds": 18.699239299981855,
+  "attempts": 1
+}

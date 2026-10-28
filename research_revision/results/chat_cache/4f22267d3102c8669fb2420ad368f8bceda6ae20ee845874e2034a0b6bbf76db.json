@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s55-a08589",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Target age 30, candidate s55-a08589 age 31 (close match)",
+      "Target zip 160000, candidate s55-a08589 zip 160000 (exact match)",
+      "Target gender woman, candidate s55-a08589 gender woman (exact match)",
+      "Target occupation Civil engineering professional, candidate s55-a08589 occupation Researcher (mismatch)"
+    ],
+    "rationale": "Candidate s55-a08589 shares the exact zip code, gender, and a very close age to the target, but the occupation (Researcher) does not align well with 'Civil engineering professional'. Another candidate (s55-a00439) has the matching occupation but a different zip code and age, creating ambiguity."
+  },
+  "raw": "{\n  \"candidate_id\": \"s55-a08589\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Target age 30, candidate s55-a08589 age 31 (close match)\",\n    \"Target zip 160000, candidate s55-a08589 zip 160000 (exact match)\",\n    \"Target gender woman, candidate s55-a08589 gender woman (exact match)\",\n    \"Target occupation Civil engineering professional, candidate s55-a08589 occupation Researcher (mismatch)\"\n  ],\n  \"rationale\": \"Candidate s55-a08589 shares the exact zip code, gender, and a very close age to the target, but the occupation (Researcher) does not align well with 'Civil engineering professional'. Another candidate (s55-a00439) has the matching occupation but a different zip code and age, creating ambiguity.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 244,
+  "seconds": 12.995253800065257,
+  "attempts": 1
+}

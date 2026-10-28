@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "No candidate shares a strong multi-field overlap with the target profile."
+    ],
+    "rationale": "None of the candidates align sufficiently across age, zip code, and medical flag to establish a match; multiple candidates show conflicting attributes."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"No candidate shares a strong multi-field overlap with the target profile.\"\n  ],\n  \"rationale\": \"None of the candidates align sufficiently across age, zip code, and medical flag to establish a match; multiple candidates show conflicting attributes.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 92,
+  "seconds": 13.59414210007526,
+  "attempts": 1
+}

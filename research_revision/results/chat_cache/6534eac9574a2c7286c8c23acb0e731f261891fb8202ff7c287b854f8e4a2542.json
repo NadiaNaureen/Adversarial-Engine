@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "gender match across candidates but age and zip codes show significant discrepancies with target"
+    ],
+    "rationale": "None of the candidates present a sufficiently strong overlap across age, postal code, and other demographic details to warrant a positive match or disambiguation."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates but age and zip codes show significant discrepancies with target\"\n  ],\n  \"rationale\": \"None of the candidates present a sufficiently strong overlap across age, postal code, and other demographic details to warrant a positive match or disambiguation.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 95,
+  "seconds": 13.254852799931541,
+  "attempts": 1
+}

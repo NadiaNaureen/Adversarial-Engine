@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "gender match across candidates",
+      "no single candidate aligns closely across age, zip code, and medical flag"
+    ],
+    "rationale": "None of the candidates provide a strong multi-field match for the target profile."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"no single candidate aligns closely across age, zip code, and medical flag\"\n  ],\n  \"rationale\": \"None of the candidates provide a strong multi-field match for the target profile.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 91,
+  "seconds": 15.625922300037928,
+  "attempts": 1
+}

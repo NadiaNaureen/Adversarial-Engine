@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a09677",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.92,
+    "evidence": [
+      "Age is highly compatible (38 vs 39)",
+      "Zip code prefix matches closely (180016 vs 180017)",
+      "Exact occupation match (Data analyst)",
+      "Exact gender match (woman)",
+      "Exact medical flag match (none)"
+    ],
+    "rationale": "Candidate s33-a09677 shares the exact occupation, gender, and medical flag, with very close age and a nearly identical zip code, representing a strong multi-field match."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a09677\",\n  \"decision\": \"match\",\n  \"confidence\": 0.92,\n  \"evidence\": [\n    \"Age is highly compatible (38 vs 39)\",\n    \"Zip code prefix matches closely (180016 vs 180017)\",\n    \"Exact occupation match (Data analyst)\",\n    \"Exact gender match (woman)\",\n    \"Exact medical flag match (none)\"\n  ],\n  \"rationale\": \"Candidate s33-a09677 shares the exact occupation, gender, and medical flag, with very close age and a nearly identical zip code, representing a strong multi-field match.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 166,
+  "seconds": 12.718914299970493,
+  "attempts": 1
+}

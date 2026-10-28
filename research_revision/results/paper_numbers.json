@@ -1,0 +1,3149 @@
+{
+  "metrics": {
+    "predictions|local|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 1800,
+        "present": 900,
+        "absent": 900,
+        "correct": 276,
+        "wrong_present": 27,
+        "present_abstain": 597,
+        "false_absent": 49,
+        "absent_abstain": 851,
+        "match": 352,
+        "ambiguous": 44,
+        "insufficient_evidence": 1404,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.30666666666666664,
+        "sd": 0.028706690406141797
+      },
+      "fpr": {
+        "mean": 0.05444444444444445,
+        "sd": 0.01638653467083625
+      },
+      "wrong_rate": {
+        "mean": 0.03,
+        "sd": 0.012789849370245932
+      },
+      "precision": {
+        "mean": 0.7857952498370815,
+        "sd": 0.0532383501730369
+      },
+      "coverage": {
+        "mean": 0.19555555555555557,
+        "sd": 0.018798804795209588
+      }
+    },
+    "predictions|local|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 143,
+        "wrong_present": 0,
+        "present_abstain": 7,
+        "false_absent": 3,
+        "absent_abstain": 147,
+        "match": 146,
+        "ambiguous": 8,
+        "insufficient_evidence": 146,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.9533333333333334,
+        "sd": 0.05577733510227169
+      },
+      "fpr": {
+        "mean": 0.02,
+        "sd": 0.029814239699997195
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.98,
+        "sd": 0.029814239699997188
+      },
+      "coverage": {
+        "mean": 0.4866666666666667,
+        "sd": 0.029814239699997188
+      }
+    },
+    "predictions|local|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 2,
+        "wrong_present": 4,
+        "present_abstain": 144,
+        "false_absent": 2,
+        "absent_abstain": 148,
+        "match": 8,
+        "ambiguous": 3,
+        "insufficient_evidence": 289,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "fpr": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "wrong_rate": {
+        "mean": 0.026666666666666665,
+        "sd": 0.02788866755113585
+      },
+      "precision": {
+        "mean": 0.1875,
+        "sd": 0.23935677693908453
+      },
+      "coverage": {
+        "mean": 0.026666666666666665,
+        "sd": 0.025276251480171836
+      }
+    },
+    "predictions|local|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 127,
+        "wrong_present": 0,
+        "present_abstain": 23,
+        "false_absent": 19,
+        "absent_abstain": 131,
+        "match": 146,
+        "ambiguous": 28,
+        "insufficient_evidence": 126,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8466666666666667,
+        "sd": 0.08366600265340758
+      },
+      "fpr": {
+        "mean": 0.12666666666666668,
+        "sd": 0.014907119849998594
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.8688602150537634,
+        "sd": 0.02131116607589541
+      },
+      "coverage": {
+        "mean": 0.4866666666666667,
+        "sd": 0.039791121287711076
+      }
+    },
+    "predictions|local|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 2,
+        "wrong_present": 1,
+        "present_abstain": 147,
+        "false_absent": 2,
+        "absent_abstain": 148,
+        "match": 5,
+        "ambiguous": 1,
+        "insufficient_evidence": 294,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "fpr": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "wrong_rate": {
+        "mean": 0.006666666666666666,
+        "sd": 0.014907119849998597
+      },
+      "precision": {
+        "mean": 0.4,
+        "sd": 0.5477225575051661
+      },
+      "coverage": {
+        "mean": 0.016666666666666666,
+        "sd": 0.0
+      }
+    },
+    "predictions|local|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 22,
+        "present_abstain": 128,
+        "false_absent": 23,
+        "absent_abstain": 127,
+        "match": 45,
+        "ambiguous": 4,
+        "insufficient_evidence": 251,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.15333333333333332,
+        "sd": 0.07302967433402215
+      },
+      "wrong_rate": {
+        "mean": 0.14666666666666667,
+        "sd": 0.06912147117775908
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.15,
+        "sd": 0.06123724356957945
+      }
+    },
+    "predictions|local|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 2,
+        "wrong_present": 0,
+        "present_abstain": 148,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 2,
+        "ambiguous": 0,
+        "insufficient_evidence": 298,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.006666666666666666,
+        "sd": 0.009128709291752768
+      }
+    },
+    "predictions|fs|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 1800,
+        "present": 900,
+        "absent": 900,
+        "correct": 249,
+        "wrong_present": 4,
+        "present_abstain": 647,
+        "false_absent": 17,
+        "absent_abstain": 883,
+        "match": 270,
+        "ambiguous": 22,
+        "insufficient_evidence": 1508,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.27666666666666667,
+        "sd": 0.07560455927201779
+      },
+      "fpr": {
+        "mean": 0.01888888888888889,
+        "sd": 0.01551582227085438
+      },
+      "wrong_rate": {
+        "mean": 0.0044444444444444444,
+        "sd": 0.0046481112585226424
+      },
+      "precision": {
+        "mean": 0.9271122250069618,
+        "sd": 0.04487146972995344
+      },
+      "coverage": {
+        "mean": 0.15,
+        "sd": 0.04249182927993987
+      }
+    },
+    "predictions|fs|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 138,
+        "wrong_present": 0,
+        "present_abstain": 12,
+        "false_absent": 6,
+        "absent_abstain": 144,
+        "match": 144,
+        "ambiguous": 12,
+        "insufficient_evidence": 144,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.92,
+        "sd": 0.06055300708194982
+      },
+      "fpr": {
+        "mean": 0.04,
+        "sd": 0.05962847939999439
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.9599078341013825,
+        "sd": 0.05855436705605969
+      },
+      "coverage": {
+        "mean": 0.48000000000000004,
+        "sd": 0.032058973436118916
+      }
+    },
+    "predictions|fs|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 111,
+        "wrong_present": 1,
+        "present_abstain": 38,
+        "false_absent": 6,
+        "absent_abstain": 144,
+        "match": 118,
+        "ambiguous": 8,
+        "insufficient_evidence": 174,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.74,
+        "sd": 0.4159326868617084
+      },
+      "fpr": {
+        "mean": 0.04,
+        "sd": 0.04346134936801766
+      },
+      "wrong_rate": {
+        "mean": 0.006666666666666666,
+        "sd": 0.014907119849998597
+      },
+      "precision": {
+        "mean": 0.9412783751493429,
+        "sd": 0.030834327345215382
+      },
+      "coverage": {
+        "mean": 0.39333333333333337,
+        "sd": 0.2212966837126626
+      }
+    },
+    "predictions|fs|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|fs|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 3,
+        "present_abstain": 147,
+        "false_absent": 5,
+        "absent_abstain": 145,
+        "match": 8,
+        "ambiguous": 2,
+        "insufficient_evidence": 290,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.03333333333333333,
+        "sd": 0.023570226039551584
+      },
+      "wrong_rate": {
+        "mean": 0.02,
+        "sd": 0.018257418583505537
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.02666666666666667,
+        "sd": 0.0190029237516523
+      }
+    },
+    "predictions|fs|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|fs|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|exact|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 1800,
+        "present": 900,
+        "absent": 900,
+        "correct": 143,
+        "wrong_present": 5,
+        "present_abstain": 752,
+        "false_absent": 6,
+        "absent_abstain": 894,
+        "match": 154,
+        "ambiguous": 8,
+        "insufficient_evidence": 1638,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.15888888888888889,
+        "sd": 0.009296222517045285
+      },
+      "fpr": {
+        "mean": 0.006666666666666667,
+        "sd": 0.006085806194501845
+      },
+      "wrong_rate": {
+        "mean": 0.005555555555555556,
+        "sd": 0.003928371006591931
+      },
+      "precision": {
+        "mean": 0.9298909796893667,
+        "sd": 0.03923093069959497
+      },
+      "coverage": {
+        "mean": 0.08555555555555555,
+        "sd": 0.006022078719077447
+      }
+    },
+    "predictions|exact|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 143,
+        "wrong_present": 0,
+        "present_abstain": 7,
+        "false_absent": 3,
+        "absent_abstain": 147,
+        "match": 146,
+        "ambiguous": 7,
+        "insufficient_evidence": 147,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.9533333333333334,
+        "sd": 0.05577733510227169
+      },
+      "fpr": {
+        "mean": 0.02,
+        "sd": 0.029814239699997195
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.98,
+        "sd": 0.029814239699997188
+      },
+      "coverage": {
+        "mean": 0.4866666666666667,
+        "sd": 0.029814239699997188
+      }
+    },
+    "predictions|exact|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 4,
+        "present_abstain": 146,
+        "false_absent": 1,
+        "absent_abstain": 149,
+        "match": 5,
+        "ambiguous": 0,
+        "insufficient_evidence": 295,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.006666666666666666,
+        "sd": 0.014907119849998597
+      },
+      "wrong_rate": {
+        "mean": 0.026666666666666665,
+        "sd": 0.02788866755113585
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.016666666666666666,
+        "sd": 0.011785113019775792
+      }
+    },
+    "predictions|exact|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|exact|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 1,
+        "present_abstain": 149,
+        "false_absent": 2,
+        "absent_abstain": 148,
+        "match": 3,
+        "ambiguous": 1,
+        "insufficient_evidence": 296,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "wrong_rate": {
+        "mean": 0.006666666666666666,
+        "sd": 0.014907119849998597
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.01,
+        "sd": 0.009128709291752768
+      }
+    },
+    "predictions|exact|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|exact|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 1800,
+        "present": 900,
+        "absent": 900,
+        "correct": 515,
+        "wrong_present": 385,
+        "present_abstain": 0,
+        "false_absent": 900,
+        "absent_abstain": 0,
+        "match": 1800,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.5722222222222222,
+        "sd": 0.07081971546656644
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.4277777777777778,
+        "sd": 0.07081971546656647
+      },
+      "precision": {
+        "mean": 0.2861111111111111,
+        "sd": 0.03540985773328322
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 147,
+        "wrong_present": 3,
+        "present_abstain": 0,
+        "false_absent": 150,
+        "absent_abstain": 0,
+        "match": 300,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.98,
+        "sd": 0.04472135954999579
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.02,
+        "sd": 0.044721359549995794
+      },
+      "precision": {
+        "mean": 0.49,
+        "sd": 0.022360679774997894
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 45,
+        "wrong_present": 105,
+        "present_abstain": 0,
+        "false_absent": 150,
+        "absent_abstain": 0,
+        "match": 300,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.3,
+        "sd": 0.15092308563562362
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.7,
+        "sd": 0.15092308563562362
+      },
+      "precision": {
+        "mean": 0.15,
+        "sd": 0.07546154281781181
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 134,
+        "wrong_present": 16,
+        "present_abstain": 0,
+        "false_absent": 150,
+        "absent_abstain": 0,
+        "match": 300,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8933333333333333,
+        "sd": 0.09249624617007741
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.10666666666666666,
+        "sd": 0.09249624617007739
+      },
+      "precision": {
+        "mean": 0.44666666666666666,
+        "sd": 0.04624812308503871
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 54,
+        "wrong_present": 96,
+        "present_abstain": 0,
+        "false_absent": 150,
+        "absent_abstain": 0,
+        "match": 300,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.36,
+        "sd": 0.06411794687223783
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.64,
+        "sd": 0.0641179468722378
+      },
+      "precision": {
+        "mean": 0.18,
+        "sd": 0.032058973436118916
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 150,
+        "present_abstain": 0,
+        "false_absent": 150,
+        "absent_abstain": 0,
+        "match": 300,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|top1|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 135,
+        "wrong_present": 15,
+        "present_abstain": 0,
+        "false_absent": 150,
+        "absent_abstain": 0,
+        "match": 300,
+        "ambiguous": 0,
+        "insufficient_evidence": 0,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.9,
+        "sd": 0.09428090415820636
+      },
+      "fpr": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.1,
+        "sd": 0.09428090415820634
+      },
+      "precision": {
+        "mean": 0.45,
+        "sd": 0.04714045207910318
+      },
+      "coverage": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    },
+    "predictions|no_margin|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 1800,
+        "present": 900,
+        "absent": 900,
+        "correct": 281,
+        "wrong_present": 48,
+        "present_abstain": 571,
+        "false_absent": 56,
+        "absent_abstain": 844,
+        "match": 385,
+        "ambiguous": 0,
+        "insufficient_evidence": 1415,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.31222222222222223,
+        "sd": 0.022703129713002847
+      },
+      "fpr": {
+        "mean": 0.06222222222222222,
+        "sd": 0.022012903062398833
+      },
+      "wrong_rate": {
+        "mean": 0.05333333333333333,
+        "sd": 0.023107371492317137
+      },
+      "precision": {
+        "mean": 0.7324178487742196,
+        "sd": 0.07018083239216766
+      },
+      "coverage": {
+        "mean": 0.2138888888888889,
+        "sd": 0.015590239111558095
+      }
+    },
+    "predictions|no_margin|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 147,
+        "wrong_present": 3,
+        "present_abstain": 0,
+        "false_absent": 3,
+        "absent_abstain": 147,
+        "match": 153,
+        "ambiguous": 0,
+        "insufficient_evidence": 147,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.98,
+        "sd": 0.04472135954999579
+      },
+      "fpr": {
+        "mean": 0.02,
+        "sd": 0.029814239699997195
+      },
+      "wrong_rate": {
+        "mean": 0.02,
+        "sd": 0.044721359549995794
+      },
+      "precision": {
+        "mean": 0.9610483870967742,
+        "sd": 0.04289723763691843
+      },
+      "coverage": {
+        "mean": 0.51,
+        "sd": 0.014907119849998601
+      }
+    },
+    "predictions|no_margin|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 4,
+        "present_abstain": 146,
+        "false_absent": 1,
+        "absent_abstain": 149,
+        "match": 5,
+        "ambiguous": 0,
+        "insufficient_evidence": 295,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.006666666666666666,
+        "sd": 0.014907119849998597
+      },
+      "wrong_rate": {
+        "mean": 0.026666666666666665,
+        "sd": 0.02788866755113585
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.016666666666666666,
+        "sd": 0.011785113019775792
+      }
+    },
+    "predictions|no_margin|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 134,
+        "wrong_present": 16,
+        "present_abstain": 0,
+        "false_absent": 24,
+        "absent_abstain": 126,
+        "match": 174,
+        "ambiguous": 0,
+        "insufficient_evidence": 126,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8933333333333333,
+        "sd": 0.09249624617007741
+      },
+      "fpr": {
+        "mean": 0.16,
+        "sd": 0.04346134936801766
+      },
+      "wrong_rate": {
+        "mean": 0.10666666666666666,
+        "sd": 0.09249624617007739
+      },
+      "precision": {
+        "mean": 0.7715550462609286,
+        "sd": 0.0915007568208233
+      },
+      "coverage": {
+        "mean": 0.58,
+        "sd": 0.021730674684008806
+      }
+    },
+    "predictions|no_margin|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 2,
+        "present_abstain": 148,
+        "false_absent": 2,
+        "absent_abstain": 148,
+        "match": 4,
+        "ambiguous": 0,
+        "insufficient_evidence": 296,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "wrong_rate": {
+        "mean": 0.013333333333333332,
+        "sd": 0.018257418583505537
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.013333333333333332,
+        "sd": 0.013944333775567926
+      }
+    },
+    "predictions|no_margin|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 23,
+        "present_abstain": 127,
+        "false_absent": 26,
+        "absent_abstain": 124,
+        "match": 49,
+        "ambiguous": 0,
+        "insufficient_evidence": 251,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.17333333333333334,
+        "sd": 0.07226494462892932
+      },
+      "wrong_rate": {
+        "mean": 0.15333333333333332,
+        "sd": 0.0649786289653931
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.16333333333333333,
+        "sd": 0.060553007081949835
+      }
+    },
+    "predictions|no_margin|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "mitigation_predictions|local|original": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 143,
+        "wrong_present": 0,
+        "present_abstain": 7,
+        "false_absent": 3,
+        "absent_abstain": 147,
+        "match": 146,
+        "ambiguous": 7,
+        "insufficient_evidence": 147,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.9533333333333334,
+        "sd": 0.05577733510227169
+      },
+      "fpr": {
+        "mean": 0.02,
+        "sd": 0.029814239699997195
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.98,
+        "sd": 0.029814239699997188
+      },
+      "coverage": {
+        "mean": 0.4866666666666667,
+        "sd": 0.029814239699997188
+      }
+    },
+    "mitigation_predictions|local|age_band": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 120,
+        "wrong_present": 3,
+        "present_abstain": 27,
+        "false_absent": 24,
+        "absent_abstain": 126,
+        "match": 147,
+        "ambiguous": 27,
+        "insufficient_evidence": 126,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.08164965809277264
+      },
+      "fpr": {
+        "mean": 0.16,
+        "sd": 0.08628119403696523
+      },
+      "wrong_rate": {
+        "mean": 0.02,
+        "sd": 0.044721359549995794
+      },
+      "precision": {
+        "mean": 0.8197001565711898,
+        "sd": 0.07891696348757284
+      },
+      "coverage": {
+        "mean": 0.49,
+        "sd": 0.05348935511960404
+      }
+    },
+    "mitigation_predictions|local|postal_prefix": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 90,
+        "wrong_present": 16,
+        "present_abstain": 44,
+        "false_absent": 27,
+        "absent_abstain": 123,
+        "match": 133,
+        "ambiguous": 35,
+        "insufficient_evidence": 132,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.6,
+        "sd": 0.09718253158075499
+      },
+      "fpr": {
+        "mean": 0.18,
+        "sd": 0.0380058475033046
+      },
+      "wrong_rate": {
+        "mean": 0.10666666666666666,
+        "sd": 0.049441323247304415
+      },
+      "precision": {
+        "mean": 0.6756548636548637,
+        "sd": 0.09998544273735173
+      },
+      "coverage": {
+        "mean": 0.44333333333333336,
+        "sd": 0.019002923751652294
+      }
+    },
+    "mitigation_predictions|local|medical_suppression": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 141,
+        "wrong_present": 0,
+        "present_abstain": 9,
+        "false_absent": 6,
+        "absent_abstain": 144,
+        "match": 147,
+        "ambiguous": 9,
+        "insufficient_evidence": 144,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.9400000000000001,
+        "sd": 0.04944132324730441
+      },
+      "fpr": {
+        "mean": 0.04,
+        "sd": 0.03651483716701108
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.9601194743130227,
+        "sd": 0.035129755341850574
+      },
+      "coverage": {
+        "mean": 0.49000000000000005,
+        "sd": 0.030276503540974935
+      }
+    },
+    "mitigation_predictions|local|occupation_suppression": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 127,
+        "wrong_present": 0,
+        "present_abstain": 23,
+        "false_absent": 19,
+        "absent_abstain": 131,
+        "match": 146,
+        "ambiguous": 28,
+        "insufficient_evidence": 126,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8466666666666667,
+        "sd": 0.08366600265340758
+      },
+      "fpr": {
+        "mean": 0.12666666666666668,
+        "sd": 0.014907119849998594
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.8688602150537634,
+        "sd": 0.02131116607589541
+      },
+      "coverage": {
+        "mean": 0.4866666666666667,
+        "sd": 0.039791121287711076
+      }
+    },
+    "mitigation_predictions|local|combined": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 300,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "mitigation_predictions|local|k5": {
+      "seeds": 5,
+      "totals": {
+        "n": 300,
+        "present": 150,
+        "absent": 150,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 150,
+        "false_absent": 0,
+        "absent_abstain": 150,
+        "match": 0,
+        "ambiguous": 60,
+        "insufficient_evidence": 240,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|hash_llm|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 120,
+        "present": 60,
+        "absent": 60,
+        "correct": 26,
+        "wrong_present": 1,
+        "present_abstain": 33,
+        "false_absent": 1,
+        "absent_abstain": 59,
+        "match": 28,
+        "ambiguous": 5,
+        "insufficient_evidence": 87,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.43333333333333335,
+        "sd": 0.149071198499986
+      },
+      "fpr": {
+        "mean": 0.016666666666666666,
+        "sd": 0.037267799624996496
+      },
+      "wrong_rate": {
+        "mean": 0.016666666666666666,
+        "sd": 0.037267799624996496
+      },
+      "precision": {
+        "mean": 0.9266666666666666,
+        "sd": 0.10110500592068732
+      },
+      "coverage": {
+        "mean": 0.23333333333333334,
+        "sd": 0.06972166887783963
+      }
+    },
+    "cloud_predictions|hash_llm|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 2,
+        "wrong_present": 0,
+        "present_abstain": 8,
+        "false_absent": 1,
+        "absent_abstain": 9,
+        "match": 3,
+        "ambiguous": 4,
+        "insufficient_evidence": 13,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.2,
+        "sd": 0.27386127875258304
+      },
+      "fpr": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.75,
+        "sd": 0.3535533905932738
+      },
+      "coverage": {
+        "mean": 0.15,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|hash_llm|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 1,
+        "wrong_present": 0,
+        "present_abstain": 9,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 1,
+        "ambiguous": 0,
+        "insufficient_evidence": 19,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.05,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|hash_llm|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|hash_llm|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 0,
+        "wrong_present": 1,
+        "present_abstain": 9,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 1,
+        "ambiguous": 0,
+        "insufficient_evidence": 19,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.05,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|hash_llm|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.27386127875258304
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.13693063937629152
+      }
+    },
+    "cloud_predictions|hash_llm|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 5,
+        "wrong_present": 0,
+        "present_abstain": 5,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 5,
+        "ambiguous": 1,
+        "insufficient_evidence": 14,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.5,
+        "sd": 0.5
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.25,
+        "sd": 0.25
+      }
+    },
+    "cloud_predictions|full_hash_control|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 120,
+        "present": 60,
+        "absent": 60,
+        "correct": 26,
+        "wrong_present": 1,
+        "present_abstain": 33,
+        "false_absent": 3,
+        "absent_abstain": 57,
+        "match": 30,
+        "ambiguous": 15,
+        "insufficient_evidence": 75,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.4333333333333333,
+        "sd": 0.14907119849998599
+      },
+      "fpr": {
+        "mean": 0.05,
+        "sd": 0.11180339887498948
+      },
+      "wrong_rate": {
+        "mean": 0.016666666666666666,
+        "sd": 0.037267799624996496
+      },
+      "precision": {
+        "mean": 0.8933333333333333,
+        "sd": 0.1534781924429512
+      },
+      "coverage": {
+        "mean": 0.25,
+        "sd": 0.09771699499632144
+      }
+    },
+    "cloud_predictions|full_hash_control|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 2,
+        "wrong_present": 0,
+        "present_abstain": 8,
+        "false_absent": 1,
+        "absent_abstain": 9,
+        "match": 3,
+        "ambiguous": 5,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.2,
+        "sd": 0.27386127875258304
+      },
+      "fpr": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.75,
+        "sd": 0.3535533905932738
+      },
+      "coverage": {
+        "mean": 0.15,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|full_hash_control|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 2,
+        "wrong_present": 0,
+        "present_abstain": 8,
+        "false_absent": 1,
+        "absent_abstain": 9,
+        "match": 3,
+        "ambiguous": 5,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.2,
+        "sd": 0.27386127875258304
+      },
+      "fpr": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.75,
+        "sd": 0.3535533905932738
+      },
+      "coverage": {
+        "mean": 0.15,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|full_hash_control|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 1,
+        "absent_abstain": 9,
+        "match": 11,
+        "ambiguous": 3,
+        "insufficient_evidence": 6,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.9333333333333333,
+        "sd": 0.14907119849998599
+      },
+      "coverage": {
+        "mean": 0.55,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|full_hash_control|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 0,
+        "wrong_present": 1,
+        "present_abstain": 9,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 1,
+        "ambiguous": 0,
+        "insufficient_evidence": 19,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.05,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|full_hash_control|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 9,
+        "wrong_present": 0,
+        "present_abstain": 1,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 9,
+        "ambiguous": 1,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.9,
+        "sd": 0.22360679774997896
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.45,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|full_hash_control|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 3,
+        "wrong_present": 0,
+        "present_abstain": 7,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 3,
+        "ambiguous": 1,
+        "insufficient_evidence": 16,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.3,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.15,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|pilot_semantic|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 120,
+        "present": 60,
+        "absent": 60,
+        "correct": 44,
+        "wrong_present": 0,
+        "present_abstain": 16,
+        "false_absent": 0,
+        "absent_abstain": 60,
+        "match": 44,
+        "ambiguous": 0,
+        "insufficient_evidence": 76,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.7333333333333334,
+        "sd": 0.223606797749979
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.3666666666666667,
+        "sd": 0.1118033988749895
+      }
+    },
+    "cloud_predictions|pilot_semantic|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|pilot_semantic|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|pilot_semantic|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_semantic|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 10,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 20,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_semantic|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_semantic|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 120,
+        "present": 60,
+        "absent": 60,
+        "correct": 41,
+        "wrong_present": 0,
+        "present_abstain": 19,
+        "false_absent": 1,
+        "absent_abstain": 59,
+        "match": 42,
+        "ambiguous": 0,
+        "insufficient_evidence": 78,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.6833333333333333,
+        "sd": 0.03726779962499651
+      },
+      "fpr": {
+        "mean": 0.016666666666666666,
+        "sd": 0.037267799624996496
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.9777777777777777,
+        "sd": 0.04969039949999535
+      },
+      "coverage": {
+        "mean": 0.35,
+        "sd": 0.02282177322938193
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 1,
+        "wrong_present": 0,
+        "present_abstain": 9,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 1,
+        "ambiguous": 0,
+        "insufficient_evidence": 19,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.05,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 1,
+        "absent_abstain": 9,
+        "match": 11,
+        "ambiguous": 0,
+        "insufficient_evidence": 9,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.1,
+        "sd": 0.22360679774997896
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 0.9333333333333333,
+        "sd": 0.14907119849998599
+      },
+      "coverage": {
+        "mean": 0.55,
+        "sd": 0.11180339887498948
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 10,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 20,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_semantic_llm|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_hash|all": {
+      "seeds": 5,
+      "totals": {
+        "n": 120,
+        "present": 60,
+        "absent": 60,
+        "correct": 44,
+        "wrong_present": 0,
+        "present_abstain": 16,
+        "false_absent": 0,
+        "absent_abstain": 60,
+        "match": 44,
+        "ambiguous": 0,
+        "insufficient_evidence": 76,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.7333333333333334,
+        "sd": 0.223606797749979
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.3666666666666667,
+        "sd": 0.1118033988749895
+      }
+    },
+    "cloud_predictions|pilot_hash|clean": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_hash|age_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|pilot_hash|missing": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 10,
+        "wrong_present": 0,
+        "present_abstain": 0,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 10,
+        "ambiguous": 0,
+        "insufficient_evidence": 10,
+        "error": 0
+      },
+      "recall": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.5,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_hash|changed": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.22360679774997896
+      }
+    },
+    "cloud_predictions|pilot_hash|combined_noise": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 0,
+        "wrong_present": 0,
+        "present_abstain": 10,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 0,
+        "ambiguous": 0,
+        "insufficient_evidence": 20,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": null,
+        "sd": 0
+      },
+      "coverage": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    },
+    "cloud_predictions|pilot_hash|paraphrase": {
+      "seeds": 5,
+      "totals": {
+        "n": 20,
+        "present": 10,
+        "absent": 10,
+        "correct": 8,
+        "wrong_present": 0,
+        "present_abstain": 2,
+        "false_absent": 0,
+        "absent_abstain": 10,
+        "match": 8,
+        "ambiguous": 0,
+        "insufficient_evidence": 12,
+        "error": 0
+      },
+      "recall": {
+        "mean": 0.8,
+        "sd": 0.4472135954999579
+      },
+      "fpr": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "wrong_rate": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "coverage": {
+        "mean": 0.4,
+        "sd": 0.22360679774997896
+      }
+    }
+  },
+  "utility": {
+    "age_band": {
+      "min_k": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "singleton_fraction": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "changed_fraction": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "suppression_fraction": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "normalized_loss": {
+        "mean": 0.026865671641791024,
+        "min": 0.026865671641791024,
+        "max": 0.026865671641791024
+      },
+      "marginal_tv": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "combined": {
+      "min_k": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "singleton_fraction": {
+        "mean": 0.45666666666666667,
+        "min": 0.38333333333333336,
+        "max": 0.5833333333333334
+      },
+      "changed_fraction": {
+        "mean": 0.8,
+        "min": 0.8,
+        "max": 0.8
+      },
+      "suppression_fraction": {
+        "mean": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "normalized_loss": {
+        "mean": 0.5268656716417917,
+        "min": 0.5268656716417917,
+        "max": 0.5268656716417917
+      },
+      "marginal_tv": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "k5": {
+      "min_k": {
+        "mean": 50.8,
+        "min": 14.0,
+        "max": 60.0
+      },
+      "singleton_fraction": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "changed_fraction": {
+        "mean": 0.76,
+        "min": 0.6,
+        "max": 0.8
+      },
+      "suppression_fraction": {
+        "mean": 0.68,
+        "min": 0.2,
+        "max": 0.8
+      },
+      "normalized_loss": {
+        "mean": 0.7366169154228858,
+        "min": 0.4830845771144285,
+        "max": 0.8
+      },
+      "marginal_tv": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "medical_suppression": {
+      "min_k": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "singleton_fraction": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "changed_fraction": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "suppression_fraction": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "normalized_loss": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "marginal_tv": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "occupation_suppression": {
+      "min_k": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "singleton_fraction": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "changed_fraction": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "suppression_fraction": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "normalized_loss": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "marginal_tv": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "original": {
+      "min_k": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "singleton_fraction": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "changed_fraction": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "suppression_fraction": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "normalized_loss": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "marginal_tv": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "postal_prefix": {
+      "min_k": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "singleton_fraction": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "changed_fraction": {
+        "mean": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "suppression_fraction": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "normalized_loss": {
+        "mean": 0.1,
+        "min": 0.1,
+        "max": 0.1
+      },
+      "marginal_tv": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "evidence": [
+    {
+      "seed": 11,
+      "means": {
+        "original": 0.7556427666666666,
+        "age_band": 0.7970397,
+        "combined": 0.35927244999999997
+      }
+    },
+    {
+      "seed": 22,
+      "means": {
+        "original": 0.76975455,
+        "age_band": 0.8463327333333334,
+        "combined": 0.41339296666666664
+      }
+    },
+    {
+      "seed": 33,
+      "means": {
+        "original": 0.7833079666666667,
+        "age_band": 0.8198217666666666,
+        "combined": 0.34074765
+      }
+    },
+    {
+      "seed": 44,
+      "means": {
+        "original": 0.7830072666666666,
+        "age_band": 0.81214555,
+        "combined": 0.38740456666666667
+      }
+    },
+    {
+      "seed": 55,
+      "means": {
+        "original": 0.77001665,
+        "age_band": 0.7966368,
+        "combined": 0.38654816666666664
+      }
+    }
+  ],
+  "operational": {
+    "full_hash": {
+      "n": 240,
+      "valid": 240,
+      "mean_seconds": 10.51061138957933,
+      "median_seconds": 12.565488450054545,
+      "token_rows": 240,
+      "total_tokens": 128097,
+      "mean_tokens": 533.7375,
+      "mean_input_tokens": 384.89166666666665,
+      "mean_output_tokens": 148.84583333333333,
+      "paid_tier_text_cost_estimate_per_assessment": 0.0004875820833333333,
+      "billing_cost": null
+    },
+    "semantic": {
+      "n": 240,
+      "valid": 240,
+      "mean_seconds": 12.358654845832886,
+      "median_seconds": 12.819635099964216,
+      "token_rows": 240,
+      "total_tokens": 125492,
+      "mean_tokens": 522.8833333333333,
+      "mean_input_tokens": 385.0083333333333,
+      "mean_output_tokens": 137.875,
+      "paid_tier_text_cost_estimate_per_assessment": 0.00046019,
+      "billing_cost": null
+    }
+  }
+}

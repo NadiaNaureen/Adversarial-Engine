@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a01088",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.85,
+    "evidence": [
+      "Age matches exactly (49)",
+      "Gender matches (man)",
+      "Medical flag matches (hypertension)",
+      "ZIP codes share regional prefix (1300)"
+    ],
+    "rationale": "Candidate s11-a01088 shares exact age, gender, and medical flag with the target, along with a closely matching postal prefix, providing strong linkage despite the target's missing occupation."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a01088\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"Age matches exactly (49)\",\n    \"Gender matches (man)\",\n    \"Medical flag matches (hypertension)\",\n    \"ZIP codes share regional prefix (1300)\"\n  ],\n  \"rationale\": \"Candidate s11-a01088 shares exact age, gender, and medical flag with the target, along with a closely matching postal prefix, providing strong linkage despite the target's missing occupation.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 142,
+  "seconds": 12.200635400018655,
+  "attempts": 1
+}

@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Candidate s11-a03522 matches age, occupation, gender, and medical_flag, but zip_code differs completely.",
+      "Candidate s11-a08357 matches age, occupation, gender, and medical_flag, but zip_code differs.",
+      "Candidate s11-a09057 matches zip_code, occupation, gender, medical_flag, and has a very close age (59 vs 60)."
+    ],
+    "rationale": "Multiple candidates share significant overlapping attributes with the target, but none present a complete and unambiguous match across all identifiers."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Candidate s11-a03522 matches age, occupation, gender, and medical_flag, but zip_code differs completely.\",\n    \"Candidate s11-a08357 matches age, occupation, gender, and medical_flag, but zip_code differs.\",\n    \"Candidate s11-a09057 matches zip_code, occupation, gender, medical_flag, and has a very close age (59 vs 60).\"\n  ],\n  \"rationale\": \"Multiple candidates share significant overlapping attributes with the target, but none present a complete and unambiguous match across all identifiers.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 175,
+  "seconds": 2.199800599948503,
+  "attempts": 1
+}

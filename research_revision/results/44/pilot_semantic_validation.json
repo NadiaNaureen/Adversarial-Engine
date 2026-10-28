@@ -1,0 +1,1987 @@
+[
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-000-age_noise",
+    "group": "s44-validation-0-000",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 50,
+      "zip_code": "180009",
+      "occupation": "Teacher",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00940",
+        "score": 0.146509,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a04802",
+          "s44-a00124"
+        ],
+        "scores": [
+          0.146509,
+          0.146509,
+          0.146509,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a05769",
+        "score": 0.146509,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a04802",
+          "s44-a00124"
+        ],
+        "scores": [
+          0.146509,
+          0.146509,
+          0.146509,
+          0.0
+        ],
+        "llm_decision": "ambiguous"
+      }
+    },
+    "local_scoring_seconds": 0.00034600007347762585,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a05769",
+        "decision": "ambiguous",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.55,
+        "evidence": [
+          "Gender matches: woman",
+          "Occupation matches: Teacher",
+          "Age close: target 50, candidate 46",
+          "Postal prefix close: 180009 vs 180029",
+          "Medical flag matches: none"
+        ],
+        "rationale": "Candidate s44-a05769 shares matching gender, occupation, medical flag, and very similar age and postal prefix, but exact demographic uniqueness cannot be fully confirmed, making it an ambiguous high-probability linkage rather than a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a05769\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.55,\n  \"evidence\": [\n    \"Gender matches: woman\",\n    \"Occupation matches: Teacher\",\n    \"Age close: target 50, candidate 46\",\n    \"Postal prefix close: 180009 vs 180029\",\n    \"Medical flag matches: none\"\n  ],\n  \"rationale\": \"Candidate s44-a05769 shares matching gender, occupation, medical flag, and very similar age and postal prefix, but exact demographic uniqueness cannot be fully confirmed, making it an ambiguous high-probability linkage rather than a definitive match.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 173,
+      "seconds": 13.29219429998193,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-000-changed",
+    "group": "s44-validation-0-000",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 51,
+      "zip_code": "180009",
+      "occupation": "Shop assistant",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a03924",
+        "score": 0.146509,
+        "margin": 0.146509,
+        "valid": true,
+        "candidates": [
+          "s44-a03924",
+          "s44-a04861",
+          "s44-a03595",
+          "s44-a05533"
+        ],
+        "scores": [
+          0.146509,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03924",
+          "s44-a04861",
+          "s44-a03595",
+          "s44-a05533"
+        ],
+        "scores": [
+          0.146509,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0003046999918296933,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "occupation matches for multiple candidates",
+          "age 51 matches candidate s44-a03595 only",
+          "zip code prefixes do not align uniquely with target"
+        ],
+        "rationale": "No single candidate matches all key attributes (age, zip code, occupation, and medical flag) strongly enough to confirm a definitive link."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"occupation matches for multiple candidates\",\n    \"age 51 matches candidate s44-a03595 only\",\n    \"zip code prefixes do not align uniquely with target\"\n  ],\n  \"rationale\": \"No single candidate matches all key attributes (age, zip code, occupation, and medical flag) strongly enough to confirm a definitive link.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 119,
+      "seconds": 12.908764299936593,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-000-clean",
+    "group": "s44-validation-0-000",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 51,
+      "zip_code": "180009",
+      "occupation": "Teacher",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00940",
+        "score": 0.146509,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a04802",
+          "s44-a00124"
+        ],
+        "scores": [
+          0.146509,
+          0.146509,
+          0.146509,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a04802",
+          "s44-a00124"
+        ],
+        "scores": [
+          0.146509,
+          0.146509,
+          0.146509,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00044380000326782465,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "gender matches across multiple candidates",
+          "occupation 'Teacher' matches multiple candidates",
+          "no candidate strongly aligns across age, zip code prefix, and occupation simultaneously"
+        ],
+        "rationale": "Multiple candidates share individual attributes with the target, but none present a uniquely strong combination of matching age, zip code prefix, and occupation to establish a definitive link."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"gender matches across multiple candidates\",\n    \"occupation 'Teacher' matches multiple candidates\",\n    \"no candidate strongly aligns across age, zip code prefix, and occupation simultaneously\"\n  ],\n  \"rationale\": \"Multiple candidates share individual attributes with the target, but none present a uniquely strong combination of matching age, zip code prefix, and occupation to establish a definitive link.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 119,
+      "seconds": 12.604163600015454,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-000-combined_noise",
+    "group": "s44-validation-0-000",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 50,
+      "zip_code": "180011",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00124",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05533",
+          "s44-a00124",
+          "s44-a06727",
+          "s44-a05769"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05533",
+          "s44-a00124",
+          "s44-a06727",
+          "s44-a05769"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0002618000144138932,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "gender match across candidates",
+          "ages differ significantly from target",
+          "zip code prefixes only partially overlap"
+        ],
+        "rationale": "None of the candidates present a strong overall match to the target profile due to age discrepancies and lack of distinct identifying features."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"ages differ significantly from target\",\n    \"zip code prefixes only partially overlap\"\n  ],\n  \"rationale\": \"None of the candidates present a strong overall match to the target profile due to age discrepancies and lack of distinct identifying features.\"\n}",
+      "input_tokens": 381,
+      "output_tokens": 100,
+      "seconds": 12.598209899966605,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-000-missing",
+    "group": "s44-validation-0-000",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 51,
+      "zip_code": "180009",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00940",
+        "score": 0.4092,
+        "margin": 0.4092,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a05533",
+          "s44-a03595"
+        ],
+        "scores": [
+          0.4092,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a05533",
+          "s44-a03595"
+        ],
+        "scores": [
+          0.4092,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00025379995349794626,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.0,
+        "evidence": [
+          "No candidate shares a strong multi-field overlap with the target profile."
+        ],
+        "rationale": "None of the candidates align sufficiently across age, zip code, and medical flag to establish a match; multiple candidates show conflicting attributes."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"No candidate shares a strong multi-field overlap with the target profile.\"\n  ],\n  \"rationale\": \"None of the candidates align sufficiently across age, zip code, and medical flag to establish a match; multiple candidates show conflicting attributes.\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 92,
+      "seconds": 13.59414210007526,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-000-paraphrase",
+    "group": "s44-validation-0-000",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 51,
+      "zip_code": "180009",
+      "occupation": "School educator",
+      "gender": "woman",
+      "medical_flag": "none"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00940",
+        "score": 0.146509,
+        "margin": 0.146509,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a00124",
+          "s44-a02054"
+        ],
+        "scores": [
+          0.146509,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05769",
+          "s44-a00940",
+          "s44-a00124",
+          "s44-a02054"
+        ],
+        "scores": [
+          0.146509,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.000282699940726161,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender match across candidates",
+          "age and zip discrepancies for top occupation match"
+        ],
+        "rationale": "None of the candidates exhibit a strong overall convergence of age, exact zip prefix, and occupation to warrant a match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"age and zip discrepancies for top occupation match\"\n  ],\n  \"rationale\": \"None of the candidates exhibit a strong overall convergence of age, exact zip prefix, and occupation to warrant a match.\"\n}",
+      "input_tokens": 383,
+      "output_tokens": 92,
+      "seconds": 12.288365200045519,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-001-age_noise",
+    "group": "s44-validation-0-001",
+    "truth": null,
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 41,
+      "zip_code": "120021",
+      "occupation": "Architect",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a03743",
+        "score": 0.181065,
+        "margin": 0.181065,
+        "valid": true,
+        "candidates": [
+          "s44-a03743",
+          "s44-a06683",
+          "s44-a06022",
+          "s44-a02795"
+        ],
+        "scores": [
+          0.181065,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a03743",
+          "s44-a06683",
+          "s44-a06022",
+          "s44-a02795"
+        ],
+        "scores": [
+          0.181065,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.000480600050650537,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Age matches candidate s44-a03743 and s44-a06022",
+          "Gender matches all candidates",
+          "Medical flag matches s44-a03743, s44-a06683, and s44-a02795",
+          "Zip code and occupation do not strongly align with any single candidate"
+        ],
+        "rationale": "No single candidate shares a sufficiently high number of matching fields across age, zip code, occupation, and medical flag to confirm a strong identity linkage."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s44-a03743 and s44-a06022\",\n    \"Gender matches all candidates\",\n    \"Medical flag matches s44-a03743, s44-a06683, and s44-a02795\",\n    \"Zip code and occupation do not strongly align with any single candidate\"\n  ],\n  \"rationale\": \"No single candidate shares a sufficiently high number of matching fields across age, zip code, occupation, and medical flag to confirm a strong identity linkage.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 170,
+      "seconds": 13.307073500007391,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-001-changed",
+    "group": "s44-validation-0-001",
+    "truth": null,
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 42,
+      "zip_code": "120021",
+      "occupation": "Teacher",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a04970",
+        "score": 0.181065,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a04970",
+          "s44-a06683",
+          "s44-a06640",
+          "s44-a02795"
+        ],
+        "scores": [
+          0.181065,
+          0.181065,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a04970",
+          "s44-a06683",
+          "s44-a06640",
+          "s44-a02795"
+        ],
+        "scores": [
+          0.181065,
+          0.181065,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0004887999966740608,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "gender matches across multiple candidates",
+          "medical_flag matches across multiple candidates",
+          "occupation matches for some candidates but ages and zip codes diverge significantly"
+        ],
+        "rationale": "None of the candidates present a sufficiently strong overall alignment in age, zip code, and occupation simultaneously to warrant a match or clear tie."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"gender matches across multiple candidates\",\n    \"medical_flag matches across multiple candidates\",\n    \"occupation matches for some candidates but ages and zip codes diverge significantly\"\n  ],\n  \"rationale\": \"None of the candidates present a sufficiently strong overall alignment in age, zip code, and occupation simultaneously to warrant a match or clear tie.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 112,
+      "seconds": 18.717909900005907,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-001-clean",
+    "group": "s44-validation-0-001",
+    "truth": null,
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 42,
+      "zip_code": "120021",
+      "occupation": "Architect",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a02795",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a02795",
+          "s44-a03743",
+          "s44-a04867"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a02795",
+          "s44-a03743",
+          "s44-a04867"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0004483000375330448,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender match across candidates",
+          "medical_flag matches some candidates",
+          "no single candidate aligns strongly across age, zip_code, and occupation"
+        ],
+        "rationale": "None of the candidates exhibit sufficient overlapping fields of strong evidence to confirm a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"medical_flag matches some candidates\",\n    \"no single candidate aligns strongly across age, zip_code, and occupation\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient overlapping fields of strong evidence to confirm a definitive match.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 102,
+      "seconds": 13.378787499968894,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-001-combined_noise",
+    "group": "s44-validation-0-001",
+    "truth": null,
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 43,
+      "zip_code": "110019",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a03743",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a03743",
+          "s44-a07433",
+          "s44-a04987"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a03743",
+          "s44-a07433",
+          "s44-a04987"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00034639996010810137,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.3,
+        "evidence": [
+          "Gender matches across multiple candidates",
+          "Medical flag matches for some candidates but ages and zip codes vary significantly",
+          "No single candidate presents a strong alignment across age, zip code, and other key attributes"
+        ],
+        "rationale": "None of the candidates exhibit sufficient overall alignment with the target profile to establish a reliable synthetic identity linkage, warranting an insufficient evidence decision."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Gender matches across multiple candidates\",\n    \"Medical flag matches for some candidates but ages and zip codes vary significantly\",\n    \"No single candidate presents a strong alignment across age, zip code, and other key attributes\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient overall alignment with the target profile to establish a reliable synthetic identity linkage, warranting an insufficient evidence decision.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 123,
+      "seconds": 15.001176699995995,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-001-missing",
+    "group": "s44-validation-0-001",
+    "truth": null,
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 42,
+      "zip_code": "120021",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a02795",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a04970",
+          "s44-a02795",
+          "s44-a03743"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a04970",
+          "s44-a02795",
+          "s44-a03743"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.0004227999597787857,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender match across candidates",
+          "medical_flag match across candidates",
+          "age and zip code diverge significantly or lack unique specificity"
+        ],
+        "rationale": "Multiple candidates share generic attributes like gender and medical flag, but none present a uniquely distinguishing combination of age and postal code to establish a definitive link."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"medical_flag match across candidates\",\n    \"age and zip code diverge significantly or lack unique specificity\"\n  ],\n  \"rationale\": \"Multiple candidates share generic attributes like gender and medical flag, but none present a uniquely distinguishing combination of age and postal code to establish a definitive link.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 110,
+      "seconds": 12.681473099975847,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-0-001-paraphrase",
+    "group": "s44-validation-0-001",
+    "truth": null,
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 42,
+      "zip_code": "120021",
+      "occupation": "Building designer",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a02795",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a03743",
+          "s44-a02795",
+          "s44-a04970"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a06683",
+          "s44-a03743",
+          "s44-a02795",
+          "s44-a04970"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00034689996391534805,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender matches across multiple candidates",
+          "medical_flag matches across multiple candidates",
+          "no single candidate clearly aligns on age, zip_code, and occupation simultaneously"
+        ],
+        "rationale": "None of the candidates present a strong unique linkage combining age, location, and occupation with sufficient certainty to confirm a match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender matches across multiple candidates\",\n    \"medical_flag matches across multiple candidates\",\n    \"no single candidate clearly aligns on age, zip_code, and occupation simultaneously\"\n  ],\n  \"rationale\": \"None of the candidates present a strong unique linkage combining age, location, and occupation with sufficient certainty to confirm a match.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 112,
+      "seconds": 12.995974899968132,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-000-age_noise",
+    "group": "s44-validation-1-000",
+    "truth": "s44-a05139",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 24,
+      "zip_code": "130028",
+      "occupation": "Shop assistant",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05139",
+        "score": 0.590532,
+        "margin": 0.4094669999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a00409",
+          "s44-a03716",
+          "s44-a04970"
+        ],
+        "scores": [
+          0.590532,
+          0.181065,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a05139",
+        "score": 0.590532,
+        "margin": 0.4094669999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a00409",
+          "s44-a03716",
+          "s44-a04970"
+        ],
+        "scores": [
+          0.590532,
+          0.181065,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00023929995950311422,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a05139",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age is 25 (target 24, highly compatible)",
+          "Zip code is 130028 (exact match)",
+          "Occupation is Shop assistant (exact match)",
+          "Gender is man (exact match)",
+          "Medical flag is allergy (exact match)"
+        ],
+        "rationale": "Candidate s44-a05139 shares exact matches for zip code, occupation, gender, and medical flag, with a nearly identical age, making this a very strong match."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a05139\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age is 25 (target 24, highly compatible)\",\n    \"Zip code is 130028 (exact match)\",\n    \"Occupation is Shop assistant (exact match)\",\n    \"Gender is man (exact match)\",\n    \"Medical flag is allergy (exact match)\"\n  ],\n  \"rationale\": \"Candidate s44-a05139 shares exact matches for zip code, occupation, gender, and medical flag, with a nearly identical age, making this a very strong match.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 162,
+      "seconds": 6.669723199913278,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-000-changed",
+    "group": "s44-validation-1-000",
+    "truth": "s44-a05139",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 25,
+      "zip_code": "130028",
+      "occupation": "Pharmacist",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05139",
+        "score": 0.590532,
+        "margin": 0.4094669999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a05506",
+          "s44-a00991"
+        ],
+        "scores": [
+          0.590532,
+          0.181065,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a05506",
+          "s44-a00991"
+        ],
+        "scores": [
+          0.590532,
+          0.181065,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00017520005349069834,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age matches for candidates s44-a05139, s44-a04970",
+          "Zip code matches exactly for candidate s44-a05139 (130028)",
+          "Gender matches across candidates",
+          "Medical flag matches across candidates",
+          "Occupations differ significantly across all candidates"
+        ],
+        "rationale": "While candidate s44-a05139 shares age, zip code, gender, and medical flag, the occupations ('Pharmacist' vs 'Shop assistant') are contradictory and prevent a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches for candidates s44-a05139, s44-a04970\",\n    \"Zip code matches exactly for candidate s44-a05139 (130028)\",\n    \"Gender matches across candidates\",\n    \"Medical flag matches across candidates\",\n    \"Occupations differ significantly across all candidates\"\n  ],\n  \"rationale\": \"While candidate s44-a05139 shares age, zip code, gender, and medical flag, the occupations ('Pharmacist' vs 'Shop assistant') are contradictory and prevent a definitive match.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 176,
+      "seconds": 13.654624900082126,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-000-clean",
+    "group": "s44-validation-1-000",
+    "truth": "s44-a05139",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 25,
+      "zip_code": "130028",
+      "occupation": "Shop assistant",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05139",
+        "score": 1.0,
+        "margin": 0.818935,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a00409",
+          "s44-a08063"
+        ],
+        "scores": [
+          1.0,
+          0.181065,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": "s44-a05139",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a05139",
+        "score": 1.0,
+        "margin": 0.818935,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a00409",
+          "s44-a08063"
+        ],
+        "scores": [
+          1.0,
+          0.181065,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00048749998677521944,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a05139",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age matches exactly (25)",
+          "zip_code matches exactly (130028)",
+          "occupation matches exactly (Shop assistant)",
+          "gender matches exactly (man)",
+          "medical_flag matches exactly (allergy)"
+        ],
+        "rationale": "Candidate s44-a05139 has exact attribute matches across all provided fields including age, zip code, occupation, gender, and medical flag."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a05139\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age matches exactly (25)\",\n    \"zip_code matches exactly (130028)\",\n    \"occupation matches exactly (Shop assistant)\",\n    \"gender matches exactly (man)\",\n    \"medical_flag matches exactly (allergy)\"\n  ],\n  \"rationale\": \"Candidate s44-a05139 has exact attribute matches across all provided fields including age, zip code, occupation, gender, and medical flag.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 146,
+      "seconds": 2.328778399969451,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-000-combined_noise",
+    "group": "s44-validation-1-000",
+    "truth": "s44-a05139",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 24,
+      "zip_code": "160001",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a00991",
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00991",
+          "s44-a05506",
+          "s44-a06640",
+          "s44-a04970"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a00991",
+          "s44-a05506",
+          "s44-a06640",
+          "s44-a04970"
+        ],
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00015570002142339945,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "Gender matches across multiple candidates",
+          "Medical flag matches across multiple candidates",
+          "Zip codes do not closely align with target",
+          "Ages vary across candidates with no strong unique identifier"
+        ],
+        "rationale": "Multiple candidates share common attributes such as gender and medical flag, but zip codes and specific ages do not point definitively to a single candidate, making ties ambiguous and evidence insufficient."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Gender matches across multiple candidates\",\n    \"Medical flag matches across multiple candidates\",\n    \"Zip codes do not closely align with target\",\n    \"Ages vary across candidates with no strong unique identifier\"\n  ],\n  \"rationale\": \"Multiple candidates share common attributes such as gender and medical flag, but zip codes and specific ages do not point definitively to a single candidate, making ties ambiguous and evidence insufficient.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 128,
+      "seconds": 13.453464000020176,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-000-missing",
+    "group": "s44-validation-1-000",
+    "truth": "s44-a05139",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 25,
+      "zip_code": "130028",
+      "occupation": null,
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05139",
+        "score": 0.894427,
+        "margin": 0.46052299999999996,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a05506",
+          "s44-a00991"
+        ],
+        "scores": [
+          0.894427,
+          0.433904,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a05139",
+        "score": 0.894427,
+        "margin": 0.46052299999999996,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a05506",
+          "s44-a00991"
+        ],
+        "scores": [
+          0.894427,
+          0.433904,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00016729999333620071,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a05139",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches (25)",
+          "Zip code matches (130028)",
+          "Gender matches (man)",
+          "Medical flag matches (allergy)"
+        ],
+        "rationale": "Candidate s44-a05139 shares exact matches across all available target attributes including age, zip code, gender, and medical flag."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a05139\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches (25)\",\n    \"Zip code matches (130028)\",\n    \"Gender matches (man)\",\n    \"Medical flag matches (allergy)\"\n  ],\n  \"rationale\": \"Candidate s44-a05139 shares exact matches across all available target attributes including age, zip code, gender, and medical flag.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 129,
+      "seconds": 11.300822000019252,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-000-paraphrase",
+    "group": "s44-validation-1-000",
+    "truth": "s44-a05139",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 25,
+      "zip_code": "130028",
+      "occupation": "Retail sales assistant",
+      "gender": "man",
+      "medical_flag": "allergy"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05139",
+        "score": 0.590532,
+        "margin": 0.4094669999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a05506",
+          "s44-a00409"
+        ],
+        "scores": [
+          0.590532,
+          0.181065,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a05139",
+        "score": 0.590532,
+        "margin": 0.4094669999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a05139",
+          "s44-a04970",
+          "s44-a05506",
+          "s44-a00409"
+        ],
+        "scores": [
+          0.590532,
+          0.181065,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00022740010172128677,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a05139",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age matches exactly (25)",
+          "Zip code matches exactly (130028)",
+          "Gender matches (man)",
+          "Medical flag matches (allergy)",
+          "Occupation 'Shop assistant' is semantically compatible with 'Retail sales assistant'"
+        ],
+        "rationale": "Candidate s44-a05139 shares exact matches across age, zip code, gender, and medical flag, with a semantically compatible occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a05139\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (25)\",\n    \"Zip code matches exactly (130028)\",\n    \"Gender matches (man)\",\n    \"Medical flag matches (allergy)\",\n    \"Occupation 'Shop assistant' is semantically compatible with 'Retail sales assistant'\"\n  ],\n  \"rationale\": \"Candidate s44-a05139 shares exact matches across age, zip code, gender, and medical flag, with a semantically compatible occupation.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 151,
+      "seconds": 12.430974999908358,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-001-age_noise",
+    "group": "s44-validation-1-001",
+    "truth": "s44-a08099",
+    "condition": "age_noise",
+    "cloud": true,
+    "target": {
+      "age": 43,
+      "zip_code": "160015",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a08099",
+        "score": 0.586498,
+        "margin": 0.4135019999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a05730",
+          "s44-a03685"
+        ],
+        "scores": [
+          0.586498,
+          0.172996,
+          0.172996,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a08099",
+        "score": 0.586498,
+        "margin": 0.4135019999999999,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a05730",
+          "s44-a03685"
+        ],
+        "scores": [
+          0.586498,
+          0.172996,
+          0.172996,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0005648999940603971,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a08099",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.95,
+        "evidence": [
+          "Age is extremely close (target 43, candidate 44)",
+          "Zip code matches exactly (160015)",
+          "Occupation matches exactly (Accountant)",
+          "Gender matches (woman)",
+          "Medical flag matches (asthma)"
+        ],
+        "rationale": "Candidate s44-a08099 shares exact matches for zip code, occupation, gender, and medical flag, with an age difference of only one year, providing strong evidence of a synthetic identity linkage."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a08099\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age is extremely close (target 43, candidate 44)\",\n    \"Zip code matches exactly (160015)\",\n    \"Occupation matches exactly (Accountant)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (asthma)\"\n  ],\n  \"rationale\": \"Candidate s44-a08099 shares exact matches for zip code, occupation, gender, and medical flag, with an age difference of only one year, providing strong evidence of a synthetic identity linkage.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 162,
+      "seconds": 12.42709570005536,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-001-changed",
+    "group": "s44-validation-1-001",
+    "truth": "s44-a08099",
+    "condition": "changed",
+    "cloud": true,
+    "target": {
+      "age": 44,
+      "zip_code": "160015",
+      "occupation": "Pharmacist",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a08099",
+        "score": 0.586498,
+        "margin": 0.586498,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a07405",
+          "s44-a00181",
+          "s44-a03685"
+        ],
+        "scores": [
+          0.586498,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a07405",
+          "s44-a00181",
+          "s44-a03685"
+        ],
+        "scores": [
+          0.586498,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00047800003085285425,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.4,
+        "evidence": [
+          "Age matches candidate s44-a08099 but occupation conflicts",
+          "Occupation matches candidate s44-a07405 but age and zip code conflict",
+          "Medical flag and gender match multiple candidates, but no single candidate provides a strong multi-field match across age, zip code, occupation, and medical status"
+        ],
+        "rationale": "None of the candidates exhibit strong alignment across all key attributes (age, zip code, occupation, medical flag); each candidate has significant discrepancies in crucial fields, leading to insufficient evidence for a positive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches candidate s44-a08099 but occupation conflicts\",\n    \"Occupation matches candidate s44-a07405 but age and zip code conflict\",\n    \"Medical flag and gender match multiple candidates, but no single candidate provides a strong multi-field match across age, zip code, occupation, and medical status\"\n  ],\n  \"rationale\": \"None of the candidates exhibit strong alignment across all key attributes (age, zip code, occupation, medical flag); each candidate has significant discrepancies in crucial fields, leading to insufficient evidence for a positive match.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 166,
+      "seconds": 12.899028999963775,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-001-clean",
+    "group": "s44-validation-1-001",
+    "truth": "s44-a08099",
+    "condition": "clean",
+    "cloud": true,
+    "target": {
+      "age": 44,
+      "zip_code": "160015",
+      "occupation": "Accountant",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a08099",
+        "score": 1.0,
+        "margin": 0.827004,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a05730",
+          "s44-a03685"
+        ],
+        "scores": [
+          1.0,
+          0.172996,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": "s44-a08099",
+        "score": 1.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a08099",
+        "score": 1.0,
+        "margin": 0.827004,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a05730",
+          "s44-a03685"
+        ],
+        "scores": [
+          1.0,
+          0.172996,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.00023840006906539202,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a08099",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 1.0,
+        "evidence": [
+          "age exact match (44)",
+          "zip_code exact match (160015)",
+          "occupation exact match (Accountant)",
+          "gender exact match (woman)",
+          "medical_flag exact match (asthma)"
+        ],
+        "rationale": "Candidate s44-a08099 matches all provided target attributes exactly."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a08099\",\n  \"decision\": \"match\",\n  \"confidence\": 1.0,\n  \"evidence\": [\n    \"age exact match (44)\",\n    \"zip_code exact match (160015)\",\n    \"occupation exact match (Accountant)\",\n    \"gender exact match (woman)\",\n    \"medical_flag exact match (asthma)\"\n  ],\n  \"rationale\": \"Candidate s44-a08099 matches all provided target attributes exactly.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 131,
+      "seconds": 12.469708299962804,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-001-combined_noise",
+    "group": "s44-validation-1-001",
+    "truth": "s44-a08099",
+    "condition": "combined_noise",
+    "cloud": true,
+    "target": {
+      "age": 43,
+      "zip_code": "130025",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a05730",
+        "score": 0.428184,
+        "margin": 0.428184,
+        "valid": true,
+        "candidates": [
+          "s44-a05730",
+          "s44-a03933",
+          "s44-a04861",
+          "s44-a03902"
+        ],
+        "scores": [
+          0.428184,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 0.0,
+        "valid": true,
+        "candidates": [
+          "s44-a05730",
+          "s44-a03933",
+          "s44-a04861",
+          "s44-a03902"
+        ],
+        "scores": [
+          0.428184,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "insufficient_evidence"
+      }
+    },
+    "local_scoring_seconds": 0.00043699995148926973,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": null,
+        "decision": "insufficient_evidence",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.2,
+        "evidence": [
+          "gender match across candidates",
+          "medical_flag match across candidates",
+          "zip_code mismatch or incompatible prefixes for all candidates"
+        ],
+        "rationale": "While gender and medical flag match multiple candidates, none of the candidates share a compatible zip code with the target, leaving insufficient evidence to make a definitive match."
+      },
+      "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"medical_flag match across candidates\",\n    \"zip_code mismatch or incompatible prefixes for all candidates\"\n  ],\n  \"rationale\": \"While gender and medical flag match multiple candidates, none of the candidates share a compatible zip code with the target, leaving insufficient evidence to make a definitive match.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 112,
+      "seconds": 12.789862899924628,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-001-missing",
+    "group": "s44-validation-1-001",
+    "truth": "s44-a08099",
+    "condition": "missing",
+    "cloud": true,
+    "target": {
+      "age": 44,
+      "zip_code": "160015",
+      "occupation": null,
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a08099",
+        "score": 0.894427,
+        "margin": 0.894427,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a03685",
+          "s44-a05730"
+        ],
+        "scores": [
+          0.894427,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a08099",
+        "score": 0.894427,
+        "margin": 0.894427,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a03685",
+          "s44-a05730"
+        ],
+        "scores": [
+          0.894427,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.0004860999761149287,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a08099",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.98,
+        "evidence": [
+          "Exact match on age: 44",
+          "Exact match on zip_code: 160015",
+          "Exact match on gender: woman",
+          "Exact match on medical_flag: asthma"
+        ],
+        "rationale": "Candidate s44-a08099 has an exact match across all available demographic and medical fields (age, zip code, gender, medical flag), providing strong evidence of identity linkage."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a08099\",\n  \"decision\": \"match\",\n  \"confidence\": 0.98,\n  \"evidence\": [\n    \"Exact match on age: 44\",\n    \"Exact match on zip_code: 160015\",\n    \"Exact match on gender: woman\",\n    \"Exact match on medical_flag: asthma\"\n  ],\n  \"rationale\": \"Candidate s44-a08099 has an exact match across all available demographic and medical fields (age, zip code, gender, medical flag), providing strong evidence of identity linkage.\"\n}",
+      "input_tokens": 387,
+      "output_tokens": 149,
+      "seconds": 13.724598300061189,
+      "attempts": 1
+    }
+  },
+  {
+    "seed": 44,
+    "target_id": "s44-validation-1-001-paraphrase",
+    "group": "s44-validation-1-001",
+    "truth": "s44-a08099",
+    "condition": "paraphrase",
+    "cloud": true,
+    "target": {
+      "age": 44,
+      "zip_code": "160015",
+      "occupation": "Accounting professional",
+      "gender": "woman",
+      "medical_flag": "asthma"
+    },
+    "raw": {
+      "k4_c1": {
+        "candidate": "s44-a08099",
+        "score": 0.586498,
+        "margin": 0.586498,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a05730",
+          "s44-a03685"
+        ],
+        "scores": [
+          0.586498,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact": {
+        "candidate": null,
+        "score": 0.0,
+        "margin": 1.0,
+        "valid": true,
+        "tie": false
+      },
+      "llm": {
+        "candidate": "s44-a08099",
+        "score": 0.586498,
+        "margin": 0.586498,
+        "valid": true,
+        "candidates": [
+          "s44-a08099",
+          "s44-a00181",
+          "s44-a05730",
+          "s44-a03685"
+        ],
+        "scores": [
+          0.586498,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "llm_decision": "match"
+      }
+    },
+    "local_scoring_seconds": 0.000444800010882318,
+    "cloud_response": {
+      "valid": true,
+      "assessment": {
+        "candidate_id": "s44-a08099",
+        "decision": "match",
+        "predicted_identity": "NO_MATCH",
+        "confidence": 0.98,
+        "evidence": [
+          "Exact match on age: 44",
+          "Exact match on zip_code: 160015",
+          "Semantic match on occupation: Accountant vs Accounting professional",
+          "Exact match on gender: woman",
+          "Exact match on medical_flag: asthma"
+        ],
+        "rationale": "Candidate s44-a08099 matches all provided target attributes exactly, including age, zip code, gender, medical flag, and a semantically compatible occupation."
+      },
+      "raw": "{\n  \"candidate_id\": \"s44-a08099\",\n  \"decision\": \"match\",\n  \"confidence\": 0.98,\n  \"evidence\": [\n    \"Exact match on age: 44\",\n    \"Exact match on zip_code: 160015\",\n    \"Semantic match on occupation: Accountant vs Accounting professional\",\n    \"Exact match on gender: woman\",\n    \"Exact match on medical_flag: asthma\"\n  ],\n  \"rationale\": \"Candidate s44-a08099 matches all provided target attributes exactly, including age, zip code, gender, medical flag, and a semantically compatible occupation.\"\n}",
+      "input_tokens": 389,
+      "output_tokens": 158,
+      "seconds": 12.236359699978493,
+      "attempts": 1
+    }
+  }
+]

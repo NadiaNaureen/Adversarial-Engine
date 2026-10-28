@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches candidate s55-a07741 (56), but gender (man vs woman) and zip code prefix mismatch.",
+      "Gender matches multiple candidates (s55-a02991, s55-a03830, s55-a09895), but ages and zip codes diverge.",
+      "Medical flag 'allergy' matches candidates s55-a07741, s55-a02991, and s55-a09895, but other key attributes conflict."
+    ],
+    "rationale": "No single candidate aligns sufficiently across age, zip code, occupation, gender, and medical flag to establish a strong match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s55-a07741 (56), but gender (man vs woman) and zip code prefix mismatch.\",\n    \"Gender matches multiple candidates (s55-a02991, s55-a03830, s55-a09895), but ages and zip codes diverge.\",\n    \"Medical flag 'allergy' matches candidates s55-a07741, s55-a02991, and s55-a09895, but other key attributes conflict.\"\n  ],\n  \"rationale\": \"No single candidate aligns sufficiently across age, zip code, occupation, gender, and medical flag to establish a strong match.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 205,
+  "seconds": 13.154625099967234,
+  "attempts": 1
+}

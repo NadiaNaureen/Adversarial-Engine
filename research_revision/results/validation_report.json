@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Seed 11: split, IDs, prediction uniqueness, all cloud responses and candidate constraints verified",
+    "Seed 22: split, IDs, prediction uniqueness, all cloud responses and candidate constraints verified",
+    "Seed 33: split, IDs, prediction uniqueness, all cloud responses and candidate constraints verified",
+    "Seed 44: split, IDs, prediction uniqueness, all cloud responses and candidate constraints verified",
+    "Seed 55: split, IDs, prediction uniqueness, all cloud responses and candidate constraints verified",
+    "Every method and policy has complete, mutually exclusive outcome counts",
+    "Original reference unchanged; source styles, numbering and theme preserved; author block and conclusion order verified"
+  ]
+}

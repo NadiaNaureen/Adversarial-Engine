@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s44-a07231",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Age matches exactly (54)",
+      "Zip code matches exactly (120001)",
+      "Occupation 'Driver' is a semantic paraphrase of 'Vehicle operator'",
+      "Gender matches exactly (nonbinary)",
+      "Medical flag matches exactly (diabetes)"
+    ],
+    "rationale": "Candidate s44-a07231 matches the target across all attributes including exact matches for age, zip code, gender, and medical flag, along with a compatible occupation."
+  },
+  "raw": "{\n  \"candidate_id\": \"s44-a07231\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age matches exactly (54)\",\n    \"Zip code matches exactly (120001)\",\n    \"Occupation 'Driver' is a semantic paraphrase of 'Vehicle operator'\",\n    \"Gender matches exactly (nonbinary)\",\n    \"Medical flag matches exactly (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s44-a07231 matches the target across all attributes including exact matches for age, zip code, gender, and medical flag, along with a compatible occupation.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 156,
+  "seconds": 12.853854700108059,
+  "attempts": 1
+}

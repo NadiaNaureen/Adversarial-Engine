@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches candidate s22-a01657 (64), but occupation differs (Farmer vs Architect)",
+      "Occupation matches candidates s22-a02406 and s22-a03543 (Architect), but age differs (58 vs 64)",
+      "Medical flag (hypertension) and gender (woman) match multiple candidates, but no single candidate aligns across all key fields (age, zip_code, occupation)"
+    ],
+    "rationale": "No single candidate matches all primary identifying attributes (age, zip code, occupation) simultaneously, leaving insufficient evidence for a positive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches candidate s22-a01657 (64), but occupation differs (Farmer vs Architect)\",\n    \"Occupation matches candidates s22-a02406 and s22-a03543 (Architect), but age differs (58 vs 64)\",\n    \"Medical flag (hypertension) and gender (woman) match multiple candidates, but no single candidate aligns across all key fields (age, zip_code, occupation)\"\n  ],\n  \"rationale\": \"No single candidate matches all primary identifying attributes (age, zip code, occupation) simultaneously, leaving insufficient evidence for a positive match.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 180,
+  "seconds": 13.210849699913524,
+  "attempts": 1
+}

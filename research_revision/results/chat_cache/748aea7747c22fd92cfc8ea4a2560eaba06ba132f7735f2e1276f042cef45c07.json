@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "occupation matches Farmer across candidates",
+      "gender matches man for multiple candidates",
+      "medical_flag hypertension matches multiple candidates",
+      "age and zip_code diverge significantly across all candidates"
+    ],
+    "rationale": "Multiple candidates share occupation, gender, and medical flag attributes, but none align closely on age and postal prefix to definitively distinguish a single match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"occupation matches Farmer across candidates\",\n    \"gender matches man for multiple candidates\",\n    \"medical_flag hypertension matches multiple candidates\",\n    \"age and zip_code diverge significantly across all candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share occupation, gender, and medical flag attributes, but none align closely on age and postal prefix to definitively distinguish a single match.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 121,
+  "seconds": 12.773156599956565,
+  "attempts": 1
+}

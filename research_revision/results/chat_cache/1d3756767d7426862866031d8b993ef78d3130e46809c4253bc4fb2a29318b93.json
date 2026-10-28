@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.1,
+    "evidence": [
+      "Gender matches across target and candidates",
+      "No candidate matches both age (37) and zip_code prefix (120) simultaneously"
+    ],
+    "rationale": "None of the candidates exhibit sufficient overlapping attributes with the target to establish a reliable linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.1,\n  \"evidence\": [\n    \"Gender matches across target and candidates\",\n    \"No candidate matches both age (37) and zip_code prefix (120) simultaneously\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient overlapping attributes with the target to establish a reliable linkage.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 100,
+  "seconds": 13.05922479997389,
+  "attempts": 1
+}

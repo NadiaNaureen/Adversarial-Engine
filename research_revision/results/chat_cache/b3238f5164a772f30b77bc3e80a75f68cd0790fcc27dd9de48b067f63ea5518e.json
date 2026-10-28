@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a09568",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age: target=45, candidate=46 (close)",
+      "Zip code: target=180003, candidate=180003 (exact match)",
+      "Occupation: Farmer (exact match)",
+      "Gender: man (exact match)",
+      "Medical flag: diabetes (exact match)"
+    ],
+    "rationale": "Candidate s11-a09568 shares zip code, occupation, gender, and medical flag with a very close age (46 vs 45). However, another candidate (s11-a03826) matches the exact age (45) but has a different zip code. Due to multiple partial matches without a definitive single profile, the decision is ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a09568\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age: target=45, candidate=46 (close)\",\n    \"Zip code: target=180003, candidate=180003 (exact match)\",\n    \"Occupation: Farmer (exact match)\",\n    \"Gender: man (exact match)\",\n    \"Medical flag: diabetes (exact match)\"\n  ],\n  \"rationale\": \"Candidate s11-a09568 shares zip code, occupation, gender, and medical flag with a very close age (46 vs 45). However, another candidate (s11-a03826) matches the exact age (45) but has a different zip code. Due to multiple partial matches without a definitive single profile, the decision is ambiguous.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 214,
+  "seconds": 12.977958900039084,
+  "attempts": 1
+}

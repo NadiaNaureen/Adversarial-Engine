@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Age matches for candidates s44-a05139, s44-a04970",
+      "Zip code matches exactly for candidate s44-a05139 (130028)",
+      "Gender matches across candidates",
+      "Medical flag matches across candidates",
+      "Occupations differ significantly across all candidates"
+    ],
+    "rationale": "While candidate s44-a05139 shares age, zip code, gender, and medical flag, the occupations ('Pharmacist' vs 'Shop assistant') are contradictory and prevent a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age matches for candidates s44-a05139, s44-a04970\",\n    \"Zip code matches exactly for candidate s44-a05139 (130028)\",\n    \"Gender matches across candidates\",\n    \"Medical flag matches across candidates\",\n    \"Occupations differ significantly across all candidates\"\n  ],\n  \"rationale\": \"While candidate s44-a05139 shares age, zip code, gender, and medical flag, the occupations ('Pharmacist' vs 'Shop assistant') are contradictory and prevent a definitive match.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 176,
+  "seconds": 13.654624900082126,
+  "attempts": 1
+}

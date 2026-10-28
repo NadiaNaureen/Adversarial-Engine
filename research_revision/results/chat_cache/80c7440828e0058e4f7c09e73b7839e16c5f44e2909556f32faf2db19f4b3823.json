@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Target age 24 does not closely match any candidate",
+      "Target zip code 170022 does not match candidate zip codes",
+      "Multiple candidates share the 'Student' occupation but differ significantly in age, gender, and location"
+    ],
+    "rationale": "None of the candidates exhibit strong multi-field concordance with the target profile, preventing a confident linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Target age 24 does not closely match any candidate\",\n    \"Target zip code 170022 does not match candidate zip codes\",\n    \"Multiple candidates share the 'Student' occupation but differ significantly in age, gender, and location\"\n  ],\n  \"rationale\": \"None of the candidates exhibit strong multi-field concordance with the target profile, preventing a confident linkage.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 126,
+  "seconds": 17.844651200110093,
+  "attempts": 1
+}

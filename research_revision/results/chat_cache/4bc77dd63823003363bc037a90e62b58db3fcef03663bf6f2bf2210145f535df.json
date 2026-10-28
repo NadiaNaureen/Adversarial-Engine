@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s44-a03450",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.82,
+    "evidence": [
+      "Age matches exactly (37)",
+      "Gender matches (man)",
+      "Medical flag matches (none)",
+      "Occupation 'Teacher' is a strong semantic match for 'School educator'"
+    ],
+    "rationale": "Candidate s44-a03450 shares exact demographic details including age, gender, and medical flag, and has an occupationally synonymous role ('Teacher' vs 'School educator'), providing strong evidence for a match."
+  },
+  "raw": "{\n  \"candidate_id\": \"s44-a03450\",\n  \"decision\": \"match\",\n  \"confidence\": 0.82,\n  \"evidence\": [\n    \"Age matches exactly (37)\",\n    \"Gender matches (man)\",\n    \"Medical flag matches (none)\",\n    \"Occupation 'Teacher' is a strong semantic match for 'School educator'\"\n  ],\n  \"rationale\": \"Candidate s44-a03450 shares exact demographic details including age, gender, and medical flag, and has an occupationally synonymous role ('Teacher' vs 'School educator'), providing strong evidence for a match.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 147,
+  "seconds": 8.815726200002246,
+  "attempts": 1
+}

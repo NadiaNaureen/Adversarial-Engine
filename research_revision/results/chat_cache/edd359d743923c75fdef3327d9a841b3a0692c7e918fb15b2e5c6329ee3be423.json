@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches candidate s55-a04336 and s55-a09420 (41)",
+      "Occupation 'Civil engineer' matches candidates s55-a04336 and s55-a09784",
+      "Gender 'woman' matches all candidates",
+      "Zip code and medical flags differ or are inconsistent across top candidates"
+    ],
+    "rationale": "No single candidate aligns across all key identifiers including age, occupation, zip code, and medical flag, resulting in insufficient evidence for a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s55-a04336 and s55-a09420 (41)\",\n    \"Occupation 'Civil engineer' matches candidates s55-a04336 and s55-a09784\",\n    \"Gender 'woman' matches all candidates\",\n    \"Zip code and medical flags differ or are inconsistent across top candidates\"\n  ],\n  \"rationale\": \"No single candidate aligns across all key identifiers including age, occupation, zip code, and medical flag, resulting in insufficient evidence for a definitive match.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 168,
+  "seconds": 13.140302099986002,
+  "attempts": 1
+}

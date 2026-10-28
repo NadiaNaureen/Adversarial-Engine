@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Age 19 matches candidates s33-a00598 and s33-a03038",
+      "Zip code 140021 matches candidates s33-a06107 and s33-a08642",
+      "Gender man matches all candidates",
+      "Medical flag none matches all candidates"
+    ],
+    "rationale": "The target attributes are split across different candidates with no single candidate matching both age and zip code uniquely, leading to ambiguity."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age 19 matches candidates s33-a00598 and s33-a03038\",\n    \"Zip code 140021 matches candidates s33-a06107 and s33-a08642\",\n    \"Gender man matches all candidates\",\n    \"Medical flag none matches all candidates\"\n  ],\n  \"rationale\": \"The target attributes are split across different candidates with no single candidate matching both age and zip code uniquely, leading to ambiguity.\"\n}",
+  "input_tokens": 380,
+  "output_tokens": 157,
+  "seconds": 1.7638208999997005,
+  "attempts": 1
+}

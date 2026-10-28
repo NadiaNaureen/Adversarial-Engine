@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [],
+    "rationale": "None of the candidates exhibit strong multi-field alignment with the target across age, zip code, and occupation simultaneously to justify a positive linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [],\n  \"rationale\": \"None of the candidates exhibit strong multi-field alignment with the target across age, zip code, and occupation simultaneously to justify a positive linkage.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 74,
+  "seconds": 7.8436863999813795,
+  "attempts": 1
+}

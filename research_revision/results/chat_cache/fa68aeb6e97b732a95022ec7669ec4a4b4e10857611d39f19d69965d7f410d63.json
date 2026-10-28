@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Age matches for multiple candidates (e.g., s11-a00426, s11-a06820), but none match all attributes uniquely.",
+      "Zip code prefix or exact matches differ across plausible candidates.",
+      "No candidate aligns on age, zip code, occupation, and medical flag simultaneously with strong overlapping evidence."
+    ],
+    "rationale": "Multiple candidates share subsets of traits (age or occupation), but none provide sufficient overlapping evidence across all fields to establish a definitive match. Therefore, insufficient evidence exists."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Age matches for multiple candidates (e.g., s11-a00426, s11-a06820), but none match all attributes uniquely.\",\n    \"Zip code prefix or exact matches differ across plausible candidates.\",\n    \"No candidate aligns on age, zip code, occupation, and medical flag simultaneously with strong overlapping evidence.\"\n  ],\n  \"rationale\": \"Multiple candidates share subsets of traits (age or occupation), but none provide sufficient overlapping evidence across all fields to establish a definitive match. Therefore, insufficient evidence exists.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 160,
+  "seconds": 11.490185200003907,
+  "attempts": 1
+}

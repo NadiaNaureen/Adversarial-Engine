@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches across multiple candidates",
+      "Gender matches across multiple candidates",
+      "Medical flag (asthma) matches candidates s55-a02094 and s55-a08477",
+      "Occupation (civil engineer) matches candidates s55-a02094 and s55-a09790",
+      "Zip codes differ significantly among top matches"
+    ],
+    "rationale": "Multiple candidates share several key attributes with the target, but no single candidate has a strong alignment across all fields including zip code, leading to an ambiguous assessment."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches across multiple candidates\",\n    \"Gender matches across multiple candidates\",\n    \"Medical flag (asthma) matches candidates s55-a02094 and s55-a08477\",\n    \"Occupation (civil engineer) matches candidates s55-a02094 and s55-a09790\",\n    \"Zip codes differ significantly among top matches\"\n  ],\n  \"rationale\": \"Multiple candidates share several key attributes with the target, but no single candidate has a strong alignment across all fields including zip code, leading to an ambiguous assessment.\"\n}",
+  "input_tokens": 390,
+  "output_tokens": 172,
+  "seconds": 13.313411100069061,
+  "attempts": 1
+}

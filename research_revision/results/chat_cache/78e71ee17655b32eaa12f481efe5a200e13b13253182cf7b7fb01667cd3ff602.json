@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s55-a07114",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.85,
+    "evidence": [
+      "age match: 41 == 41",
+      "zip_code match: 140004 == 140004",
+      "gender match: woman == woman",
+      "target occupation is null"
+    ],
+    "rationale": "Candidate s55-a07114 is the only candidate sharing an exact match on age, gender, and the specific zip code 140004."
+  },
+  "raw": "{\n  \"candidate_id\": \"s55-a07114\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"age match: 41 == 41\",\n    \"zip_code match: 140004 == 140004\",\n    \"gender match: woman == woman\",\n    \"target occupation is null\"\n  ],\n  \"rationale\": \"Candidate s55-a07114 is the only candidate sharing an exact match on age, gender, and the specific zip code 140004.\"\n}",
+  "input_tokens": 382,
+  "output_tokens": 150,
+  "seconds": 13.129648500005715,
+  "attempts": 1
+}

@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "Age 25 does not closely align with any candidate",
+      "Zip code 170022 does not match candidates with sufficient geographic overlap",
+      "Target occupation is null"
+    ],
+    "rationale": "None of the candidates present a strong multi-field match for age and zip code, and the target lacks an occupation to bridge discrepancies."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"Age 25 does not closely align with any candidate\",\n    \"Zip code 170022 does not match candidates with sufficient geographic overlap\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"None of the candidates present a strong multi-field match for age and zip code, and the target lacks an occupation to bridge discrepancies.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 120,
+  "seconds": 14.03506349993404,
+  "attempts": 1
+}

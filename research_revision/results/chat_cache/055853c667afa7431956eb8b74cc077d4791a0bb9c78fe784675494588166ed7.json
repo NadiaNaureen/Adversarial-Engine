@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Candidate s11-a09340 matches age, zip_code, gender, and medical_flag, but occupation differs ('Data analyst' vs 'Researcher').",
+      "Candidate s11-a07463 matches age, zip_code, and gender, but occupation differs and medical_flag differs."
+    ],
+    "rationale": "Multiple candidates share high attribute overlap with the target, but no single candidate provides an exact match across all fields, making the linkage ambiguous."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Candidate s11-a09340 matches age, zip_code, gender, and medical_flag, but occupation differs ('Data analyst' vs 'Researcher').\",\n    \"Candidate s11-a07463 matches age, zip_code, and gender, but occupation differs and medical_flag differs.\"\n  ],\n  \"rationale\": \"Multiple candidates share high attribute overlap with the target, but no single candidate provides an exact match across all fields, making the linkage ambiguous.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 147,
+  "seconds": 13.882575300056487,
+  "attempts": 1
+}

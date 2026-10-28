@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "Age matches multiple candidates",
+      "Zip codes do not uniquely identify a single individual across top matches",
+      "Occupations conflict between target ('Student') and top candidate ('Farmer')"
+    ],
+    "rationale": "No single candidate provides a high-confidence match across all attributes due to conflicting occupations and multiple partial overlaps."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"Age matches multiple candidates\",\n    \"Zip codes do not uniquely identify a single individual across top matches\",\n    \"Occupations conflict between target ('Student') and top candidate ('Farmer')\"\n  ],\n  \"rationale\": \"No single candidate provides a high-confidence match across all attributes due to conflicting occupations and multiple partial overlaps.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 111,
+  "seconds": 11.705686500063166,
+  "attempts": 1
+}

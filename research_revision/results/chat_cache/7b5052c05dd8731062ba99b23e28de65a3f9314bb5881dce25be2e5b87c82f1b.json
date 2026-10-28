@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "age: match across all candidates (41)",
+      "occupation: match across all candidates (Architect)",
+      "gender: match across all candidates (man)",
+      "zip_code: mismatch or distinct across all candidates (none match target 120021)",
+      "medical_flag: conflict with target allergy across all candidates"
+    ],
+    "rationale": "All candidates share identical age, occupation, and gender attributes, but none match the target's zip code prefix or specific medical flag, leaving no distinguishing candidate to select."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"age: match across all candidates (41)\",\n    \"occupation: match across all candidates (Architect)\",\n    \"gender: match across all candidates (man)\",\n    \"zip_code: mismatch or distinct across all candidates (none match target 120021)\",\n    \"medical_flag: conflict with target allergy across all candidates\"\n  ],\n  \"rationale\": \"All candidates share identical age, occupation, and gender attributes, but none match the target's zip code prefix or specific medical flag, leaving no distinguishing candidate to select.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 160,
+  "seconds": 17.35392729996238,
+  "attempts": 1
+}

@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s33-a07778",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.95,
+    "evidence": [
+      "Age is highly compatible (37 vs 38)",
+      "Exact zip code match (130020)",
+      "Exact occupation match (Farmer)",
+      "Exact gender match (man)",
+      "Exact medical flag match (diabetes)"
+    ],
+    "rationale": "Candidate s33-a07778 exhibits strong alignment across all provided demographic, geographic, occupational, and medical attributes."
+  },
+  "raw": "{\n  \"candidate_id\": \"s33-a07778\",\n  \"decision\": \"match\",\n  \"confidence\": 0.95,\n  \"evidence\": [\n    \"Age is highly compatible (37 vs 38)\",\n    \"Exact zip code match (130020)\",\n    \"Exact occupation match (Farmer)\",\n    \"Exact gender match (man)\",\n    \"Exact medical flag match (diabetes)\"\n  ],\n  \"rationale\": \"Candidate s33-a07778 exhibits strong alignment across all provided demographic, geographic, occupational, and medical attributes.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 142,
+  "seconds": 17.00851529999636,
+  "attempts": 1
+}

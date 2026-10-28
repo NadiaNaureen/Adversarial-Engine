@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "age match across all candidates (40)",
+      "gender match across all candidates (woman)",
+      "medical_flag match across all candidates (asthma)",
+      "zip_code differs for all candidates compared to target (130012)"
+    ],
+    "rationale": "Multiple candidates share identical demographic and medical attributes, but none match the target's zip code, and the target lacks an occupation for further differentiation. Therefore, there is insufficient evidence to select a single match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"age match across all candidates (40)\",\n    \"gender match across all candidates (woman)\",\n    \"medical_flag match across all candidates (asthma)\",\n    \"zip_code differs for all candidates compared to target (130012)\"\n  ],\n  \"rationale\": \"Multiple candidates share identical demographic and medical attributes, but none match the target's zip code, and the target lacks an occupation for further differentiation. Therefore, there is insufficient evidence to select a single match.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 148,
+  "seconds": 13.266231199959293,
+  "attempts": 1
+}

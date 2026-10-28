@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s11-a00592",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches (39)",
+      "Zip code matches (180005)",
+      "Gender matches (man)",
+      "Medical flag conflicts (target: none, candidate: hypertension)"
+    ],
+    "rationale": "Candidate s11-a00592 matches on age, zip code, and gender, but has a conflicting medical flag. Other candidates lack multiple matching attributes."
+  },
+  "raw": "{\n  \"candidate_id\": \"s11-a00592\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches (39)\",\n    \"Zip code matches (180005)\",\n    \"Gender matches (man)\",\n    \"Medical flag conflicts (target: none, candidate: hypertension)\"\n  ],\n  \"rationale\": \"Candidate s11-a00592 matches on age, zip code, and gender, but has a conflicting medical flag. Other candidates lack multiple matching attributes.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 138,
+  "seconds": 5.439754700055346,
+  "attempts": 1
+}

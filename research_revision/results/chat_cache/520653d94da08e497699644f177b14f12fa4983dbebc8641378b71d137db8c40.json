@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches candidate s44-a03743 and s44-a06022",
+      "Gender matches all candidates",
+      "Medical flag matches s44-a03743, s44-a06683, and s44-a02795",
+      "Zip code and occupation do not strongly align with any single candidate"
+    ],
+    "rationale": "No single candidate shares a sufficiently high number of matching fields across age, zip code, occupation, and medical flag to confirm a strong identity linkage."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches candidate s44-a03743 and s44-a06022\",\n    \"Gender matches all candidates\",\n    \"Medical flag matches s44-a03743, s44-a06683, and s44-a02795\",\n    \"Zip code and occupation do not strongly align with any single candidate\"\n  ],\n  \"rationale\": \"No single candidate shares a sufficiently high number of matching fields across age, zip code, occupation, and medical flag to confirm a strong identity linkage.\"\n}",
+  "input_tokens": 387,
+  "output_tokens": 170,
+  "seconds": 13.307073500007391,
+  "attempts": 1
+}

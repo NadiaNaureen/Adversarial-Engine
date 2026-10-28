@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "age match across top candidates",
+      "occupation match across all candidates",
+      "gender match across all candidates",
+      "zip code prefix mismatch for all candidates"
+    ],
+    "rationale": "Multiple candidates share identical age, occupation, and gender attributes with the target, but none share a compatible zip code, leading to ambiguous ties and insufficient evidence for a single definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"age match across top candidates\",\n    \"occupation match across all candidates\",\n    \"gender match across all candidates\",\n    \"zip code prefix mismatch for all candidates\"\n  ],\n  \"rationale\": \"Multiple candidates share identical age, occupation, and gender attributes with the target, but none share a compatible zip code, leading to ambiguous ties and insufficient evidence for a single definitive match.\"\n}",
+  "input_tokens": 386,
+  "output_tokens": 123,
+  "seconds": 12.606417399947532,
+  "attempts": 1
+}

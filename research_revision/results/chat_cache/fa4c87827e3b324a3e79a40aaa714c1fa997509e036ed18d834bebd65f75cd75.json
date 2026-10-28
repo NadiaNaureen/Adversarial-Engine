@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age 31 matches candidate s55-a09696 and s55-a07537",
+      "Gender woman matches all candidates",
+      "Zip code prefix 150 matches s55-a09696 (150022)",
+      "Target occupation is null"
+    ],
+    "rationale": "While candidate s55-a09696 shares the exact age, gender, and a close postal code prefix, retrieval is a lead rather than proof, and the zipcode does not match fully. Therefore, evidence is insufficient to confirm a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age 31 matches candidate s55-a09696 and s55-a07537\",\n    \"Gender woman matches all candidates\",\n    \"Zip code prefix 150 matches s55-a09696 (150022)\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"While candidate s55-a09696 shares the exact age, gender, and a close postal code prefix, retrieval is a lead rather than proof, and the zipcode does not match fully. Therefore, evidence is insufficient to confirm a definitive match.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 179,
+  "seconds": 12.811148699955083,
+  "attempts": 1
+}

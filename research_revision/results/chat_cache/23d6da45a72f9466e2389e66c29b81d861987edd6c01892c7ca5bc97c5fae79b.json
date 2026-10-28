@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s44-a06745",
+    "decision": "match",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.85,
+    "evidence": [
+      "Exact match on age: 55",
+      "Exact match on gender: man",
+      "Exact match on medical_flag: hypertension",
+      "High proximity on zip_code: 120022 vs target 120020"
+    ],
+    "rationale": "Candidate s44-a06745 shares identical age, gender, medical flag, and a very close postal prefix (120022 vs 120020) compared to other candidates who have more distant zip codes."
+  },
+  "raw": "{\n  \"candidate_id\": \"s44-a06745\",\n  \"decision\": \"match\",\n  \"confidence\": 0.85,\n  \"evidence\": [\n    \"Exact match on age: 55\",\n    \"Exact match on gender: man\",\n    \"Exact match on medical_flag: hypertension\",\n    \"High proximity on zip_code: 120022 vs target 120020\"\n  ],\n  \"rationale\": \"Candidate s44-a06745 shares identical age, gender, medical flag, and a very close postal prefix (120022 vs 120020) compared to other candidates who have more distant zip codes.\"\n}",
+  "input_tokens": 388,
+  "output_tokens": 171,
+  "seconds": 12.086497899959795,
+  "attempts": 1
+}

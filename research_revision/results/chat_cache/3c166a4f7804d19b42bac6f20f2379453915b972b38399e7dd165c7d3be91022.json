@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age 40 does not match candidate ages (53, 40, 47, 36)",
+      "Zip codes and occupations partially overlap across different candidates, but no single candidate matches all target fields"
+    ],
+    "rationale": "None of the candidates align sufficiently across age, zip code, and other attributes to establish a definitive match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age 40 does not match candidate ages (53, 40, 47, 36)\",\n    \"Zip codes and occupations partially overlap across different candidates, but no single candidate matches all target fields\"\n  ],\n  \"rationale\": \"None of the candidates align sufficiently across age, zip code, and other attributes to establish a definitive match.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 120,
+  "seconds": 12.677777500008233,
+  "attempts": 1
+}

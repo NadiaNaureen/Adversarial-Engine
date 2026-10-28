@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [],
+    "rationale": "None of the candidates match all key attributes of the target profile simultaneously (age, zip code, occupation, gender, and medical flag)."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [],\n  \"rationale\": \"None of the candidates match all key attributes of the target profile simultaneously (age, zip code, occupation, gender, and medical flag).\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 73,
+  "seconds": 5.580057900049724,
+  "attempts": 1
+}

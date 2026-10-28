@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.4,
+    "evidence": [
+      "Age 59 matches candidates s22-a03483, s22-a06035, s22-a06319",
+      "Occupation 'Farmer' matches all candidates",
+      "Gender 'man' matches all candidates",
+      "Medical flag 'none' matches all candidates",
+      "Zip code 140005 does not uniquely match any single candidate"
+    ],
+    "rationale": "Multiple candidates share exact matches for age, occupation, gender, and medical flag, but none match the target zip code '140005' except candidate s22-a04689 which has a differing age (56). Due to ties and geographic discrepancies, there is insufficient evidence to identify a single unique match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.4,\n  \"evidence\": [\n    \"Age 59 matches candidates s22-a03483, s22-a06035, s22-a06319\",\n    \"Occupation 'Farmer' matches all candidates\",\n    \"Gender 'man' matches all candidates\",\n    \"Medical flag 'none' matches all candidates\",\n    \"Zip code 140005 does not uniquely match any single candidate\"\n  ],\n  \"rationale\": \"Multiple candidates share exact matches for age, occupation, gender, and medical flag, but none match the target zip code '140005' except candidate s22-a04689 which has a differing age (56). Due to ties and geographic discrepancies, there is insufficient evidence to identify a single unique match.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 215,
+  "seconds": 19.077552399947308,
+  "attempts": 2
+}

@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.2,
+    "evidence": [
+      "Target age 25 does not closely match any candidate ages (37, 41, 44, 27).",
+      "Target zip code 170022 does not match candidate postal prefixes.",
+      "Target occupation 'Teacher' matches multiple candidates, but demographic discrepancies prevent a strong unique linkage."
+    ],
+    "rationale": "None of the candidates exhibit sufficient matching across age and postal code to establish a reliable linkage, despite shared occupation for several records."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.2,\n  \"evidence\": [\n    \"Target age 25 does not closely match any candidate ages (37, 41, 44, 27).\",\n    \"Target zip code 170022 does not match candidate postal prefixes.\",\n    \"Target occupation 'Teacher' matches multiple candidates, but demographic discrepancies prevent a strong unique linkage.\"\n  ],\n  \"rationale\": \"None of the candidates exhibit sufficient matching across age and postal code to establish a reliable linkage, despite shared occupation for several records.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 147,
+  "seconds": 9.653023399994709,
+  "attempts": 1
+}

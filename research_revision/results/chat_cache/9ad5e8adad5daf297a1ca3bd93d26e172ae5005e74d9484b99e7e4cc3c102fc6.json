@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Occupation matches for s11-a04378 (Civil engineer) but zip code prefix and age differ moderately",
+      "Age and medical flag match for s11-a00943, but occupation and zip code differ"
+    ],
+    "rationale": "No single candidate shares a strong enough combination of matching demographic and contextual fields to confirm a definitive link; all candidates present significant discrepancies in zip code or occupation."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Occupation matches for s11-a04378 (Civil engineer) but zip code prefix and age differ moderately\",\n    \"Age and medical flag match for s11-a00943, but occupation and zip code differ\"\n  ],\n  \"rationale\": \"No single candidate shares a strong enough combination of matching demographic and contextual fields to confirm a definitive link; all candidates present significant discrepancies in zip code or occupation.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 136,
+  "seconds": 11.565074100042693,
+  "attempts": 1
+}

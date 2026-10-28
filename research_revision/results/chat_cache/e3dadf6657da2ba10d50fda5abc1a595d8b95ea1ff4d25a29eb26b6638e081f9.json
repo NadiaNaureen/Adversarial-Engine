@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age 56 matches candidate s55-a08713 only, but occupation 'Nurse' conflicts with 'Data analysis specialist'",
+      "Candidates s55-a00791 and s55-a05186 share compatible occupations ('Data analyst'), but ages (39) do not match target age (56)"
+    ],
+    "rationale": "No single candidate matches all key attributes (age, location, and occupation) strongly enough to confirm a definitive link."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age 56 matches candidate s55-a08713 only, but occupation 'Nurse' conflicts with 'Data analysis specialist'\",\n    \"Candidates s55-a00791 and s55-a05186 share compatible occupations ('Data analyst'), but ages (39) do not match target age (56)\"\n  ],\n  \"rationale\": \"No single candidate matches all key attributes (age, location, and occupation) strongly enough to confirm a definitive link.\"\n}",
+  "input_tokens": 391,
+  "output_tokens": 152,
+  "seconds": 13.058174300007522,
+  "attempts": 1
+}

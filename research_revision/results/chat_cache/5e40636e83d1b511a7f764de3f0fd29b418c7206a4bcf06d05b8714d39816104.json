@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "Age matches across candidates (38)",
+      "No candidate matches zip code 180017 and gender man simultaneously",
+      "Target occupation is null"
+    ],
+    "rationale": "None of the candidates match both the age/gender profile and the exact zip code simultaneously, leaving no strong single match."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"Age matches across candidates (38)\",\n    \"No candidate matches zip code 180017 and gender man simultaneously\",\n    \"Target occupation is null\"\n  ],\n  \"rationale\": \"None of the candidates match both the age/gender profile and the exact zip code simultaneously, leaving no strong single match.\"\n}",
+  "input_tokens": 381,
+  "output_tokens": 112,
+  "seconds": 7.060658999951556,
+  "attempts": 1
+}

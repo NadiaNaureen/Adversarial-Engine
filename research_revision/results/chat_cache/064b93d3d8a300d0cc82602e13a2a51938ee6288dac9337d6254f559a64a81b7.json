@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": "s55-a07973",
+    "decision": "ambiguous",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.5,
+    "evidence": [
+      "Age matches for candidate s55-a07973 (41)",
+      "Gender matches (woman)",
+      "Medical flag matches (asthma)",
+      "Zip code prefix differs (130009 vs 170017)",
+      "Alternative candidate s55-a09420 shares exact age and closer zip prefix (130027) but lacks medical flag"
+    ],
+    "rationale": "Multiple candidates share key demographic attributes such as age and gender, making it impossible to definitively link a single candidate without stronger distinguishing evidence."
+  },
+  "raw": "{\n  \"candidate_id\": \"s55-a07973\",\n  \"decision\": \"ambiguous\",\n  \"confidence\": 0.5,\n  \"evidence\": [\n    \"Age matches for candidate s55-a07973 (41)\",\n    \"Gender matches (woman)\",\n    \"Medical flag matches (asthma)\",\n    \"Zip code prefix differs (130009 vs 170017)\",\n    \"Alternative candidate s55-a09420 shares exact age and closer zip prefix (130027) but lacks medical flag\"\n  ],\n  \"rationale\": \"Multiple candidates share key demographic attributes such as age and gender, making it impossible to definitively link a single candidate without stronger distinguishing evidence.\"\n}",
+  "input_tokens": 384,
+  "output_tokens": 180,
+  "seconds": 12.399394200067036,
+  "attempts": 1
+}

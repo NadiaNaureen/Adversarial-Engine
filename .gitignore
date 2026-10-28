@@ -1,0 +1,28 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+chroma_data/
+reports/
+.pytest_cache/
+
+
+# Downloaded benchmark inputs and generated experiment outputs
+data/uci/*.zip
+reports/benchmarks/
+
+# Local environments and credentials
+.venv-broken/
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Manuscript authoring outputs and temporary render files
+*.docx
+*.pdf
+research_revision/**/*.png
+second_review_work/**/*.png
+second_review_work/*render*/
+research_revision/results/last_cloud_error.json
+research_revision/results/chat_quota.json

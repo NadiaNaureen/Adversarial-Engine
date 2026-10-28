@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.3,
+    "evidence": [
+      "gender match across candidates",
+      "occupation paraphrase (Farmer vs Agricultural worker) matches multiple candidates",
+      "medical flag matches multiple candidates",
+      "exact zip code match for s44-a03701 but occupation and medical flag do not match",
+      "close age match for s44-a03701 (53 vs 56) but different occupation and medical flag"
+    ],
+    "rationale": "No single candidate aligns strongly across all key fields (age, zip code, occupation, and medical flag). While several candidates share occupation and medical history, none match the specific zip code while simultaneously maintaining consistency in age and medical profile."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.3,\n  \"evidence\": [\n    \"gender match across candidates\",\n    \"occupation paraphrase (Farmer vs Agricultural worker) matches multiple candidates\",\n    \"medical flag matches multiple candidates\",\n    \"exact zip code match for s44-a03701 but occupation and medical flag do not match\",\n    \"close age match for s44-a03701 (53 vs 56) but different occupation and medical flag\"\n  ],\n  \"rationale\": \"No single candidate aligns strongly across all key fields (age, zip code, occupation, and medical flag). While several candidates share occupation and medical history, none match the specific zip code while simultaneously maintaining consistency in age and medical profile.\"\n}",
+  "input_tokens": 385,
+  "output_tokens": 186,
+  "seconds": 13.045002700062469,
+  "attempts": 1
+}

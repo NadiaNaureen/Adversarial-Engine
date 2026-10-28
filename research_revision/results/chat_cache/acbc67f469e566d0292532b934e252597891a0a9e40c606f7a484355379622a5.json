@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "assessment": {
+    "candidate_id": null,
+    "decision": "insufficient_evidence",
+    "predicted_identity": "NO_MATCH",
+    "confidence": 0.0,
+    "evidence": [
+      "gender match across candidates but lack of distinctive overlapping identifiers",
+      "zip code and age divergences do not strongly isolate a single candidate"
+    ],
+    "rationale": "None of the candidates present a sufficiently strong multi-field match to the target profile, resulting in insufficient evidence to link any specific candidate."
+  },
+  "raw": "{\n  \"candidate_id\": null,\n  \"decision\": \"insufficient_evidence\",\n  \"confidence\": 0.0,\n  \"evidence\": [\n    \"gender match across candidates but lack of distinctive overlapping identifiers\",\n    \"zip code and age divergences do not strongly isolate a single candidate\"\n  ],\n  \"rationale\": \"None of the candidates present a sufficiently strong multi-field match to the target profile, resulting in insufficient evidence to link any specific candidate.\"\n}",
+  "input_tokens": 383,
+  "output_tokens": 106,
+  "seconds": 7.9001304999692366,
+  "attempts": 1
+}
